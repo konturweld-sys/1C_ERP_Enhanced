@@ -1,0 +1,74 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Configuration uuid="bc322297-a398-4208-9f6e-661e38ed9342">
+<InternalInfo>
+<xr:ContainedObject>
+<xr:ClassId>9cd510cd-abfc-11d4-9434-004095e12fc7</xr:ClassId>
+<xr:ObjectId>aeee7081-3787-4972-81aa-c7d857188117</xr:ObjectId>
+</xr:ContainedObject>
+<xr:ContainedObject>
+<xr:ClassId>9fcd25a0-4822-11d4-9414-008048da11f9</xr:ClassId>
+<xr:ObjectId>bd05c7a9-aa8c-49cd-a9c9-3c619c537223</xr:ObjectId>
+</xr:ContainedObject>
+<xr:ContainedObject>
+<xr:ClassId>e3687481-0a87-462c-a166-9f34594f9bba</xr:ClassId>
+<xr:ObjectId>0588b96b-16f6-41cd-8729-17010fad0b6c</xr:ObjectId>
+</xr:ContainedObject>
+<xr:ContainedObject>
+<xr:ClassId>9de14907-ec23-4a07-96f0-85521cb6b53b</xr:ClassId>
+<xr:ObjectId>514bd36d-4371-491c-80d8-99dd61aad83d</xr:ObjectId>
+</xr:ContainedObject>
+<xr:ContainedObject>
+<xr:ClassId>51f2d5d8-ea4d-4064-8892-82951750031e</xr:ClassId>
+<xr:ObjectId>27caddbe-dc47-4d1c-b122-4615803824e5</xr:ObjectId>
+</xr:ContainedObject>
+<xr:ContainedObject>
+<xr:ClassId>e68182ea-4237-4383-967f-90c1e3370bc7</xr:ClassId>
+<xr:ObjectId>99c1adfe-eb8d-4694-8880-8677588e897e</xr:ObjectId>
+</xr:ContainedObject>
+<xr:ContainedObject>
+<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
+<xr:ObjectId>79cb56ce-130a-4848-abe4-a0fc628b155f</xr:ObjectId>
+</xr:ContainedObject>
+</InternalInfo>
+<Properties>
+<ObjectBelonging>Adopted</ObjectBelonging>
+<Name>ИнтеграцияRabbitMQ</Name>
+<Synonym>
+<v8:item>
+<v8:lang>ru</v8:lang>
+<v8:content>Интеграция RabbitMQ</v8:content>
+</v8:item>
+</Synonym>
+<Comment/>
+<ConfigurationExtensionPurpose>Customization</ConfigurationExtensionPurpose>
+<KeepMappingToExtendedConfigurationObjectsByIDs>true</KeepMappingToExtendedConfigurationObjectsByIDs>
+<NamePrefix>Расш1_</NamePrefix>
+<ConfigurationExtensionCompatibilityMode>Version8_3_27</ConfigurationExtensionCompatibilityMode>
+<DefaultRunMode>ManagedApplication</DefaultRunMode>
+<UsePurposes>
+<v8:Value xsi:type="app:ApplicationUsePurpose">PlatformApplication</v8:Value>
+</UsePurposes>
+<ScriptVariant>Russian</ScriptVariant>
+<DefaultRoles>
+<xr:Item xsi:type="xr:MDObjectRef">Role.Расш1_ОсновнаяРоль</xr:Item>
+</DefaultRoles>
+<Vendor/>
+<Version/>
+<DefaultLanguage>Language.Русский</DefaultLanguage>
+<BriefInformation/>
+<DetailedInformation/>
+<Copyright/>
+<VendorInformationAddress/>
+<ConfigurationInformationAddress/>
+<InterfaceCompatibilityMode>TaxiEnableVersion8_2</InterfaceCompatibilityMode>
+</Properties>
+<ChildObjects>
+<Language>Русский</Language>
+<Role>Расш1_ОсновнаяРоль</Role>
+<CommonModule>ИнтеграцияRabbitMQСервер</CommonModule>
+<HTTPService>СоздатьИзделие</HTTPService>
+<InformationRegister>Расш1_ОбработанныеСообщения</InformationRegister>
+</ChildObjects>
+</Configuration>
+</MetaDataObject>
