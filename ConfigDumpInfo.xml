@@ -1,6 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
-<ConfigVersions>
-<Metadata name="Configuration.ИнтеграцияRabbitMQ" id="bc322297-a398-4208-9f6e-661e38ed9342" configVersion="6f40bf8b0a2ac508c8f05d5ece324d5bcdc3f29e"/>
-<Metadata name="Language.Русский" id="f6cf02dd-56a9-4bb2-8982-4b668d7cd193" configVersion="969b618c72b9b3486edafe8c9a225b111a6bc982"/>
-</ConfigVersions>
+	<ConfigVersions>
+		<Metadata name="CommonModule.ЕРП_ВалидацияКонтракта" id="7a4accc9-ddcb-495a-bcd4-9fdc05d32d91" configVersion="bafaee04dbd04e76f22e3581fd8cf08c5e42f8c2"/>
+		<Metadata name="CommonModule.ЕРП_ВалидацияКонтракта.Module" id="7a4accc9-ddcb-495a-bcd4-9fdc05d32d91.0" configVersion="972e3a7557bec80d66016eccc3076b8b800825ae"/>
+		<Metadata name="CommonModule.ЕРП_ЖурналИнтеграции" id="585a0746-cd7e-4d49-a239-1c27fa8aa597" configVersion="758896ff16221dccbf7700a335f8d2fc0d3b3550"/>
+		<Metadata name="CommonModule.ЕРП_ЖурналИнтеграции.Module" id="585a0746-cd7e-4d49-a239-1c27fa8aa597.0" configVersion="ac60993caf008c3d812104621338b29d9b47e00c"/>
+		<Metadata name="CommonModule.ЕРП_ИнтеграцияRabbitMQ" id="e5508c15-56bb-4b89-a937-836638a34d69" configVersion="9f67418e151c4d3137d0622b0e119fa3d77fe1db"/>
+		<Metadata name="CommonModule.ЕРП_ИнтеграцияRabbitMQ.Module" id="e5508c15-56bb-4b89-a937-836638a34d69.0" configVersion="2e4fd1ccd00b305bb6b0bd5d41f0536875ba3b53"/>
+		<Metadata name="CommonModule.ЕРП_ПриемИнтеграции" id="e931dfa9-f801-47a4-a4d8-ba55ec237bd1" configVersion="ab06499e159712596f73e1e350ef1220a37806bd"/>
+		<Metadata name="CommonModule.ЕРП_ПриемИнтеграции.Module" id="e931dfa9-f801-47a4-a4d8-ba55ec237bd1.0" configVersion="7c1baa3d6a5bb439eb7c84847fa7d5c8b4af029b"/>
+		<Metadata name="CommonModule.ЕРП_СопоставлениеНоменклатуры" id="aba4432c-d1d6-4b22-bd8b-6ae0ad06d731" configVersion="6da7bf2d7d509022afb81b30b66ebd7c3534ac80"/>
+		<Metadata name="CommonModule.ЕРП_СопоставлениеНоменклатуры.Module" id="aba4432c-d1d6-4b22-bd8b-6ae0ad06d731.0" configVersion="56d0ad032edafcd5be15be998ec1ec505d93b1c8"/>
+		<Metadata name="CommonTemplate.PinkRabbitMQ" id="6e4529c5-8d58-4f01-9df5-82f34d0ed3ff" configVersion="86f90ab261f7030fc309928d0e27dd3b0e2b4ece"/>
+		<Metadata name="CommonTemplate.PinkRabbitMQ.Template" id="6e4529c5-8d58-4f01-9df5-82f34d0ed3ff.0" configVersion="8d853025b907248c6bbb3ed80705f326cfe26eb5"/>
+		<Metadata name="Configuration.Интеграция" id="9786f1ce-678f-4a1d-b94d-9a8ab4d42044" configVersion="0828ac10a2486582e3f5483975f99aa4f4e6f280"/>
+		<Metadata name="DataProcessor.ЕРП_НастройкаИнтеграцииRabbitMQ" id="2d71b4cf-39d6-45d9-8f3a-62655bd10dfc" configVersion="7326a456a968cce1100e761e5e16ad224d0d4eb5"/>
+		<Metadata name="DataProcessor.ЕРП_НастройкаИнтеграцииRabbitMQ.Form.Форма" id="12c629bf-618a-4b25-b8c2-257f5372503b" configVersion="663e0ba2004d0dfb23c66b241fc605a8e169f9f3"/>
+		<Metadata name="DataProcessor.ЕРП_НастройкаИнтеграцииRabbitMQ.Form.Форма.Form" id="12c629bf-618a-4b25-b8c2-257f5372503b.0" configVersion="7fab7fdef84dae6a42b16fa1913e5b5d06e4fcd7"/>
+		<Metadata name="DataProcessor.ЕРП_НастройкаИнтеграцииRabbitMQ.ObjectModule" id="2d71b4cf-39d6-45d9-8f3a-62655bd10dfc.0" configVersion="be4aaa313fe1407ba75771cb6e8380e93e77b60d"/>
+		<Metadata name="InformationRegister.ЕРП_БлокировкаПриемаRabbitMQ" id="c4f966e8-8ebc-4e20-af95-bdfd5d4704ab" configVersion="f10f68b5d3b6382b3f10e56c3df7282e2286fd63">
+			<Metadata name="InformationRegister.ЕРП_БлокировкаПриемаRabbitMQ.Dimension.Ключ" id="869cfd1b-1acf-4180-838e-2251d1bd17d0"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ЕРП_НастройкиИнтеграцииRabbitMQ" id="41d0ddcc-528e-44fd-9c8f-c1c5e3a8c42b" configVersion="d2baa4f9e0d8aab5815675aa622ada0c669fa9ec">
+			<Metadata name="InformationRegister.ЕРП_НастройкиИнтеграцииRabbitMQ.Resource.Сервер" id="496e5d90-e124-4a0b-814f-3081c899d95f"/>
+			<Metadata name="InformationRegister.ЕРП_НастройкиИнтеграцииRabbitMQ.Resource.Порт" id="6cfb4b71-0ba4-448d-879d-206204ae712f"/>
+			<Metadata name="InformationRegister.ЕРП_НастройкиИнтеграцииRabbitMQ.Resource.Пользователь" id="778d1b51-9c62-4b10-8c20-c51c1c95f865"/>
+			<Metadata name="InformationRegister.ЕРП_НастройкиИнтеграцииRabbitMQ.Resource.ВиртуальныйХост" id="a6a2a685-e051-4cd2-a52d-7fb4557ef41d"/>
+			<Metadata name="InformationRegister.ЕРП_НастройкиИнтеграцииRabbitMQ.Resource.Пароль" id="cf56fbfa-0d3f-4cf6-af56-7fe70c47ef3b"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="3da1c7c4-c1d6-4219-b3b9-35ec1e844d8d" configVersion="bf8f02321fa5eaa873f0426f9e0c7a7d838c3b8d"/>
+		<Metadata name="Role.Интеграция_ОсновнаяРоль" id="8b2cdae3-a921-4d0f-a8b7-1363efda21ec" configVersion="5677455de37dd5a52c6f7eb3ae4ff75b1cd7cbcb"/>
+		<Metadata name="ScheduledJob.ЕРП_ПриемНоменклатурыИзPDM" id="bb787412-25e6-42ba-9c53-4e1cdafd1934" configVersion="a4f6c5362cfb3f098ad5d89303e4c0e349196a0c"/>
+		<Metadata name="ScheduledJob.ЕРП_ПриемНоменклатурыИзPDM.Schedule" id="bb787412-25e6-42ba-9c53-4e1cdafd1934.0" configVersion="7045b80d8e898fa9d556608d57fe51e83eb47082"/>
+		<Metadata name="Subsystem.Администрирование" id="f838cd70-67e3-4fcf-952e-da7212db1c9c" configVersion="97d1970e297a98c60c24f6b50cdafbcd7369b890"/>
+		<Metadata name="Subsystem.Администрирование.CommandInterface" id="f838cd70-67e3-4fcf-952e-da7212db1c9c.1" configVersion="fdaec039eea90396e8275a4185f01ff2ce9f09af"/>
+	</ConfigVersions>
 </ConfigDumpInfo>
