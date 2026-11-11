@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
 	<ConfigVersions>
-		<Metadata name="CommonModule.ЕРП_Уведомления" id="b2000000-0000-4000-8000-000000000001">
+		<Metadata name="CommonModule.ЕРП_Уведомления" id="b2000000-0000-4000-8000-000000000001"/>
 		<Metadata name="CommonModule.ЕРП_Уведомления.Module" id="b2000000-0000-4000-8000-000000000001.0"/>
 		<Metadata name="InformationRegister.ЕРП_НастройкиУведомлений" id="b1000000-0000-4000-8000-000000000001">
 			<Metadata name="InformationRegister.ЕРП_НастройкиУведомлений.Resource.ИспользоватьУведомления" id="b1000000-0000-4000-8000-000000000010"/>
@@ -72,7 +72,7 @@
 			<Metadata name="InformationRegister.ЕРП_СостояниеСвязиRabbitMQ.Resource.ДатаПоследнейОшибки" id="b1000000-0000-4000-8000-0000000000a0"/>
 			<Metadata name="InformationRegister.ЕРП_СостояниеСвязиRabbitMQ.Resource.ТекстПоследнейОшибки" id="b1000000-0000-4000-8000-0000000000a1"/>
 		</Metadata>
-		<Metadata name="ScheduledJob.ЕРП_ОтправкаУведомлений" id="b3000000-0000-4000-8000-000000000001">
+		<Metadata name="ScheduledJob.ЕРП_ОтправкаУведомлений" id="b3000000-0000-4000-8000-000000000001"/>
 		<Metadata name="ScheduledJob.ЕРП_ОтправкаУведомлений.Schedule" id="b3000000-0000-4000-8000-000000000001.0"/>
 		<Metadata name="CommonModule.ЕРП_ВалидацияКонтракта" id="7a4accc9-ddcb-495a-bcd4-9fdc05d32d91" configVersion="bafaee04dbd04e76f22e3581fd8cf08c5e42f8c2"/>
 		<Metadata name="CommonModule.ЕРП_ВалидацияКонтракта.Module" id="7a4accc9-ddcb-495a-bcd4-9fdc05d32d91.0" configVersion="972e3a7557bec80d66016eccc3076b8b800825ae"/>
