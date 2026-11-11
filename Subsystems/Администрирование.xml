@@ -14,6 +14,13 @@
 			<ExtendedConfigurationObject>6b8ea295-dbfb-4fe2-91fd-a57179d300c3</ExtendedConfigurationObject>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ЕРП_НастройкаИнтеграцииRabbitMQ</xr:Item>
+                <xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ЕРП_НастройкиУведомлений</xr:Item>
+                <xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ЕРП_ПолучателиУведомлений</xr:Item>
+                <xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ЕРП_СобытияУведомлений</xr:Item>
+                <xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ЕРП_ДоставкиУведомлений</xr:Item>
+                <xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ЕРП_ИсторияДоставкиУведомлений</xr:Item>
+                <xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ЕРП_ПовторыСозданияНоменклатуры</xr:Item>
+                <xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ЕРП_СостояниеСвязиRabbitMQ</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
