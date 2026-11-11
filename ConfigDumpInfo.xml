@@ -20,7 +20,6 @@
 			<Metadata name="InformationRegister.ЕРП_ПолучателиУведомлений.Dimension.Сотрудник" id="b1000000-0000-4000-8000-00000000002a"/>
 			<Metadata name="InformationRegister.ЕРП_ПолучателиУведомлений.Resource.Включен" id="b1000000-0000-4000-8000-00000000002b"/>
 			<Metadata name="InformationRegister.ЕРП_ПолучателиУведомлений.Resource.TelegramChatID" id="b1000000-0000-4000-8000-00000000002d"/>
-			<Metadata name="InformationRegister.ЕРП_ПолучателиУведомлений.Resource.EmailВключен" id="b1000000-0000-4000-8000-00000000002e"/>
 			<Metadata name="InformationRegister.ЕРП_ПолучателиУведомлений.Resource.TelegramВключен" id="b1000000-0000-4000-8000-00000000002f"/>
 			<Metadata name="InformationRegister.ЕРП_ПолучателиУведомлений.Resource.УведомлятьОбУспехе" id="b1000000-0000-4000-8000-000000000030"/>
 			<Metadata name="InformationRegister.ЕРП_ПолучателиУведомлений.Resource.УведомлятьОбОшибке" id="b1000000-0000-4000-8000-000000000031"/>
