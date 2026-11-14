@@ -62,7 +62,7 @@
 			<Metadata name="InformationRegister.ЕРП_НастройкиУведомлений.Resource.ИспользоватьУведомления" id="b1000000-0000-4000-8000-000000000010"/>
 			<Metadata name="InformationRegister.ЕРП_НастройкиУведомлений.Resource.ИспользоватьEmail" id="b1000000-0000-4000-8000-000000000011"/>
 			<Metadata name="InformationRegister.ЕРП_НастройкиУведомлений.Resource.ИспользоватьTelegram" id="b1000000-0000-4000-8000-000000000012"/>
-					<Metadata name="InformationRegister.ЕРП_НастройкиУведомлений.Resource.TelegramИмяБота" id="b1000000-0000-4000-8000-0000000000b0"/>
+			<Metadata name="InformationRegister.ЕРП_НастройкиУведомлений.Resource.TelegramИмяБота" id="b1000000-0000-4000-8000-0000000000b0"/>
 		</Metadata>
 		<Metadata name="InformationRegister.ЕРП_ПовторыСозданияНоменклатуры" id="b1000000-0000-4000-8000-000000000078" configVersion="3be8341d9229935eaadb188b44dd8653ef3d809b">
 			<Metadata name="InformationRegister.ЕРП_ПовторыСозданияНоменклатуры.Dimension.UUIDНоменклатуры" id="b1000000-0000-4000-8000-000000000087"/>
