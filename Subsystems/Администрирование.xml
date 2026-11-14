@@ -21,7 +21,6 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ЕРП_ИсторияДоставкиУведомлений</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ЕРП_ПовторыСозданияНоменклатуры</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ЕРП_СостояниеСвязиRabbitMQ</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ЕРП_НастройкаSMTP</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
