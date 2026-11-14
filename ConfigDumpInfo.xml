@@ -10,8 +10,6 @@
 		<Metadata name="CommonModule.ЕРП_ЖурналУведомлений.Module" id="4ed16c47-149a-4b04-a65f-4b8c714606a8.0" configVersion="e2267996e2416b93dc2bb0337fc44b7acc2bcd63"/>
 		<Metadata name="CommonModule.ЕРП_ИнтеграцияRabbitMQ" id="e5508c15-56bb-4b89-a937-836638a34d69" configVersion="9f67418e151c4d3137d0622b0e119fa3d77fe1db"/>
 		<Metadata name="CommonModule.ЕРП_ИнтеграцияRabbitMQ.Module" id="e5508c15-56bb-4b89-a937-836638a34d69.0" configVersion="3d20eafb2dc8a95d61b4031aa4a5b5c5703d1184"/>
-		<Metadata name="CommonModule.ЕРП_ОтправкаПочты" id="b352458d-be3b-4044-9067-588b97503617" configVersion="e8889e35f967501fa43a22689a994369178710b8"/>
-		<Metadata name="CommonModule.ЕРП_ОтправкаПочты.Module" id="b352458d-be3b-4044-9067-588b97503617.0" configVersion="48e4d8de0666d05f80f324eee124704ef762b6f0"/>
 		<Metadata name="CommonModule.ЕРП_ПриемИнтеграции" id="e931dfa9-f801-47a4-a4d8-ba55ec237bd1" configVersion="ab06499e159712596f73e1e350ef1220a37806bd"/>
 		<Metadata name="CommonModule.ЕРП_ПриемИнтеграции.Module" id="e931dfa9-f801-47a4-a4d8-ba55ec237bd1.0" configVersion="d99d88b1ef7ed4fdfb34b494ec0a35b7fb81f22f"/>
 		<Metadata name="CommonModule.ЕРП_СопоставлениеНоменклатуры" id="aba4432c-d1d6-4b22-bd8b-6ae0ad06d731" configVersion="6da7bf2d7d509022afb81b30b66ebd7c3534ac80"/>
@@ -24,9 +22,6 @@
 		<Metadata name="CommonTemplate.PinkRabbitMQ" id="6e4529c5-8d58-4f01-9df5-82f34d0ed3ff" configVersion="86f90ab261f7030fc309928d0e27dd3b0e2b4ece"/>
 		<Metadata name="CommonTemplate.PinkRabbitMQ.Template" id="6e4529c5-8d58-4f01-9df5-82f34d0ed3ff.0" configVersion="8d853025b907248c6bbb3ed80705f326cfe26eb5"/>
 		<Metadata name="Configuration.Интеграция" id="9786f1ce-678f-4a1d-b94d-9a8ab4d42044" configVersion="cedc5761e424ed75f72e834652c12c61080e5a27"/>
-		<Metadata name="DataProcessor.ЕРП_НастройкаSMTP" id="3e60f926-5c66-4e05-8a11-99f994c8d9ef" configVersion="3d5f259c774f16d0f8df8221b0b2c43cd128bce9"/>
-		<Metadata name="DataProcessor.ЕРП_НастройкаSMTP.Form.Форма" id="a628bad7-0ced-4bb8-bc70-c3621048e788" configVersion="4ef523ba18ac624e9e5db9f91a588d6a5c40e262"/>
-		<Metadata name="DataProcessor.ЕРП_НастройкаSMTP.Form.Форма.Form" id="a628bad7-0ced-4bb8-bc70-c3621048e788.0" configVersion="07320c921f19cc392f9866b6a4bb196426825092"/>
 		<Metadata name="DataProcessor.ЕРП_НастройкаИнтеграцииRabbitMQ" id="2d71b4cf-39d6-45d9-8f3a-62655bd10dfc" configVersion="7326a456a968cce1100e761e5e16ad224d0d4eb5"/>
 		<Metadata name="DataProcessor.ЕРП_НастройкаИнтеграцииRabbitMQ.Form.Форма" id="12c629bf-618a-4b25-b8c2-257f5372503b" configVersion="663e0ba2004d0dfb23c66b241fc605a8e169f9f3"/>
 		<Metadata name="DataProcessor.ЕРП_НастройкаИнтеграцииRabbitMQ.Form.Форма.Form" id="12c629bf-618a-4b25-b8c2-257f5372503b.0" configVersion="2be91a1342a090add4c4122fbc2da7eb18b9a5f1"/>
@@ -55,15 +50,6 @@
 			<Metadata name="InformationRegister.ЕРП_ИсторияДоставкиУведомлений.Resource.ДатаПопытки" id="b1000000-0000-4000-8000-000000000075"/>
 			<Metadata name="InformationRegister.ЕРП_ИсторияДоставкиУведомлений.Resource.Результат" id="b1000000-0000-4000-8000-000000000076"/>
 			<Metadata name="InformationRegister.ЕРП_ИсторияДоставкиУведомлений.Resource.Ошибка" id="b1000000-0000-4000-8000-000000000077"/>
-		</Metadata>
-		<Metadata name="InformationRegister.ЕРП_НастройкиSMTP" id="9db347ce-5d48-425a-b89c-dde9e22bfa87" configVersion="a8331d622a8128cbeb8609e4d6bd507c2129f034">
-			<Metadata name="InformationRegister.ЕРП_НастройкиSMTP.Resource.SMTPЛогин" id="103c5991-d430-4589-8fd7-5e183b9fe58e"/>
-			<Metadata name="InformationRegister.ЕРП_НастройкиSMTP.Resource.SMTPПорт" id="30e4f9b5-26b7-400c-b179-a1a52692d311"/>
-			<Metadata name="InformationRegister.ЕРП_НастройкиSMTP.Dimension.КлючНастройки" id="6673bea7-7861-478c-bc37-2ed7b9a2dcf9"/>
-			<Metadata name="InformationRegister.ЕРП_НастройкиSMTP.Resource.SMTPПароль" id="892a3e45-a644-427a-9d2d-58a06ffbd6d0"/>
-			<Metadata name="InformationRegister.ЕРП_НастройкиSMTP.Resource.АдресОтправителя" id="a2e03682-44be-4767-9323-16ea2066a121"/>
-			<Metadata name="InformationRegister.ЕРП_НастройкиSMTP.Resource.SMTPСервер" id="db31bedc-114c-43c4-ba85-8c2c96fef789"/>
-			<Metadata name="InformationRegister.ЕРП_НастройкиSMTP.Resource.ИспользоватьSSL" id="dd5bffb7-2b57-4e6c-9eb8-0b8accae07be"/>
 		</Metadata>
 		<Metadata name="InformationRegister.ЕРП_НастройкиИнтеграцииRabbitMQ" id="41d0ddcc-528e-44fd-9c8f-c1c5e3a8c42b" configVersion="14a477c75e44617a0cdfa951307e35c0543112f6">
 			<Metadata name="InformationRegister.ЕРП_НастройкиИнтеграцииRabbitMQ.Resource.Сервер" id="496e5d90-e124-4a0b-814f-3081c899d95f"/>
