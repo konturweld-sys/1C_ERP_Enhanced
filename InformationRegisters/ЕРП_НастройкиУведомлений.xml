@@ -64,7 +64,55 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-<Resource uuid="b1000000-0000-4000-8000-0000000000b0">
+<Resource uuid="b1000000-0000-4000-8000-000000000010">
+				<Properties>
+					<Name>ИспользоватьУведомления</Name>
+					<Synonym><v8:item><v8:lang>ru</v8:lang><v8:content>Использовать уведомления</v8:content></v8:item></Synonym>
+					<Comment>Общий переключатель подсистемы уведомлений.</Comment>
+					<Type><v8:Type>xs:boolean</v8:Type></Type>
+					<PasswordMode>false</PasswordMode><Format/><EditFormat/><ToolTip/>
+					<MarkNegatives>false</MarkNegatives><Mask/><MultiLine>false</MultiLine><ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/><MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue><FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking><ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/><ChoiceParameters/><QuickChoice>Auto</QuickChoice><CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/><LinkByType/><ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Indexing>DontIndex</Indexing><FullTextSearch>Use</FullTextSearch><DataHistory>DontUse</DataHistory>
+				</Properties>
+			</Resource>
+			<Resource uuid="b1000000-0000-4000-8000-000000000011">
+				<Properties>
+					<Name>ИспользоватьEmail</Name>
+					<Synonym><v8:item><v8:lang>ru</v8:lang><v8:content>Использовать Email</v8:content></v8:item></Synonym>
+					<Comment>Разрешает доставку уведомлений по электронной почте.</Comment>
+					<Type><v8:Type>xs:boolean</v8:Type></Type>
+					<PasswordMode>false</PasswordMode><Format/><EditFormat/><ToolTip/>
+					<MarkNegatives>false</MarkNegatives><Mask/><MultiLine>false</MultiLine><ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/><MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue><FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking><ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/><ChoiceParameters/><QuickChoice>Auto</QuickChoice><CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/><LinkByType/><ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Indexing>DontIndex</Indexing><FullTextSearch>Use</FullTextSearch><DataHistory>DontUse</DataHistory>
+				</Properties>
+			</Resource>
+			<Resource uuid="b1000000-0000-4000-8000-000000000012">
+				<Properties>
+					<Name>ИспользоватьTelegram</Name>
+					<Synonym><v8:item><v8:lang>ru</v8:lang><v8:content>Использовать Telegram</v8:content></v8:item></Synonym>
+					<Comment>Разрешает доставку уведомлений через Telegram.</Comment>
+					<Type><v8:Type>xs:boolean</v8:Type></Type>
+					<PasswordMode>false</PasswordMode><Format/><EditFormat/><ToolTip/>
+					<MarkNegatives>false</MarkNegatives><Mask/><MultiLine>false</MultiLine><ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/><MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue><FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking><ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/><ChoiceParameters/><QuickChoice>Auto</QuickChoice><CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/><LinkByType/><ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Indexing>DontIndex</Indexing><FullTextSearch>Use</FullTextSearch><DataHistory>DontUse</DataHistory>
+				</Properties>
+			</Resource>
+			<Resource uuid="b1000000-0000-4000-8000-0000000000b0">
 				<Properties>
 					<Name>TelegramИмяБота</Name>
 					<Synonym>
