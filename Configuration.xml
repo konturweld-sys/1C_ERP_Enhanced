@@ -76,6 +76,7 @@
 			<CommonModule>ЕРП_СопоставлениеНоменклатуры</CommonModule>
 			<CommonModule>ЕРП_ЖурналИнтеграции</CommonModule>
 			<CommonModule>ЕРП_Уведомления</CommonModule>
+			<CommonModule>ЕРП_УведомленияСлужебный</CommonModule>
 			<CommonModule>ЕРП_ЖурналУведомлений</CommonModule>
 			<ScheduledJob>ЕРП_ПриемНоменклатурыИзPDM</ScheduledJob>
 			<ScheduledJob>ЕРП_ОтправкаУведомлений</ScheduledJob>
