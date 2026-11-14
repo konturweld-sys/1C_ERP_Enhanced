@@ -113,5 +113,7 @@
 		<Metadata name="ScheduledJob.ЕРП_ПриемНоменклатурыИзPDM" id="bb787412-25e6-42ba-9c53-4e1cdafd1934" configVersion="a4f6c5362cfb3f098ad5d89303e4c0e349196a0c"/>
 		<Metadata name="ScheduledJob.ЕРП_ПриемНоменклатурыИзPDM.Schedule" id="bb787412-25e6-42ba-9c53-4e1cdafd1934.0" configVersion="7045b80d8e898fa9d556608d57fe51e83eb47082"/>
 		<Metadata name="Subsystem.Администрирование" id="f838cd70-67e3-4fcf-952e-da7212db1c9c" configVersion="d8b9c2cf6faa36887d9bd13ff4c59e68e6893dce"/>
+			<Metadata name="CommonModule.ЕРП_УведомленияСлужебный" id="e23a8d90-7c51-4f12-9a6d-3e1b2f4c5d60"/>
+		<Metadata name="CommonModule.ЕРП_УведомленияСлужебный.Module" id="e23a8d90-7c51-4f12-9a6d-3e1b2f4c5d60.0"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
