@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
+	<ConfigVersions>
+		<Metadata name="Catalog.Сотрудники" id="f0f279e2-4416-4234-9bbf-3c3ac3b263ca" configVersion="693d52b81d441f02105011ce1a877d76f58f58b4"/>
+		<Metadata name="CommonModule.ЕРП_ВалидацияКонтракта" id="7a4accc9-ddcb-495a-bcd4-9fdc05d32d91" configVersion="bafaee04dbd04e76f22e3581fd8cf08c5e42f8c2"/>
+		<Metadata name="CommonModule.ЕРП_ВалидацияКонтракта.Module" id="7a4accc9-ddcb-495a-bcd4-9fdc05d32d91.0" configVersion="6b5b49f3a11f807f26c95f091ac78e5df83a6ff0"/>
+		<Metadata name="CommonModule.ЕРП_ЖурналИнтеграции" id="585a0746-cd7e-4d49-a239-1c27fa8aa597" configVersion="758896ff16221dccbf7700a335f8d2fc0d3b3550"/>
+		<Metadata name="CommonModule.ЕРП_ЖурналИнтеграции.Module" id="585a0746-cd7e-4d49-a239-1c27fa8aa597.0" configVersion="90859d9bac80002966abc292a12523864d4a68f2"/>
+		<Metadata name="CommonModule.ЕРП_ЖурналУведомлений" id="4ed16c47-149a-4b04-a65f-4b8c714606a8" configVersion="b354fa4614e452476083e9cbbacc9707ad694284"/>
+		<Metadata name="CommonModule.ЕРП_ЖурналУведомлений.Module" id="4ed16c47-149a-4b04-a65f-4b8c714606a8.0" configVersion="e2267996e2416b93dc2bb0337fc44b7acc2bcd63"/>
+		<Metadata name="CommonModule.ЕРП_ИнтеграцияRabbitMQ" id="e5508c15-56bb-4b89-a937-836638a34d69" configVersion="9f67418e151c4d3137d0622b0e119fa3d77fe1db"/>
+		<Metadata name="CommonModule.ЕРП_ИнтеграцияRabbitMQ.Module" id="e5508c15-56bb-4b89-a937-836638a34d69.0" configVersion="3d20eafb2dc8a95d61b4031aa4a5b5c5703d1184"/>
+		<Metadata name="CommonModule.ЕРП_ОтправкаПочты" id="b352458d-be3b-4044-9067-588b97503617" configVersion="e8889e35f967501fa43a22689a994369178710b8"/>
+		<Metadata name="CommonModule.ЕРП_ОтправкаПочты.Module" id="b352458d-be3b-4044-9067-588b97503617.0" configVersion="48e4d8de0666d05f80f324eee124704ef762b6f0"/>
+		<Metadata name="CommonModule.ЕРП_ПриемИнтеграции" id="e931dfa9-f801-47a4-a4d8-ba55ec237bd1" configVersion="ab06499e159712596f73e1e350ef1220a37806bd"/>
+		<Metadata name="CommonModule.ЕРП_ПриемИнтеграции.Module" id="e931dfa9-f801-47a4-a4d8-ba55ec237bd1.0" configVersion="d99d88b1ef7ed4fdfb34b494ec0a35b7fb81f22f"/>
+		<Metadata name="CommonModule.ЕРП_СопоставлениеНоменклатуры" id="aba4432c-d1d6-4b22-bd8b-6ae0ad06d731" configVersion="6da7bf2d7d509022afb81b30b66ebd7c3534ac80"/>
+		<Metadata name="CommonModule.ЕРП_СопоставлениеНоменклатуры.Module" id="aba4432c-d1d6-4b22-bd8b-6ae0ad06d731.0" configVersion="2b12951f3f40ce482385ee229cf42a9ec3fdcce9"/>
+		<Metadata name="CommonModule.ЕРП_Уведомления" id="b2000000-0000-4000-8000-000000000001" configVersion="d61e06f3edd0a320c1e5ef402b14ee51112d294b"/>
+		<Metadata name="CommonModule.ЕРП_Уведомления.Module" id="b2000000-0000-4000-8000-000000000001.0" configVersion="463f371fea411b3858543b801c24ef322ccc2c0e"/>
+		<Metadata name="CommonPicture.Интеграция_ОбщаяКартинка1" id="bbec39fb-0fa3-4c4b-b30e-8bf55309ebc8" configVersion="85ffb4ce6817716384935d31b242d86ed5738cbe"/>
+		<Metadata name="CommonPicture.Отправить_сообщение" id="935165d9-ba48-4bcf-87ef-151a78495157" configVersion="9d9e9f867e6f4137ae164f4f1585f5d9f994e1eb"/>
+		<Metadata name="CommonPicture.Отправить_сообщение.Picture" id="935165d9-ba48-4bcf-87ef-151a78495157.0" configVersion="61ecd3a205a23a158ec03780d4fb3df383bbcf7f"/>
+		<Metadata name="CommonTemplate.PinkRabbitMQ" id="6e4529c5-8d58-4f01-9df5-82f34d0ed3ff" configVersion="86f90ab261f7030fc309928d0e27dd3b0e2b4ece"/>
+		<Metadata name="CommonTemplate.PinkRabbitMQ.Template" id="6e4529c5-8d58-4f01-9df5-82f34d0ed3ff.0" configVersion="8d853025b907248c6bbb3ed80705f326cfe26eb5"/>
+		<Metadata name="Configuration.Интеграция" id="9786f1ce-678f-4a1d-b94d-9a8ab4d42044" configVersion="cedc5761e424ed75f72e834652c12c61080e5a27"/>
+		<Metadata name="DataProcessor.ЕРП_НастройкаSMTP" id="3e60f926-5c66-4e05-8a11-99f994c8d9ef" configVersion="3d5f259c774f16d0f8df8221b0b2c43cd128bce9"/>
+		<Metadata name="DataProcessor.ЕРП_НастройкаSMTP.Form.Форма" id="a628bad7-0ced-4bb8-bc70-c3621048e788" configVersion="4ef523ba18ac624e9e5db9f91a588d6a5c40e262"/>
+		<Metadata name="DataProcessor.ЕРП_НастройкаSMTP.Form.Форма.Form" id="a628bad7-0ced-4bb8-bc70-c3621048e788.0" configVersion="07320c921f19cc392f9866b6a4bb196426825092"/>
+		<Metadata name="DataProcessor.ЕРП_НастройкаИнтеграцииRabbitMQ" id="2d71b4cf-39d6-45d9-8f3a-62655bd10dfc" configVersion="7326a456a968cce1100e761e5e16ad224d0d4eb5"/>
+		<Metadata name="DataProcessor.ЕРП_НастройкаИнтеграцииRabbitMQ.Form.Форма" id="12c629bf-618a-4b25-b8c2-257f5372503b" configVersion="663e0ba2004d0dfb23c66b241fc605a8e169f9f3"/>
+		<Metadata name="DataProcessor.ЕРП_НастройкаИнтеграцииRabbitMQ.Form.Форма.Form" id="12c629bf-618a-4b25-b8c2-257f5372503b.0" configVersion="2be91a1342a090add4c4122fbc2da7eb18b9a5f1"/>
+		<Metadata name="DataProcessor.ЕРП_НастройкаИнтеграцииRabbitMQ.ObjectModule" id="2d71b4cf-39d6-45d9-8f3a-62655bd10dfc.0" configVersion="a85d0309f9f7c6416554b8bb771c44555cd9ea6e"/>
+		<Metadata name="InformationRegister.ЕРП_БлокировкаЖурнала" id="1e2434ac-f69c-4a7f-a411-05e6ac88c2b3" configVersion="e54a92bd25f237c50cec8f5c3cf8935de5d43577"/>
+		<Metadata name="InformationRegister.ЕРП_БлокировкаПриемаRabbitMQ" id="c4f966e8-8ebc-4e20-af95-bdfd5d4704ab" configVersion="22644d35ab9853a3e2b04bdc85c5b3b493227342">
+			<Metadata name="InformationRegister.ЕРП_БлокировкаПриемаRabbitMQ.Dimension.Ключ" id="869cfd1b-1acf-4180-838e-2251d1bd17d0"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ЕРП_ДоставкиУведомлений" id="b1000000-0000-4000-8000-000000000049" configVersion="8c6335e4ec0092c65a5b3e113a057e448c6a2b32">
+			<Metadata name="InformationRegister.ЕРП_ДоставкиУведомлений.Dimension.КлючДоставки" id="b1000000-0000-4000-8000-000000000058"/>
+			<Metadata name="InformationRegister.ЕРП_ДоставкиУведомлений.Resource.КлючСобытия" id="b1000000-0000-4000-8000-000000000059"/>
+			<Metadata name="InformationRegister.ЕРП_ДоставкиУведомлений.Resource.Сотрудник" id="b1000000-0000-4000-8000-00000000005a"/>
+			<Metadata name="InformationRegister.ЕРП_ДоставкиУведомлений.Resource.Канал" id="b1000000-0000-4000-8000-00000000005b"/>
+			<Metadata name="InformationRegister.ЕРП_ДоставкиУведомлений.Resource.АдресПолучателя" id="b1000000-0000-4000-8000-00000000005c"/>
+			<Metadata name="InformationRegister.ЕРП_ДоставкиУведомлений.Resource.Тема" id="b1000000-0000-4000-8000-00000000005d"/>
+			<Metadata name="InformationRegister.ЕРП_ДоставкиУведомлений.Resource.ТекстСообщения" id="b1000000-0000-4000-8000-00000000005e"/>
+			<Metadata name="InformationRegister.ЕРП_ДоставкиУведомлений.Resource.Состояние" id="b1000000-0000-4000-8000-00000000005f"/>
+			<Metadata name="InformationRegister.ЕРП_ДоставкиУведомлений.Resource.КоличествоПопыток" id="b1000000-0000-4000-8000-000000000060"/>
+			<Metadata name="InformationRegister.ЕРП_ДоставкиУведомлений.Resource.СледующаяПопытка" id="b1000000-0000-4000-8000-000000000061"/>
+			<Metadata name="InformationRegister.ЕРП_ДоставкиУведомлений.Resource.ДатаОтправки" id="b1000000-0000-4000-8000-000000000062"/>
+			<Metadata name="InformationRegister.ЕРП_ДоставкиУведомлений.Resource.ПоследняяОшибка" id="b1000000-0000-4000-8000-000000000063"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ЕРП_ИсторияДоставкиУведомлений" id="b1000000-0000-4000-8000-000000000064" configVersion="1ac46df5642654d451fc388738d5e7911f030256">
+			<Metadata name="InformationRegister.ЕРП_ИсторияДоставкиУведомлений.Dimension.КлючДоставки" id="b1000000-0000-4000-8000-000000000073"/>
+			<Metadata name="InformationRegister.ЕРП_ИсторияДоставкиУведомлений.Dimension.НомерПопытки" id="b1000000-0000-4000-8000-000000000074"/>
+			<Metadata name="InformationRegister.ЕРП_ИсторияДоставкиУведомлений.Resource.ДатаПопытки" id="b1000000-0000-4000-8000-000000000075"/>
+			<Metadata name="InformationRegister.ЕРП_ИсторияДоставкиУведомлений.Resource.Результат" id="b1000000-0000-4000-8000-000000000076"/>
+			<Metadata name="InformationRegister.ЕРП_ИсторияДоставкиУведомлений.Resource.Ошибка" id="b1000000-0000-4000-8000-000000000077"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ЕРП_НастройкиSMTP" id="9db347ce-5d48-425a-b89c-dde9e22bfa87" configVersion="a8331d622a8128cbeb8609e4d6bd507c2129f034">
+			<Metadata name="InformationRegister.ЕРП_НастройкиSMTP.Resource.SMTPЛогин" id="103c5991-d430-4589-8fd7-5e183b9fe58e"/>
+			<Metadata name="InformationRegister.ЕРП_НастройкиSMTP.Resource.SMTPПорт" id="30e4f9b5-26b7-400c-b179-a1a52692d311"/>
+			<Metadata name="InformationRegister.ЕРП_НастройкиSMTP.Dimension.КлючНастройки" id="6673bea7-7861-478c-bc37-2ed7b9a2dcf9"/>
+			<Metadata name="InformationRegister.ЕРП_НастройкиSMTP.Resource.SMTPПароль" id="892a3e45-a644-427a-9d2d-58a06ffbd6d0"/>
+			<Metadata name="InformationRegister.ЕРП_НастройкиSMTP.Resource.АдресОтправителя" id="a2e03682-44be-4767-9323-16ea2066a121"/>
+			<Metadata name="InformationRegister.ЕРП_НастройкиSMTP.Resource.SMTPСервер" id="db31bedc-114c-43c4-ba85-8c2c96fef789"/>
+			<Metadata name="InformationRegister.ЕРП_НастройкиSMTP.Resource.ИспользоватьSSL" id="dd5bffb7-2b57-4e6c-9eb8-0b8accae07be"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ЕРП_НастройкиИнтеграцииRabbitMQ" id="41d0ddcc-528e-44fd-9c8f-c1c5e3a8c42b" configVersion="14a477c75e44617a0cdfa951307e35c0543112f6">
+			<Metadata name="InformationRegister.ЕРП_НастройкиИнтеграцииRabbitMQ.Resource.Сервер" id="496e5d90-e124-4a0b-814f-3081c899d95f"/>
+			<Metadata name="InformationRegister.ЕРП_НастройкиИнтеграцииRabbitMQ.Resource.Порт" id="6cfb4b71-0ba4-448d-879d-206204ae712f"/>
+			<Metadata name="InformationRegister.ЕРП_НастройкиИнтеграцииRabbitMQ.Resource.Пользователь" id="778d1b51-9c62-4b10-8c20-c51c1c95f865"/>
+			<Metadata name="InformationRegister.ЕРП_НастройкиИнтеграцииRabbitMQ.Resource.ВиртуальныйХост" id="a6a2a685-e051-4cd2-a52d-7fb4557ef41d"/>
+			<Metadata name="InformationRegister.ЕРП_НастройкиИнтеграцииRabbitMQ.Resource.Пароль" id="cf56fbfa-0d3f-4cf6-af56-7fe70c47ef3b"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ЕРП_НастройкиУведомлений" id="b1000000-0000-4000-8000-000000000001" configVersion="7afc0e85dd11798279f0d8c1108cdb63ca6b7dc7">
+			<Metadata name="InformationRegister.ЕРП_НастройкиУведомлений.Resource.ИспользоватьУведомления" id="b1000000-0000-4000-8000-000000000010"/>
+			<Metadata name="InformationRegister.ЕРП_НастройкиУведомлений.Resource.ИспользоватьEmail" id="b1000000-0000-4000-8000-000000000011"/>
+			<Metadata name="InformationRegister.ЕРП_НастройкиУведомлений.Resource.ИспользоватьTelegram" id="b1000000-0000-4000-8000-000000000012"/>
+			<Metadata name="InformationRegister.ЕРП_НастройкиУведомлений.Resource.TelegramТокенБота" id="b1000000-0000-4000-8000-000000000013"/>
+			<Metadata name="InformationRegister.ЕРП_НастройкиУведомлений.Resource.SMTPСервер" id="b1000000-0000-4000-8000-000000000014"/>
+			<Metadata name="InformationRegister.ЕРП_НастройкиУведомлений.Resource.SMTPПорт" id="b1000000-0000-4000-8000-000000000015"/>
+			<Metadata name="InformationRegister.ЕРП_НастройкиУведомлений.Resource.SMTPПользователь" id="b1000000-0000-4000-8000-000000000016"/>
+			<Metadata name="InformationRegister.ЕРП_НастройкиУведомлений.Resource.SMTPПароль" id="b1000000-0000-4000-8000-000000000017"/>
+			<Metadata name="InformationRegister.ЕРП_НастройкиУведомлений.Resource.SMTPОтправитель" id="b1000000-0000-4000-8000-000000000018"/>
+			<Metadata name="InformationRegister.ЕРП_НастройкиУведомлений.Resource.SMTPИспользоватьSSL" id="b1000000-0000-4000-8000-000000000019"/>
+			<Metadata name="InformationRegister.ЕРП_НастройкиУведомлений.Resource.SMTPТаймаут" id="b1000000-0000-4000-8000-00000000001a"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ЕРП_ПовторыСозданияНоменклатуры" id="b1000000-0000-4000-8000-000000000078" configVersion="3be8341d9229935eaadb188b44dd8653ef3d809b">
+			<Metadata name="InformationRegister.ЕРП_ПовторыСозданияНоменклатуры.Dimension.UUIDНоменклатуры" id="b1000000-0000-4000-8000-000000000087"/>
+			<Metadata name="InformationRegister.ЕРП_ПовторыСозданияНоменклатуры.Resource.КоличествоОшибок" id="b1000000-0000-4000-8000-000000000088"/>
+			<Metadata name="InformationRegister.ЕРП_ПовторыСозданияНоменклатуры.Resource.ПоследняяОшибка" id="b1000000-0000-4000-8000-000000000089"/>
+			<Metadata name="InformationRegister.ЕРП_ПовторыСозданияНоменклатуры.Resource.ДатаПоследнейПопытки" id="b1000000-0000-4000-8000-00000000008a"/>
+			<Metadata name="InformationRegister.ЕРП_ПовторыСозданияНоменклатуры.Resource.УведомлениеОбОшибкеСоздано" id="b1000000-0000-4000-8000-00000000008b"/>
+			<Metadata name="InformationRegister.ЕРП_ПовторыСозданияНоменклатуры.Resource.УведомлениеОбУспехеСоздано" id="b1000000-0000-4000-8000-00000000008c"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ЕРП_ПолучателиУведомлений" id="b1000000-0000-4000-8000-00000000001b" configVersion="81a978adeecac3685c6979194cf1a208b091a803">
+			<Metadata name="InformationRegister.ЕРП_ПолучателиУведомлений.Dimension.Сотрудник" id="b1000000-0000-4000-8000-00000000002a"/>
+			<Metadata name="InformationRegister.ЕРП_ПолучателиУведомлений.Resource.Включен" id="b1000000-0000-4000-8000-00000000002b"/>
+			<Metadata name="InformationRegister.ЕРП_ПолучателиУведомлений.Resource.TelegramChatID" id="b1000000-0000-4000-8000-00000000002d"/>
+			<Metadata name="InformationRegister.ЕРП_ПолучателиУведомлений.Resource.EmailВключен" id="b1000000-0000-4000-8000-00000000002e"/>
+			<Metadata name="InformationRegister.ЕРП_ПолучателиУведомлений.Resource.TelegramВключен" id="b1000000-0000-4000-8000-00000000002f"/>
+			<Metadata name="InformationRegister.ЕРП_ПолучателиУведомлений.Resource.УведомлятьОбУспехе" id="b1000000-0000-4000-8000-000000000030"/>
+			<Metadata name="InformationRegister.ЕРП_ПолучателиУведомлений.Resource.УведомлятьОбОшибке" id="b1000000-0000-4000-8000-000000000031"/>
+			<Metadata name="InformationRegister.ЕРП_ПолучателиУведомлений.Resource.УведомлятьОСвязи" id="b1000000-0000-4000-8000-000000000032"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ЕРП_СобытияУведомлений" id="b1000000-0000-4000-8000-000000000033" configVersion="e99c8d1ad6df5a0e7b535415b1c478730a0f6be2">
+			<Metadata name="InformationRegister.ЕРП_СобытияУведомлений.Dimension.КлючСобытия" id="b1000000-0000-4000-8000-000000000042"/>
+			<Metadata name="InformationRegister.ЕРП_СобытияУведомлений.Resource.ТипСобытия" id="b1000000-0000-4000-8000-000000000043"/>
+			<Metadata name="InformationRegister.ЕРП_СобытияУведомлений.Resource.UUIDНоменклатуры" id="b1000000-0000-4000-8000-000000000044"/>
+			<Metadata name="InformationRegister.ЕРП_СобытияУведомлений.Resource.Наименование" id="b1000000-0000-4000-8000-000000000045"/>
+			<Metadata name="InformationRegister.ЕРП_СобытияУведомлений.Resource.ТекстСообщения" id="b1000000-0000-4000-8000-000000000046"/>
+			<Metadata name="InformationRegister.ЕРП_СобытияУведомлений.Resource.ДатаСоздания" id="b1000000-0000-4000-8000-000000000047"/>
+			<Metadata name="InformationRegister.ЕРП_СобытияУведомлений.Resource.Состояние" id="b1000000-0000-4000-8000-000000000048"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ЕРП_СостояниеСвязиRabbitMQ" id="b1000000-0000-4000-8000-00000000008d" configVersion="84d41a0e34b938c0b808b236e1e2df5e4c2e2705">
+			<Metadata name="InformationRegister.ЕРП_СостояниеСвязиRabbitMQ.Dimension.Канал" id="b1000000-0000-4000-8000-00000000009c"/>
+			<Metadata name="InformationRegister.ЕРП_СостояниеСвязиRabbitMQ.Resource.КоличествоОшибокПодряд" id="b1000000-0000-4000-8000-00000000009d"/>
+			<Metadata name="InformationRegister.ЕРП_СостояниеСвязиRabbitMQ.Resource.НомерИнцидента" id="b1000000-0000-4000-8000-00000000009e"/>
+			<Metadata name="InformationRegister.ЕРП_СостояниеСвязиRabbitMQ.Resource.Недоступен" id="b1000000-0000-4000-8000-00000000009f"/>
+			<Metadata name="InformationRegister.ЕРП_СостояниеСвязиRabbitMQ.Resource.ДатаПоследнейОшибки" id="b1000000-0000-4000-8000-0000000000a0"/>
+			<Metadata name="InformationRegister.ЕРП_СостояниеСвязиRabbitMQ.Resource.ТекстПоследнейОшибки" id="b1000000-0000-4000-8000-0000000000a1"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="3da1c7c4-c1d6-4219-b3b9-35ec1e844d8d" configVersion="bf8f02321fa5eaa873f0426f9e0c7a7d838c3b8d"/>
+		<Metadata name="Role.Интеграция_ОсновнаяРоль" id="8b2cdae3-a921-4d0f-a8b7-1363efda21ec" configVersion="ff2150c3c3f5632458b46a9f6a2c5f108d088084"/>
+		<Metadata name="ScheduledJob.ЕРП_ОтправкаУведомлений" id="b3000000-0000-4000-8000-000000000001" configVersion="767ca88e8e2d403a1c66c508ece0aadbdc4eb251"/>
+		<Metadata name="ScheduledJob.ЕРП_ОтправкаУведомлений.Schedule" id="b3000000-0000-4000-8000-000000000001.0" configVersion="3fdc7c78b3cabdfc6ffcd8f4f104b5cd130f4485"/>
+		<Metadata name="ScheduledJob.ЕРП_ПриемНоменклатурыИзPDM" id="bb787412-25e6-42ba-9c53-4e1cdafd1934" configVersion="a4f6c5362cfb3f098ad5d89303e4c0e349196a0c"/>
+		<Metadata name="ScheduledJob.ЕРП_ПриемНоменклатурыИзPDM.Schedule" id="bb787412-25e6-42ba-9c53-4e1cdafd1934.0" configVersion="7045b80d8e898fa9d556608d57fe51e83eb47082"/>
+		<Metadata name="Subsystem.Администрирование" id="f838cd70-67e3-4fcf-952e-da7212db1c9c" configVersion="d8b9c2cf6faa36887d9bd13ff4c59e68e6893dce"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
