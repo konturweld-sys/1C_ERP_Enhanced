@@ -76,13 +76,11 @@
 			<CommonModule>ЕРП_СопоставлениеНоменклатуры</CommonModule>
 			<CommonModule>ЕРП_ЖурналИнтеграции</CommonModule>
 			<CommonModule>ЕРП_Уведомления</CommonModule>
-			<CommonModule>ЕРП_ОтправкаПочты</CommonModule>
 			<CommonModule>ЕРП_ЖурналУведомлений</CommonModule>
 			<ScheduledJob>ЕРП_ПриемНоменклатурыИзPDM</ScheduledJob>
 			<ScheduledJob>ЕРП_ОтправкаУведомлений</ScheduledJob>
 			<Catalog>Сотрудники</Catalog>
 			<DataProcessor>ЕРП_НастройкаИнтеграцииRabbitMQ</DataProcessor>
-			<DataProcessor>ЕРП_НастройкаSMTP</DataProcessor>
 			<InformationRegister>ЕРП_НастройкиИнтеграцииRabbitMQ</InformationRegister>
 			<InformationRegister>ЕРП_БлокировкаПриемаRabbitMQ</InformationRegister>
 			<InformationRegister>ЕРП_НастройкиУведомлений</InformationRegister>
@@ -92,7 +90,6 @@
 			<InformationRegister>ЕРП_ИсторияДоставкиУведомлений</InformationRegister>
 			<InformationRegister>ЕРП_ПовторыСозданияНоменклатуры</InformationRegister>
 			<InformationRegister>ЕРП_СостояниеСвязиRabbitMQ</InformationRegister>
-			<InformationRegister>ЕРП_НастройкиSMTP</InformationRegister>
 			<InformationRegister>ЕРП_БлокировкаЖурнала</InformationRegister>
 		</ChildObjects>
 	</Configuration>
