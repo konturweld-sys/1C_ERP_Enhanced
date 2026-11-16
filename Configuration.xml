@@ -78,7 +78,7 @@
 			<CommonModule>ЕРП_Уведомления</CommonModule>
 			<CommonModule>ЕРП_ОбработкаОчередиУведомлений</CommonModule>
 			<CommonModule>ЕРП_ОтправкаПочты</CommonModule>
-			<CommonModule>ЕРП_ЖурналУведомлений</CommonModule>
+			<CommonModule>ЕРП_ЖурналУведомлений</CommonModule><CommonModule>ЕРП_ПривязкаTelegram</CommonModule><CommonModule>ЕРП_ИнтеграцияUBT</CommonModule>
 			<ScheduledJob>ЕРП_ПриемНоменклатурыИзPDM</ScheduledJob>
 			<ScheduledJob>ЕРП_ОтправкаУведомлений</ScheduledJob>
 			<Catalog>Сотрудники</Catalog>
@@ -94,7 +94,7 @@
 			<InformationRegister>ЕРП_ПовторыСозданияНоменклатуры</InformationRegister>
 			<InformationRegister>ЕРП_СостояниеСвязиRabbitMQ</InformationRegister>
 			<InformationRegister>ЕРП_НастройкиSMTP</InformationRegister>
-			<InformationRegister>ЕРП_БлокировкаЖурнала</InformationRegister>
+			<InformationRegister>ЕРП_БлокировкаЖурнала</InformationRegister><InformationRegister>ЕРП_ЗапросыПривязкиTelegram</InformationRegister><InformationRegister>ЕРП_ПривязкиTelegram</InformationRegister><InformationRegister>ЕРП_ИсторияПривязокTelegram</InformationRegister><InformationRegister>ЕРП_ЗанятыеЧатыTelegram</InformationRegister><Enum>ЕРП_ОперацииПривязкиTelegram</Enum>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
