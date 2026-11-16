@@ -10,7 +10,7 @@
 				</v8:item>
 			</Synonym>
 			<Comment/>
-			<MethodName>CommonModule.ЕРП_Уведомления.ЕРП_ОбработатьОчередьУведомлений</MethodName>
+			<MethodName>CommonModule.ЕРП_ОбработкаОчередиУведомлений.ОбработатьОчередьУведомлений</MethodName>
 			<Description/>
 			<Key/>
 			<Use>true</Use>

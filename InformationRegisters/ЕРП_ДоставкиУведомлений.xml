@@ -532,6 +532,51 @@
 					<DataHistory>DontUse</DataHistory>
 				</Properties>
 			</Resource>
+			<Resource uuid="b1000000-0000-4000-8000-000000000078">
+				<Properties>
+					<Name>ИдентификаторРезервации</Name>
+					<Synonym><v8:item><v8:lang>ru</v8:lang><v8:content>Идентификатор резервации</v8:content></v8:item></Synonym>
+					<Comment/>
+					<Type><v8:Type>xs:uuid</v8:Type></Type>
+					<PasswordMode>false</PasswordMode><Format/><EditFormat/><ToolTip/>
+					<MarkNegatives>false</MarkNegatives><Mask/><MultiLine>false</MultiLine><ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/><MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue><FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking><ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/><ChoiceParameters/><QuickChoice>Auto</QuickChoice><CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/><LinkByType/><Indexing>DontIndex</Indexing><FullTextSearch>Use</FullTextSearch><DataHistory>DontUse</DataHistory>
+				</Properties>
+			</Resource>
+			<Resource uuid="b1000000-0000-4000-8000-000000000079">
+				<Properties>
+					<Name>ДатаРезервации</Name>
+					<Synonym><v8:item><v8:lang>ru</v8:lang><v8:content>Дата резервации</v8:content></v8:item></Synonym>
+					<Comment/>
+					<Type><v8:Type>xs:dateTime</v8:Type><v8:DateQualifiers><v8:DateFractions>DateTime</v8:DateFractions></v8:DateQualifiers></Type>
+					<PasswordMode>false</PasswordMode><Format/><EditFormat/><ToolTip/>
+					<MarkNegatives>false</MarkNegatives><Mask/><MultiLine>false</MultiLine><ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/><MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue><FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking><ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/><ChoiceParameters/><QuickChoice>Auto</QuickChoice><CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/><LinkByType/><Indexing>DontIndex</Indexing><FullTextSearch>Use</FullTextSearch><DataHistory>DontUse</DataHistory>
+				</Properties>
+			</Resource>
+			<Resource uuid="b1000000-0000-4000-8000-00000000007a">
+				<Properties>
+					<Name>СрокРезервации</Name>
+					<Synonym><v8:item><v8:lang>ru</v8:lang><v8:content>Срок резервации</v8:content></v8:item></Synonym>
+					<Comment/>
+					<Type><v8:Type>xs:dateTime</v8:Type><v8:DateQualifiers><v8:DateFractions>DateTime</v8:DateFractions></v8:DateQualifiers></Type>
+					<PasswordMode>false</PasswordMode><Format/><EditFormat/><ToolTip/>
+					<MarkNegatives>false</MarkNegatives><Mask/><MultiLine>false</MultiLine><ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/><MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue><FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking><ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/><ChoiceParameters/><QuickChoice>Auto</QuickChoice><CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/><LinkByType/><Indexing>Index</Indexing><FullTextSearch>Use</FullTextSearch><DataHistory>DontUse</DataHistory>
+				</Properties>
+			</Resource>
 			<Dimension uuid="b1000000-0000-4000-8000-000000000058">
 				<Properties>
 					<Name>КлючДоставки</Name>
