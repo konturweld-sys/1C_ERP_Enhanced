@@ -123,9 +123,10 @@
                     КонецЕсли;
                 КонецЕсли;
 
-                ChatIDTelegram = ЕРП_ПривязкаTelegram.ЕРП_ПолучитьСтатусПривязкиTelegram(
+                СтатусПривязкиTelegram = ЕРП_ПривязкаTelegram.ЕРП_ПолучитьСтатусПривязкиTelegram(
                     Получатели.Сотрудник
-                ).ChatID;
+                );
+                ChatIDTelegram = СтатусПривязкиTelegram.ChatID;
 
                 Если Настройки.ИспользоватьTelegram
                     И Получатели.TelegramВключен
