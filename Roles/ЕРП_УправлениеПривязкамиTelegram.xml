@@ -4,7 +4,7 @@
 		<Properties>
 			<Name>ЕРП_УправлениеПривязкамиTelegram</Name>
 			<Synonym><v8:item><v8:lang>ru</v8:lang><v8:content>Управление привязками Telegram</v8:content></v8:item></Synonym>
-			<Comment>Просмотр запросов Telegram-привязки и выполнение операций подтверждения, отклонения и отмены в пределах предусмотренных процедур.</Comment>
+			<Comment>Просмотр запросов Telegram-привязки и выполнение операции отклонения.</Comment>
 		</Properties>
 	</Role>
 </MetaDataObject>
