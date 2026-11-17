@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:v8="http://v8.1c.ru/1c/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Настройки получателя уведомлений</v8:content></v8:item></Title>
+	<Width>75</Width><Height>42</Height><AutoCommandBar name="ФормаКоманднаяПанель" id="-1"><Autofill>true</Autofill></AutoCommandBar>
+	<ChildItems>
+		<UsualGroup name="ГруппаПолучатель" id="10"><Title><v8:item><v8:lang>ru</v8:lang><v8:content>Получатель</v8:content></v8:item></Title><Group>Vertical</Group>
+			<ChildItems>
+				<InputField name="Сотрудник" id="11"><DataPath>Объект.Сотрудник</DataPath><ContextMenu name="СотрудникКонтекстноеМеню" id="12"/><ExtendedTooltip name="СотрудникРасширеннаяПодсказка" id="13"/></InputField>
+				<CheckBoxField name="Включен" id="14"><DataPath>Объект.Включен</DataPath><CheckBoxType>Auto</CheckBoxType><ContextMenu name="ВключенКонтекстноеМеню" id="15"/><ExtendedTooltip name="ВключенРасширеннаяПодсказка" id="16"/></CheckBoxField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаКаналы" id="20"><Title><v8:item><v8:lang>ru</v8:lang><v8:content>Каналы доставки</v8:content></v8:item></Title><Group>Vertical</Group>
+			<ChildItems>
+				<CheckBoxField name="EmailВключен" id="21"><DataPath>Объект.EmailВключен</DataPath><CheckBoxType>Auto</CheckBoxType><ContextMenu name="EmailВключенКонтекстноеМеню" id="22"/><ExtendedTooltip name="EmailВключенРасширеннаяПодсказка" id="23"/></CheckBoxField>
+				<CheckBoxField name="TelegramВключен" id="24"><DataPath>Объект.TelegramВключен</DataPath><CheckBoxType>Auto</CheckBoxType><ContextMenu name="TelegramВключенКонтекстноеМеню" id="25"/><ExtendedTooltip name="TelegramВключенРасширеннаяПодсказка" id="26"/></CheckBoxField>
+				<LabelDecoration name="ПояснениеTelegram" id="27"><Title><v8:item><v8:lang>ru</v8:lang><v8:content>Для доставки через Telegram у сотрудника должна быть подтверждённая привязка. Chat ID здесь не вводится.</v8:content></v8:item></Title></LabelDecoration>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаСобытия" id="30"><Title><v8:item><v8:lang>ru</v8:lang><v8:content>Какие события отправлять</v8:content></v8:item></Title><Group>Vertical</Group>
+			<ChildItems>
+				<CheckBoxField name="УведомлятьОбУспехе" id="31"><DataPath>Объект.УведомлятьОбУспехе</DataPath><CheckBoxType>Auto</CheckBoxType><ContextMenu name="УведомлятьОбУспехеКонтекстноеМеню" id="32"/><ExtendedTooltip name="УведомлятьОбУспехеРасширеннаяПодсказка" id="33"/></CheckBoxField>
+				<CheckBoxField name="УведомлятьОбОшибке" id="34"><DataPath>Объект.УведомлятьОбОшибке</DataPath><CheckBoxType>Auto</CheckBoxType><ContextMenu name="УведомлятьОбОшибкеКонтекстноеМеню" id="35"/><ExtendedTooltip name="УведомлятьОбОшибкеРасширеннаяПодсказка" id="36"/></CheckBoxField>
+				<CheckBoxField name="УведомлятьОСвязи" id="37"><DataPath>Объект.УведомлятьОСвязи</DataPath><CheckBoxType>Auto</CheckBoxType><ContextMenu name="УведомлятьОСвязиКонтекстноеМеню" id="38"/><ExtendedTooltip name="УведомлятьОСвязиРасширеннаяПодсказка" id="39"/></CheckBoxField>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes><Attribute name="Объект" id="1"><Type><v8:Type>cfg:InformationRegisterRecord.ЕРП_ПолучателиУведомлений</v8:Type></Type><MainAttribute>true</MainAttribute></Attribute></Attributes>
+</Form>
