@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="1e2434ac-f69c-4a7f-a411-05e6ac88c2b3">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ЕРП_БлокировкаЖурнала" category="Record">
+				<xr:TypeId>f976915e-3a6a-4f68-87a2-59a56a3b2ced</xr:TypeId>
+				<xr:ValueId>4acfcae0-8aa2-4343-9764-b274164c5628</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ЕРП_БлокировкаЖурнала" category="Manager">
+				<xr:TypeId>c23849c9-4737-4e1e-be7a-db0cc459cbc1</xr:TypeId>
+				<xr:ValueId>bea0677c-595d-4d02-939a-a0bd703bc15d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ЕРП_БлокировкаЖурнала" category="Selection">
+				<xr:TypeId>d937f806-35d4-443a-be0e-63a90ef3287f</xr:TypeId>
+				<xr:ValueId>cf80cf46-89bf-4d52-9633-fd40d30ecfab</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ЕРП_БлокировкаЖурнала" category="List">
+				<xr:TypeId>bab09609-8a1d-4946-a0b3-ef55b7ce6d9e</xr:TypeId>
+				<xr:ValueId>ce7283a5-aecd-464d-8281-42e8949f33ca</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ЕРП_БлокировкаЖурнала" category="RecordSet">
+				<xr:TypeId>45fc9429-463d-4fd8-a106-4d64a684557b</xr:TypeId>
+				<xr:ValueId>50e42c4a-3314-4042-8960-645ef317ef98</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ЕРП_БлокировкаЖурнала" category="RecordKey">
+				<xr:TypeId>2bdc7505-ba5d-44da-94e9-6e3143b12c51</xr:TypeId>
+				<xr:ValueId>0251e273-5a88-41f2-8429-c5d1eca96b74</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ЕРП_БлокировкаЖурнала" category="RecordManager">
+				<xr:TypeId>51e62ed1-9a3a-4de3-827b-88b1f80e7ead</xr:TypeId>
+				<xr:ValueId>b133739a-2f07-4f9c-ae2b-00bc9529ddee</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЕРП_БлокировкаЖурнала</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ЕРП блокировка журнала</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>true</UseStandardCommands>
+			<EditType>InDialog</EditType>
+			<DefaultRecordForm/>
+			<DefaultListForm/>
+			<AuxiliaryRecordForm/>
+			<AuxiliaryListForm/>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+			<MainFilterOnPeriod>false</MainFilterOnPeriod>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<DataLockControlMode>Managed</DataLockControlMode>
+			<FullTextSearch>DontUse</FullTextSearch>
+			<EnableTotalsSliceFirst>false</EnableTotalsSliceFirst>
+			<EnableTotalsSliceLast>false</EnableTotalsSliceLast>
+			<RecordPresentation/>
+			<ExtendedRecordPresentation/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<DataHistory>DontUse</DataHistory>
+			<UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>
+			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
+		</Properties>
+		<ChildObjects/>
+	</InformationRegister>
+</MetaDataObject>
