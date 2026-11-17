@@ -78,6 +78,7 @@
 			<CommonModule>ЕРП_Уведомления</CommonModule>
 			<CommonModule>ЕРП_ОбработкаОчередиУведомлений</CommonModule>
 			<CommonModule>ЕРП_ОтправкаПочты</CommonModule>
+			<CommonModule>ЕРП_УведомленияEmail</CommonModule>
 			<CommonModule>ЕРП_ЖурналУведомлений</CommonModule><CommonModule>ЕРП_ПривязкаTelegram</CommonModule><CommonModule>ЕРП_ИнтеграцияUBT</CommonModule>
 			<ScheduledJob>ЕРП_ПриемНоменклатурыИзPDM</ScheduledJob>
 			<ScheduledJob>ЕРП_ОтправкаУведомлений</ScheduledJob>
