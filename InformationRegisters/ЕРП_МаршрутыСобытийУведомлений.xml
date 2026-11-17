@@ -215,6 +215,23 @@
 					<DataHistory>DontUse</DataHistory>
 				</Properties>
 			</Resource>
+
+			<Resource uuid="d1000000-0000-4000-8000-000000000015">
+				<Properties>
+					<Name>ИдентификаторБота</Name>
+					<Synonym><v8:item><v8:lang>ru</v8:lang><v8:content>Идентификатор Telegram-бота</v8:content></v8:item></Synonym>
+					<Comment/>
+					<Type><v8:Type>v8:UUID</v8:Type></Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/><EditFormat/><ToolTip/>
+					<MarkNegatives>false</MarkNegatives><Mask/><MultiLine>false</MultiLine><ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/><MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue><FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking><ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/><ChoiceParameters/><QuickChoice>Auto</QuickChoice><CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/><LinkByType/><Indexing>DontIndex</Indexing><FullTextSearch>Use</FullTextSearch><DataHistory>DontUse</DataHistory>
+				</Properties>
+			</Resource>
 </ChildObjects>
 	</InformationRegister>
 </MetaDataObject>
