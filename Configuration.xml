@@ -77,6 +77,13 @@
 			<CommonModule>ЕРП_ЖурналИнтеграции</CommonModule>
 			<CommonModule>ЕРП_Уведомления</CommonModule>
 			<CommonModule>ЕРП_ОбработкаОчередиУведомлений</CommonModule>
+			<CommonModule>ЕРП_ЧтениеЛоговУведомлений</CommonModule>
+			<Catalog>ЕРП_МаскиЖурналов</Catalog>
+			<Catalog>ЕРП_ГруппыПолучателейУведомлений</Catalog>
+			<InformationRegister>ЕРП_ПозицииЧтенияЛогов</InformationRegister>
+			<InformationRegister>ЕРП_ОбработанныеЗаписиЛогов</InformationRegister>
+			<InformationRegister>ЕРП_НазначениеМасокГруппам</InformationRegister>
+			<InformationRegister>ЕРП_МаршрутыСобытийУведомлений</InformationRegister>
 			<CommonModule>ЕРП_ОтправкаПочты</CommonModule>
 			<CommonModule>ЕРП_УведомленияEmail</CommonModule>
 			<CommonModule>ЕРП_ЖурналУведомлений</CommonModule><CommonModule>ЕРП_ПривязкаTelegram</CommonModule><CommonModule>ЕРП_ИнтеграцияUBT</CommonModule>
