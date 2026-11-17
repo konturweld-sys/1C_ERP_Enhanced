@@ -22,7 +22,7 @@
 		<Table name="Список" id="1">
 			<Representation>List</Representation><CommandBarLocation>None</CommandBarLocation><DefaultItem>true</DefaultItem>
 			<UseAlternationRowColor>true</UseAlternationRowColor><InitialTreeView>ExpandTopLevel</InitialTreeView>
-			<EnableStartDrag>false</EnableStartDrag><DataPath>Список</DataPath><AutoRefresh>false</AutoRefresh><AutoRefreshPeriod>60</AutoRefreshPeriod>
+			<EnableStartDrag>false</EnableStartDrag><DataPath>Список</DataPath><AutoRefresh>true</AutoRefresh><AutoRefreshPeriod>60</AutoRefreshPeriod>
 			<RestoreCurrentRow>false</RestoreCurrentRow><ShowRoot>true</ShowRoot><AllowRootChoice>false</AllowRootChoice><UpdateOnDataChange>Auto</UpdateOnDataChange>
 			<ContextMenu name="СписокКонтекстноеМеню" id="2"/>
 			<AutoCommandBar name="СписокКоманднаяПанель" id="3"><Autofill>false</Autofill></AutoCommandBar>
