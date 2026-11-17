@@ -258,7 +258,7 @@
 					<DataHistory>DontUse</DataHistory>
 					<TypeReductionMode>TransformValues</TypeReductionMode>
 				</Properties>
-			</Dimension><Resource uuid="c4200000-0000-4000-8000-000000000025">
+			</Dimension><Resource uuid="c4200000-0000-4000-8000-000000000027">
 				<Properties>
 					<Name>ДатаМодификацииФайла</Name>
 					<Synonym><v8:item><v8:lang>ru</v8:lang><v8:content>Дата модификации файла</v8:content></v8:item></Synonym>
