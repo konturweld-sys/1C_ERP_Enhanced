@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<Title>
-		<v8:item>
-			<v8:lang>ru</v8:lang>
-			<v8:content>Запросы привязки Telegram</v8:content>
-		</v8:item>
-	</Title>
-	<Width>120</Width>
-	<Height>55</Height>
+	<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Запросы привязки Telegram</v8:content></v8:item></Title>
+	<Width>130</Width><Height>55</Height>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>true</Autofill>
 		<ChildItems>
@@ -18,111 +12,47 @@
 			</Button>
 		</ChildItems>
 	</AutoCommandBar>
-	<Events>
-		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
-	</Events>
+	<Events><Event name="OnCreateAtServer">ПриСозданииНаСервере</Event></Events>
 	<ChildItems>
 		<Table name="Список" id="1">
-			<Representation>List</Representation>
-			<CommandBarLocation>None</CommandBarLocation>
-			<DefaultItem>true</DefaultItem>
-			<UseAlternationRowColor>true</UseAlternationRowColor>
-			<InitialTreeView>ExpandTopLevel</InitialTreeView>
-			<EnableStartDrag>false</EnableStartDrag>
-			<DataPath>Список</DataPath>
-			<AutoRefresh>false</AutoRefresh>
-			<AutoRefreshPeriod>60</AutoRefreshPeriod>
-			<RestoreCurrentRow>false</RestoreCurrentRow>
-			<ShowRoot>true</ShowRoot>
-			<AllowRootChoice>false</AllowRootChoice>
-			<UpdateOnDataChange>Auto</UpdateOnDataChange>
+			<Representation>List</Representation><CommandBarLocation>None</CommandBarLocation><DefaultItem>true</DefaultItem>
+			<UseAlternationRowColor>true</UseAlternationRowColor><InitialTreeView>ExpandTopLevel</InitialTreeView>
+			<EnableStartDrag>false</EnableStartDrag><DataPath>Список</DataPath><AutoRefresh>false</AutoRefresh><AutoRefreshPeriod>60</AutoRefreshPeriod>
+			<RestoreCurrentRow>false</RestoreCurrentRow><ShowRoot>true</ShowRoot><AllowRootChoice>false</AllowRootChoice><UpdateOnDataChange>Auto</UpdateOnDataChange>
 			<ContextMenu name="СписокКонтекстноеМеню" id="2"/>
-			<AutoCommandBar name="СписокКоманднаяПанель" id="3">
-				<Autofill>false</Autofill>
-			</AutoCommandBar>
+			<AutoCommandBar name="СписокКоманднаяПанель" id="3"><Autofill>false</Autofill></AutoCommandBar>
 			<ExtendedTooltip name="СписокРасширеннаяПодсказка" id="4"/>
-			<Events>
-				<Event name="OnActivateRow">СписокПриАктивизацииСтроки</Event>
-			</Events>
+			<Events><Event name="OnActivateRow">СписокПриАктивизацииСтроки</Event></Events>
 			<ChildItems>
-				<InputField name="СписокСотрудник" id="20">
-					<DataPath>Список.Сотрудник</DataPath>
-					<ReadOnly>true</ReadOnly>
-					<DefaultItem>true</DefaultItem>
-					<Wrap>false</Wrap>
-					<ContextMenu name="СписокСотрудникКонтекстноеМеню" id="21"/>
-					<ExtendedTooltip name="СписокСотрудникРасширеннаяПодсказка" id="22"/>
-				</InputField>
-				<InputField name="СписокИдентификаторБота" id="23">
-					<DataPath>Список.ИдентификаторБота</DataPath>
-					<ReadOnly>true</ReadOnly>
-					<Wrap>false</Wrap>
-					<ContextMenu name="СписокИдентификаторБотаКонтекстноеМеню" id="24"/>
-					<ExtendedTooltip name="СписокИдентификаторБотаРасширеннаяПодсказка" id="25"/>
-				</InputField>
-				<InputField name="СписокДатаСоздания" id="26">
-					<DataPath>Список.ДатаСоздания</DataPath>
-					<ReadOnly>true</ReadOnly>
-					<Wrap>false</Wrap>
-					<ContextMenu name="СписокДатаСозданияКонтекстноеМеню" id="27"/>
-					<ExtendedTooltip name="СписокДатаСозданияРасширеннаяПодсказка" id="28"/>
-				</InputField>
-				<InputField name="СписокДатаИстечения" id="29">
-					<DataPath>Список.ДатаИстечения</DataPath>
-					<ReadOnly>true</ReadOnly>
-					<Wrap>false</Wrap>
-					<ContextMenu name="СписокДатаИстеченияКонтекстноеМеню" id="30"/>
-					<ExtendedTooltip name="СписокДатаИстеченияРасширеннаяПодсказка" id="31"/>
-				</InputField>
-				<InputField name="СписокСостояние" id="32">
-					<DataPath>Список.Состояние</DataPath>
-					<ReadOnly>true</ReadOnly>
-					<Wrap>false</Wrap>
-					<ContextMenu name="СписокСостояниеКонтекстноеМеню" id="33"/>
-					<ExtendedTooltip name="СписокСостояниеРасширеннаяПодсказка" id="34"/>
-				</InputField>
-				<InputField name="СписокChatID" id="35">
-					<DataPath>Список.ChatID</DataPath>
-					<ReadOnly>true</ReadOnly>
-					<Wrap>false</Wrap>
-					<ContextMenu name="СписокChatIDКонтекстноеМеню" id="36"/>
-					<ExtendedTooltip name="СписокChatIDРасширеннаяПодсказка" id="37"/>
-				</InputField>
+				<InputField name="СписокСотрудник" id="20"><DataPath>Список.Сотрудник</DataPath><ReadOnly>true</ReadOnly><DefaultItem>true</DefaultItem><Wrap>false</Wrap><ContextMenu name="СписокСотрудникКонтекстноеМеню" id="21"/><ExtendedTooltip name="СписокСотрудникРасширеннаяПодсказка" id="22"/></InputField>
+				<InputField name="СписокИдентификаторБота" id="23"><DataPath>Список.ИдентификаторБота</DataPath><ReadOnly>true</ReadOnly><Wrap>false</Wrap><ContextMenu name="СписокИдентификаторБотаКонтекстноеМеню" id="24"/><ExtendedTooltip name="СписокИдентификаторБотаРасширеннаяПодсказка" id="25"/></InputField>
+				<InputField name="СписокДатаСоздания" id="26"><DataPath>Список.ДатаСоздания</DataPath><ReadOnly>true</ReadOnly><Wrap>false</Wrap><ContextMenu name="СписокДатаСозданияКонтекстноеМеню" id="27"/><ExtendedTooltip name="СписокДатаСозданияРасширеннаяПодсказка" id="28"/></InputField>
+				<InputField name="СписокДатаИстечения" id="29"><DataPath>Список.ДатаИстечения</DataPath><ReadOnly>true</ReadOnly><Wrap>false</Wrap><ContextMenu name="СписокДатаИстеченияКонтекстноеМеню" id="30"/><ExtendedTooltip name="СписокДатаИстеченияРасширеннаяПодсказка" id="31"/></InputField>
+				<InputField name="СписокСостояние" id="32"><DataPath>Список.Состояние</DataPath><ReadOnly>true</ReadOnly><Wrap>false</Wrap><ContextMenu name="СписокСостояниеКонтекстноеМеню" id="33"/><ExtendedTooltip name="СписокСостояниеРасширеннаяПодсказка" id="34"/></InputField>
+				<InputField name="СписокChatID" id="35"><DataPath>Список.ChatID</DataPath><ReadOnly>true</ReadOnly><Wrap>false</Wrap><ContextMenu name="СписокChatIDКонтекстноеМеню" id="36"/><ExtendedTooltip name="СписокChatIDРасширеннаяПодсказка" id="37"/></InputField>
+				<InputField name="СписокUpdateID" id="38"><DataPath>Список.UpdateID</DataPath><ReadOnly>true</ReadOnly><Wrap>false</Wrap><Title><v8:item><v8:lang>ru</v8:lang><v8:content>Update ID</v8:content></v8:item></Title><ContextMenu name="СписокUpdateIDКонтекстноеМеню" id="39"/><ExtendedTooltip name="СписокUpdateIDРасширеннаяПодсказка" id="40"/></InputField>
 			</ChildItems>
 		</Table>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Список" id="1">
-			<Type>
-				<v8:Type>cfg:DynamicList</v8:Type>
-			</Type>
-			<MainAttribute>true</MainAttribute>
+			<Type><v8:Type>cfg:DynamicList</v8:Type></Type><MainAttribute>true</MainAttribute>
 			<Settings xsi:type="cfg:DynamicList">
-				<ManualQuery>true</ManualQuery>
-				<DynamicDataRead>true</DynamicDataRead>
+				<ManualQuery>true</ManualQuery><DynamicDataRead>true</DynamicDataRead>
 				<QueryText>ВЫБРАТЬ
 	Запросы.Сотрудник КАК Сотрудник,
 	Запросы.ИдентификаторБота КАК ИдентификаторБота,
 	Запросы.ДатаСоздания КАК ДатаСоздания,
 	Запросы.ДатаИстечения КАК ДатаИстечения,
 	Запросы.Состояние КАК Состояние,
-	Запросы.ChatID КАК ChatID
+	Запросы.ChatID КАК ChatID,
+	Запросы.UpdateID КАК UpdateID
 ИЗ
 	РегистрСведений.ЕРП_ЗапросыПривязкиTelegram КАК Запросы</QueryText>
-				<MainTable>InformationRegister.ЕРП_ЗапросыПривязкиTelegram</MainTable>
 				<ListSettings>
-					<dcsset:filter>
-						<dcsset:viewMode>Normal</dcsset:viewMode>
-						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
-					</dcsset:filter>
-					<dcsset:order>
-						<dcsset:viewMode>Normal</dcsset:viewMode>
-						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
-					</dcsset:order>
-					<dcsset:conditionalAppearance>
-						<dcsset:viewMode>Normal</dcsset:viewMode>
-						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
-					</dcsset:conditionalAppearance>
+					<dcsset:filter><dcsset:viewMode>Normal</dcsset:viewMode><dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID></dcsset:filter>
+					<dcsset:order><dcsset:viewMode>Normal</dcsset:viewMode><dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID></dcsset:order>
+					<dcsset:conditionalAppearance><dcsset:viewMode>Normal</dcsset:viewMode><dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID></dcsset:conditionalAppearance>
 					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
 					<dcsset:item><dcsset:field>Сотрудник</dcsset:field></dcsset:item>
 					<dcsset:item><dcsset:field>ИдентификаторБота</dcsset:field></dcsset:item>
@@ -130,21 +60,17 @@
 					<dcsset:item><dcsset:field>ДатаИстечения</dcsset:field></dcsset:item>
 					<dcsset:item><dcsset:field>Состояние</dcsset:field></dcsset:item>
 					<dcsset:item><dcsset:field>ChatID</dcsset:field></dcsset:item>
+					<dcsset:item><dcsset:field>UpdateID</dcsset:field></dcsset:item>
 				</ListSettings>
 			</Settings>
 		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="ПодтвердитьПривязку" id="1">
-			<Title>
-				<v8:item><v8:lang>ru</v8:lang><v8:content>Подтвердить привязку</v8:content></v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item><v8:lang>ru</v8:lang><v8:content>Подтвердить привязку Telegram для выбранного запроса в состоянии ПолученОтБота</v8:content></v8:item>
-			</ToolTip>
+			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Подтвердить привязку</v8:content></v8:item></Title>
+			<ToolTip><v8:item><v8:lang>ru</v8:lang><v8:content>Подтвердить привязку Telegram для выбранного запроса в состоянии ПолученОтБота</v8:content></v8:item></ToolTip>
 			<Picture><xr:Ref>StdPicture.Check</xr:Ref><xr:LoadTransparent>true</xr:LoadTransparent></Picture>
-			<Action>ПодтвердитьПривязку</Action>
-			<Representation>TextPicture</Representation>
+			<Action>ПодтвердитьПривязку</Action><Representation>TextPicture</Representation>
 		</Command>
 	</Commands>
 </Form>
