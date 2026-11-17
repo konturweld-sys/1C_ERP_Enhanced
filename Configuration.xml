@@ -69,6 +69,7 @@
 			<CommonPicture>Интеграция_ОбщаяКартинка1</CommonPicture>
 			<CommonPicture>Отправить_сообщение</CommonPicture>
 			<Role>Интеграция_ОсновнаяРоль</Role>
+			<Role>ЕРП_УправлениеДоставками</Role>
 			<CommonTemplate>PinkRabbitMQ</CommonTemplate>
 			<CommonModule>ЕРП_ПриемИнтеграции</CommonModule>
 			<CommonModule>ЕРП_ВалидацияКонтракта</CommonModule>
@@ -92,6 +93,7 @@
 			<Catalog>Сотрудники</Catalog>
 			<DataProcessor>ЕРП_НастройкаИнтеграцииRabbitMQ</DataProcessor>
 			<DataProcessor>ЕРП_НастройкаSMTP</DataProcessor>
+			<DataProcessor>ЕРП_РучнаяПроверкаДоставок</DataProcessor>
 			<InformationRegister>ЕРП_НастройкиИнтеграцииRabbitMQ</InformationRegister>
 			<InformationRegister>ЕРП_БлокировкаПриемаRabbitMQ</InformationRegister>
 			<InformationRegister>ЕРП_НастройкиУведомлений</InformationRegister>

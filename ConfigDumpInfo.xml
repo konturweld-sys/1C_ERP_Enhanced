@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
 	<ConfigVersions>
+		<Metadata name="Role.ЕРП_УправлениеДоставками" id="a1f0e7b2-6b55-4b0e-9d1c-6e2a8f4c71d3" configVersion="0000000000000000000000000000000000000000"><Metadata name="Role.ЕРП_УправлениеДоставками.Rights" id="a1f0e7b2-6b55-4b0e-9d1c-6e2a8f4c71d3.1" configVersion="0000000000000000000000000000000000000000"/></Metadata>
+		<Metadata name="DataProcessor.ЕРП_РучнаяПроверкаДоставок" id="a3f9d68e-1a2b-4d11-8f2c-3e7a5b9c1041" configVersion="0000000000000000000000000000000000000000"><Metadata name="DataProcessor.ЕРП_РучнаяПроверкаДоставок.Form.Форма" id="a3f9d68e-1a2b-4d11-8f2c-3e7a5b9c1046" configVersion="0000000000000000000000000000000000000000"><Metadata name="DataProcessor.ЕРП_РучнаяПроверкаДоставок.Form.Форма.Form" id="a3f9d68e-1a2b-4d11-8f2c-3e7a5b9c1046.0" configVersion="0000000000000000000000000000000000000000"/></Metadata></Metadata>
+		<Metadata name="CommonModule.ЕРП_ОбработкаОчередиУведомлений" id="b2000000-0000-4000-8000-000000000020" configVersion="0000000000000000000000000000000000000000"><Metadata name="CommonModule.ЕРП_ОбработкаОчередиУведомлений.Module" id="b2000000-0000-4000-8000-000000000020.0" configVersion="0000000000000000000000000000000000000000"/></Metadata>
 		<Metadata name="Catalog.Сотрудники" id="f0f279e2-4416-4234-9bbf-3c3ac3b263ca" configVersion="693d52b81d441f02105011ce1a877d76f58f58b4"/>
 		<Metadata name="CommonModule.ЕРП_ВалидацияКонтракта" id="7a4accc9-ddcb-495a-bcd4-9fdc05d32d91" configVersion="bafaee04dbd04e76f22e3581fd8cf08c5e42f8c2"/>
 		<Metadata name="CommonModule.ЕРП_ВалидацияКонтракта.Module" id="7a4accc9-ddcb-495a-bcd4-9fdc05d32d91.0" configVersion="6b5b49f3a11f807f26c95f091ac78e5df83a6ff0"/>
