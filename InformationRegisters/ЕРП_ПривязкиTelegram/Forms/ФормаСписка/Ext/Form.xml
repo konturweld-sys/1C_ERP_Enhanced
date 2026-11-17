@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Активные привязки Telegram</v8:content></v8:item></Title>
+	<Width>125</Width>
+	<Height>45</Height>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"><Autofill>true</Autofill></AutoCommandBar>
+	<ChildItems>
+		<Table name="Список" id="1">
+			<Representation>List</Representation>
+			<CommandBarLocation>None</CommandBarLocation>
+			<DefaultItem>true</DefaultItem>
+			<UseAlternationRowColor>true</UseAlternationRowColor>
+			<InitialTreeView>ExpandTopLevel</InitialTreeView>
+			<EnableStartDrag>false</EnableStartDrag>
+			<DataPath>Список</DataPath>
+			<AutoRefresh>true</AutoRefresh>
+			<AutoRefreshPeriod>60</AutoRefreshPeriod>
+			<RestoreCurrentRow>false</RestoreCurrentRow>
+			<ShowRoot>true</ShowRoot>
+			<AllowRootChoice>false</AllowRootChoice>
+			<UpdateOnDataChange>Auto</UpdateOnDataChange>
+			<ContextMenu name="СписокКонтекстноеМеню" id="2"/>
+			<AutoCommandBar name="СписокКоманднаяПанель" id="3"><Autofill>false</Autofill></AutoCommandBar>
+			<ExtendedTooltip name="СписокРасширеннаяПодсказка" id="4"/>
+			<ChildItems>
+				<InputField name="СписокСотрудник" id="20">
+					<DataPath>Список.Сотрудник</DataPath><ReadOnly>true</ReadOnly><DefaultItem>true</DefaultItem><Wrap>false</Wrap>
+					<ContextMenu name="СписокСотрудникКонтекстноеМеню" id="21"/><ExtendedTooltip name="СписокСотрудникРасширеннаяПодсказка" id="22"/>
+				</InputField>
+				<InputField name="СписокИдентификаторБота" id="23">
+					<DataPath>Список.ИдентификаторБота</DataPath><ReadOnly>true</ReadOnly><Wrap>false</Wrap>
+					<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Идентификатор бота</v8:content></v8:item></Title>
+					<ContextMenu name="СписокИдентификаторБотаКонтекстноеМеню" id="24"/><ExtendedTooltip name="СписокИдентификаторБотаРасширеннаяПодсказка" id="25"/>
+				</InputField>
+				<InputField name="СписокChatID" id="26">
+					<DataPath>Список.ChatID</DataPath><ReadOnly>true</ReadOnly><Wrap>false</Wrap>
+					<ContextMenu name="СписокChatIDКонтекстноеМеню" id="27"/><ExtendedTooltip name="СписокChatIDРасширеннаяПодсказка" id="28"/>
+				</InputField>
+				<InputField name="СписокДатаПривязки" id="29">
+					<DataPath>Список.ДатаПривязки</DataPath><ReadOnly>true</ReadOnly><Wrap>false</Wrap>
+					<ContextMenu name="СписокДатаПривязкиКонтекстноеМеню" id="30"/><ExtendedTooltip name="СписокДатаПривязкиРасширеннаяПодсказка" id="31"/>
+				</InputField>
+				<InputField name="СписокДатаИзменения" id="32">
+					<DataPath>Список.ДатаИзменения</DataPath><ReadOnly>true</ReadOnly><Wrap>false</Wrap>
+					<ContextMenu name="СписокДатаИзмененияКонтекстноеМеню" id="33"/><ExtendedTooltip name="СписокДатаИзмененияРасширеннаяПодсказка" id="34"/>
+				</InputField>
+				<InputField name="СписокСостояние" id="35">
+					<DataPath>Список.Состояние</DataPath><ReadOnly>true</ReadOnly><Wrap>false</Wrap>
+					<ContextMenu name="СписокСостояниеКонтекстноеМеню" id="36"/><ExtendedTooltip name="СписокСостояниеРасширеннаяПодсказка" id="37"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Список" id="1">
+			<Type><v8:Type>cfg:DynamicList</v8:Type></Type>
+			<MainAttribute>true</MainAttribute>
+			<Settings xsi:type="cfg:DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ
+	Привязки.Сотрудник КАК Сотрудник,
+	Привязки.ИдентификаторБота КАК ИдентификаторБота,
+	Привязки.ChatID КАК ChatID,
+	Привязки.ДатаПривязки КАК ДатаПривязки,
+	Привязки.ДатаИзменения КАК ДатаИзменения,
+	Привязки.Состояние КАК Состояние
+ИЗ
+	РегистрСведений.ЕРП_ПривязкиTelegram КАК Привязки
+ГДЕ
+	Привязки.Состояние = "Активна"</QueryText>
+				<ListSettings>
+					<dcsset:filter><dcsset:viewMode>Normal</dcsset:viewMode><dcsset:userSettingID>6bd3f0a1-bb6e-47f3-8c12-2d7e3c4a9f51</dcsset:userSettingID></dcsset:filter>
+					<dcsset:order><dcsset:viewMode>Normal</dcsset:viewMode><dcsset:userSettingID>0d9c8b7a-6f5e-4d3c-9b2a-1f0e8d7c6b54</dcsset:userSettingID></dcsset:order>
+					<dcsset:conditionalAppearance><dcsset:viewMode>Normal</dcsset:viewMode><dcsset:userSettingID>e1f2a3b4-c5d6-47e8-9f01-23456789abcd</dcsset:userSettingID></dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:item><dcsset:field>Сотрудник</dcsset:field></dcsset:item>
+					<dcsset:item><dcsset:field>ИдентификаторБота</dcsset:field></dcsset:item>
+					<dcsset:item><dcsset:field>ChatID</dcsset:field></dcsset:item>
+					<dcsset:item><dcsset:field>ДатаПривязки</dcsset:field></dcsset:item>
+					<dcsset:item><dcsset:field>ДатаИзменения</dcsset:field></dcsset:item>
+					<dcsset:item><dcsset:field>Состояние</dcsset:field></dcsset:item>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+	</Attributes>
+</Form>
