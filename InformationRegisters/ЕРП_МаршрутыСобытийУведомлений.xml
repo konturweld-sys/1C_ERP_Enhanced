@@ -156,7 +156,7 @@
 					<Name>АдресПолучателя</Name>
 					<Synonym><v8:item><v8:lang>ru</v8:lang><v8:content>Адрес получателя</v8:content></v8:item></Synonym>
 					<Comment/>
-					<Type><v8:Type>xs:string</v8:Type><v8:StringQualifiers><v8:Length>0</v8:Length><v8:AllowedLength>Variable</v8:AllowedLength></v8:StringQualifiers></Type>
+					<Type><v8:Type>xs:string</v8:Type><v8:StringQualifiers><v8:Length>250</v8:Length><v8:AllowedLength>Variable</v8:AllowedLength></v8:StringQualifiers></Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
 					<EditFormat/>
