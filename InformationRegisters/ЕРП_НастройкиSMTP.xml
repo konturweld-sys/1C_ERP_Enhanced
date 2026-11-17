@@ -234,7 +234,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 					<Indexing>DontIndex</Indexing>
 					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>Use</DataHistory>
+					<DataHistory>DontUse</DataHistory>
 				</Properties>
 			</Resource>
 			<Resource uuid="a2e03682-44be-4767-9323-16ea2066a121">
