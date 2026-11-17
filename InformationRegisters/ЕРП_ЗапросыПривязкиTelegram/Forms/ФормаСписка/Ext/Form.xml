@@ -10,6 +10,11 @@
 				<CommandName>Form.Command.ПодтвердитьПривязку</CommandName>
 				<ExtendedTooltip name="ФормаПодтвердитьПривязкуРасширеннаяПодсказка" id="102"/>
 			</Button>
+			<Button name="ФормаОтменитьЗапрос" id="103">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ОтменитьЗапрос</CommandName>
+				<ExtendedTooltip name="ФормаОтменитьЗапросРасширеннаяПодсказка" id="104"/>
+			</Button>
 		</ChildItems>
 	</AutoCommandBar>
 	<Events><Event name="OnCreateAtServer">ПриСозданииНаСервере</Event></Events>
@@ -71,6 +76,12 @@
 			<ToolTip><v8:item><v8:lang>ru</v8:lang><v8:content>Подтвердить привязку Telegram для выбранного запроса в состоянии ПолученОтБота</v8:content></v8:item></ToolTip>
 			<Picture><xr:Ref>StdPicture.Check</xr:Ref><xr:LoadTransparent>true</xr:LoadTransparent></Picture>
 			<Action>ПодтвердитьПривязку</Action><Representation>TextPicture</Representation>
+		</Command>
+		<Command name="ОтменитьЗапрос" id="2">
+			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Отменить запрос</v8:content></v8:item></Title>
+			<ToolTip><v8:item><v8:lang>ru</v8:lang><v8:content>Отменить выбранный запрос, который ещё не подтверждён</v8:content></v8:item></ToolTip>
+			<Picture><xr:Ref>StdPicture.Delete</xr:Ref><xr:LoadTransparent>true</xr:LoadTransparent></Picture>
+			<Action>ОтменитьЗапрос</Action><Representation>TextPicture</Representation>
 		</Command>
 	</Commands>
 </Form>
