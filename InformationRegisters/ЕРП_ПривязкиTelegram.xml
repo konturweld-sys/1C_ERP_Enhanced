@@ -60,7 +60,7 @@
 			<DataHistory>DontUse</DataHistory>
 			<UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
-		</Properties><ChildObjects><Dimension uuid="c7000000-0000-4000-8000-000000000025">
+		</Properties><ChildObjects><Resource uuid="c7000000-0000-4000-8000-000000000025">
 				<Properties>
 					<Name>Сотрудник</Name>
 					<Synonym>
@@ -100,7 +100,7 @@
 					<DataHistory>DontUse</DataHistory>
 					<TypeReductionMode>TransformValues</TypeReductionMode>
 				</Properties>
-			</Dimension><Resource uuid="c7000000-0000-4000-8000-000000000026">
+			</Resource><Dimension uuid="c7000000-0000-4000-8000-000000000026">
 				<Properties>
 					<Name>ИдентификаторБота</Name>
 					<Synonym>
@@ -136,7 +136,7 @@
 					<FullTextSearch>Use</FullTextSearch>
 					<DataHistory>DontUse</DataHistory>
 				</Properties>
-			</Resource><Resource uuid="c7000000-0000-4000-8000-000000000027">
+			</Dimension><Resource uuid="c7000000-0000-4000-8000-000000000027">
 				<Properties>
 					<Name>ChatID</Name>
 					<Synonym>
@@ -316,7 +316,7 @@
 					<FullTextSearch>Use</FullTextSearch>
 					<DataHistory>DontUse</DataHistory>
 				</Properties>
-			</Resource><Resource uuid="c7000000-0000-4000-8000-000000000032">
+			</Resource><Dimension uuid="c7000000-0000-4000-8000-000000000032">
 				<Properties>
 					<Name>ИдентификаторПривязки</Name>
 					<Synonym>
@@ -352,5 +352,45 @@
 					<FullTextSearch>Use</FullTextSearch>
 					<DataHistory>DontUse</DataHistory>
 				</Properties>
-			</Resource></ChildObjects></InformationRegister>
+			</Dimension><Dimension uuid="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2300">
+				<Properties>
+					<Name>ФизическоеЛицо</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Физическое лицо</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type><v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type></Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Master>false</Master>
+					<MainFilter>false</MainFilter>
+					<DenyIncompleteValues>false</DenyIncompleteValues>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>DontUse</DataHistory>
+					<TypeReductionMode>TransformValues</TypeReductionMode>
+				</Properties>
+			</Dimension><Resource uuid="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2301"><Properties><Name>ИдентификаторОперацииПереноса</Name><Synonym><v8:item><v8:lang>ru</v8:lang><v8:content>ИдентификаторОперацииПереноса</v8:content></v8:item></Synonym><Comment/><Type><v8:Type>v8:uuid</v8:Type></Type><PasswordMode>false</PasswordMode><Format/><EditFormat/><ToolTip/><MarkNegatives>false</MarkNegatives><Mask/><MultiLine>false</MultiLine><ExtendedEdit>false</ExtendedEdit><MinValue xsi:nil="true"/><MaxValue xsi:nil="true"/><FillFromFillingValue>false</FillFromFillingValue><FillValue xsi:nil="true"/><FillChecking>DontCheck</FillChecking><ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems><ChoiceParameterLinks/><ChoiceParameters/><QuickChoice>Auto</QuickChoice><CreateOnInput>Auto</CreateOnInput><ChoiceForm/><LinkByType/><ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput><Indexing>DontIndex</Indexing><FullTextSearch>Use</FullTextSearch><DataHistory>DontUse</DataHistory></Properties></Resource></ChildObjects></InformationRegister>
 </MetaDataObject>
