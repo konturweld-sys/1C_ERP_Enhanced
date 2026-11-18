@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses"
+    xmlns:v8="http://v8.1c.ru/8.1/data/core"
+    xmlns:xr="http://v8.1c.ru/8.3/xcf/readable"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    version="2.20">
+    <Role uuid="c7000000-0000-4000-8000-000000000132">
+        <Properties>
+            <Name>ЕРП_КадроваяОбработкаTelegram</Name>
+            <Synonym>
+                <v8:item>
+                    <v8:lang>ru</v8:lang>
+                    <v8:content>Кадровая обработка Telegram-привязок</v8:content>
+                </v8:item>
+            </Synonym>
+            <Comment>Роль-маркер без самостоятельных прав на объекты. Назначается только кадровым пользователям для запуска обработчика увольнений Telegram-привязок.</Comment>
+        </Properties>
+    </Role>
+</MetaDataObject>
