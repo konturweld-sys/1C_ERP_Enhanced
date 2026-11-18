@@ -34,10 +34,10 @@
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>События уведомлений</v8:content>
+					<v8:content>Архив истории Telegram-привязок</v8:content>
 				</v8:item>
 			</Synonym>
-			<Comment/>
+			<Comment>Исторический регистр прежней модели. Новые события Telegram-привязок и переносов записываются исключительно в ЕРП_ЖурналАудитаПривязокTelegram. Существующие записи сохраняются для совместимости и просмотра.</Comment>
 			<UseStandardCommands>true</UseStandardCommands>
 			<EditType>InDialog</EditType>
 			<DefaultRecordForm/>
