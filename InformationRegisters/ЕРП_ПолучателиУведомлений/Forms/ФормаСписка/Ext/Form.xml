@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Получатели уведомлений</v8:content></v8:item></Title>
+	<Width>125</Width>
+	<Height>38</Height>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"><Autofill>true</Autofill></AutoCommandBar>
+	<ChildItems>
+		<Table name="Список" id="1">
+			<Representation>List</Representation><CommandBarLocation>None</CommandBarLocation><DefaultItem>true</DefaultItem>
+			<UseAlternationRowColor>true</UseAlternationRowColor><InitialTreeView>ExpandTopLevel</InitialTreeView><EnableStartDrag>false</EnableStartDrag>
+			<DataPath>Список</DataPath><RestoreCurrentRow>false</RestoreCurrentRow><ShowRoot>true</ShowRoot><AllowRootChoice>false</AllowRootChoice>
+			<UpdateOnDataChange>Auto</UpdateOnDataChange><ContextMenu name="СписокКонтекстноеМеню" id="2"/>
+			<AutoCommandBar name="СписокКоманднаяПанель" id="3"><Autofill>true</Autofill></AutoCommandBar>
+			<ExtendedTooltip name="СписокРасширеннаяПодсказка" id="4"/>
+			<ChildItems>
+				<InputField name="СписокСотрудник" id="10"><DataPath>Список.Сотрудник</DataPath><ReadOnly>true</ReadOnly><Wrap>false</Wrap><ContextMenu name="СписокСотрудникКонтекстноеМеню" id="11"/><ExtendedTooltip name="СписокСотрудникРасширеннаяПодсказка" id="12"/></InputField>
+				<InputField name="СписокВключен" id="13"><DataPath>Список.Включен</DataPath><ReadOnly>true</ReadOnly><Wrap>false</Wrap><ContextMenu name="СписокВключенКонтекстноеМеню" id="14"/><ExtendedTooltip name="СписокВключенРасширеннаяПодсказка" id="15"/></InputField>
+				<InputField name="СписокEmailВключен" id="16"><DataPath>Список.EmailВключен</DataPath><ReadOnly>true</ReadOnly><Wrap>false</Wrap><ContextMenu name="СписокEmailВключенКонтекстноеМеню" id="17"/><ExtendedTooltip name="СписокEmailВключенРасширеннаяПодсказка" id="18"/></InputField>
+				<InputField name="СписокTelegramВключен" id="19"><DataPath>Список.TelegramВключен</DataPath><ReadOnly>true</ReadOnly><Wrap>false</Wrap><ContextMenu name="СписокTelegramВключенКонтекстноеМеню" id="20"/><ExtendedTooltip name="СписокTelegramВключенРасширеннаяПодсказка" id="21"/></InputField>
+				<InputField name="СписокУведомлятьОбУспехе" id="22"><DataPath>Список.УведомлятьОбУспехе</DataPath><ReadOnly>true</ReadOnly><Wrap>false</Wrap><ContextMenu name="СписокУведомлятьОбУспехеКонтекстноеМеню" id="23"/><ExtendedTooltip name="СписокУведомлятьОбУспехеРасширеннаяПодсказка" id="24"/></InputField>
+				<InputField name="СписокУведомлятьОбОшибке" id="25"><DataPath>Список.УведомлятьОбОшибке</DataPath><ReadOnly>true</ReadOnly><Wrap>false</Wrap><ContextMenu name="СписокУведомлятьОбОшибкеКонтекстноеМеню" id="26"/><ExtendedTooltip name="СписокУведомлятьОбОшибкеРасширеннаяПодсказка" id="27"/></InputField>
+				<InputField name="СписокУведомлятьОСвязи" id="28"><DataPath>Список.УведомлятьОСвязи</DataPath><ReadOnly>true</ReadOnly><Wrap>false</Wrap><ContextMenu name="СписокУведомлятьОСвязиКонтекстноеМеню" id="29"/><ExtendedTooltip name="СписокУведомлятьОСвязиРасширеннаяПодсказка" id="30"/></InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Список" id="1"><Type><v8:Type>cfg:DynamicList</v8:Type></Type><MainAttribute>true</MainAttribute>
+			<Settings xsi:type="cfg:DynamicList"><ManualQuery>true</ManualQuery><DynamicDataRead>true</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ
+	Получатели.Сотрудник КАК Сотрудник,
+	Получатели.Включен КАК Включен,
+	Получатели.EmailВключен КАК EmailВключен,
+	Получатели.TelegramВключен КАК TelegramВключен,
+	Получатели.УведомлятьОбУспехе КАК УведомлятьОбУспехе,
+	Получатели.УведомлятьОбОшибке КАК УведомлятьОбОшибке,
+	Получатели.УведомлятьОСвязи КАК УведомлятьОСвязи
+ИЗ
+	РегистрСведений.ЕРП_ПолучателиУведомлений КАК Получатели</QueryText>
+				<ListSettings>
+					<dcsset:filter><dcsset:viewMode>Normal</dcsset:viewMode><dcsset:userSettingID>c4d91f30-8b62-4f17-a521-6e0d3c7b9143</dcsset:userSettingID></dcsset:filter>
+					<dcsset:order><dcsset:viewMode>Normal</dcsset:viewMode><dcsset:userSettingID>c4d91f30-8b62-4f17-a521-6e0d3c7b9144</dcsset:userSettingID></dcsset:order>
+					<dcsset:conditionalAppearance><dcsset:viewMode>Normal</dcsset:viewMode><dcsset:userSettingID>c4d91f30-8b62-4f17-a521-6e0d3c7b9145</dcsset:userSettingID></dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:item><dcsset:field>Сотрудник</dcsset:field></dcsset:item><dcsset:item><dcsset:field>Включен</dcsset:field></dcsset:item>
+					<dcsset:item><dcsset:field>EmailВключен</dcsset:field></dcsset:item><dcsset:item><dcsset:field>TelegramВключен</dcsset:field></dcsset:item>
+					<dcsset:item><dcsset:field>УведомлятьОбУспехе</dcsset:field></dcsset:item><dcsset:item><dcsset:field>УведомлятьОбОшибке</dcsset:field></dcsset:item>
+					<dcsset:item><dcsset:field>УведомлятьОСвязи</dcsset:field></dcsset:item>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+	</Attributes>
+</Form>

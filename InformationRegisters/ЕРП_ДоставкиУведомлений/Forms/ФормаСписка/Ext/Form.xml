@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Очередь доставки уведомлений</v8:content></v8:item></Title>
+	<Width>150</Width>
+	<Height>45</Height>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"><Autofill>true</Autofill></AutoCommandBar>
+	<ChildItems>
+		<Table name="Список" id="1">
+			<Representation>List</Representation>
+			<CommandBarLocation>None</CommandBarLocation>
+			<DefaultItem>true</DefaultItem>
+			<UseAlternationRowColor>true</UseAlternationRowColor>
+			<InitialTreeView>ExpandTopLevel</InitialTreeView>
+			<EnableStartDrag>false</EnableStartDrag>
+			<DataPath>Список</DataPath>
+			<AutoRefresh>true</AutoRefresh>
+			<AutoRefreshPeriod>60</AutoRefreshPeriod>
+			<RestoreCurrentRow>false</RestoreCurrentRow>
+			<ShowRoot>true</ShowRoot>
+			<AllowRootChoice>false</AllowRootChoice>
+			<UpdateOnDataChange>Auto</UpdateOnDataChange>
+			<ContextMenu name="СписокКонтекстноеМеню" id="2"/>
+			<AutoCommandBar name="СписокКоманднаяПанель" id="3"><Autofill>false</Autofill></AutoCommandBar>
+			<ExtendedTooltip name="СписокРасширеннаяПодсказка" id="4"/>
+			<ChildItems>
+				<InputField name="СписокКлючДоставки" id="20"><DataPath>Список.КлючДоставки</DataPath><ReadOnly>true</ReadOnly><Wrap>false</Wrap><ContextMenu name="СписокКлючДоставкиКонтекстноеМеню" id="21"/><ExtendedTooltip name="СписокКлючДоставкиРасширеннаяПодсказка" id="22"/></InputField>
+				<InputField name="СписокСотрудник" id="23"><DataPath>Список.Сотрудник</DataPath><ReadOnly>true</ReadOnly><Wrap>false</Wrap><ContextMenu name="СписокСотрудникКонтекстноеМеню" id="24"/><ExtendedTooltip name="СписокСотрудникРасширеннаяПодсказка" id="25"/></InputField>
+				<InputField name="СписокКанал" id="26"><DataPath>Список.Канал</DataPath><ReadOnly>true</ReadOnly><Wrap>false</Wrap><ContextMenu name="СписокКаналКонтекстноеМеню" id="27"/><ExtendedTooltip name="СписокКаналРасширеннаяПодсказка" id="28"/></InputField>
+				<InputField name="СписокАдресПолучателя" id="29"><DataPath>Список.АдресПолучателя</DataPath><ReadOnly>true</ReadOnly><Wrap>false</Wrap><ContextMenu name="СписокАдресПолучателяКонтекстноеМеню" id="30"/><ExtendedTooltip name="СписокАдресПолучателяРасширеннаяПодсказка" id="31"/></InputField>
+				<InputField name="СписокТема" id="32"><DataPath>Список.Тема</DataPath><ReadOnly>true</ReadOnly><Wrap>false</Wrap><ContextMenu name="СписокТемаКонтекстноеМеню" id="33"/><ExtendedTooltip name="СписокТемаРасширеннаяПодсказка" id="34"/></InputField>
+				<InputField name="СписокСостояние" id="35"><DataPath>Список.Состояние</DataPath><ReadOnly>true</ReadOnly><Wrap>false</Wrap><ContextMenu name="СписокСостояниеКонтекстноеМеню" id="36"/><ExtendedTooltip name="СписокСостояниеРасширеннаяПодсказка" id="37"/></InputField>
+				<InputField name="СписокКоличествоПопыток" id="38"><DataPath>Список.КоличествоПопыток</DataPath><ReadOnly>true</ReadOnly><Wrap>false</Wrap><ContextMenu name="СписокКоличествоПопытокКонтекстноеМеню" id="39"/><ExtendedTooltip name="СписокКоличествоПопытокРасширеннаяПодсказка" id="40"/></InputField>
+				<InputField name="СписокСледующаяПопытка" id="41"><DataPath>Список.СледующаяПопытка</DataPath><ReadOnly>true</ReadOnly><Wrap>false</Wrap><ContextMenu name="СписокСледующаяПопыткаКонтекстноеМеню" id="42"/><ExtendedTooltip name="СписокСледующаяПопыткаРасширеннаяПодсказка" id="43"/></InputField>
+				<InputField name="СписокДатаОтправки" id="44"><DataPath>Список.ДатаОтправки</DataPath><ReadOnly>true</ReadOnly><Wrap>false</Wrap><ContextMenu name="СписокДатаОтправкиКонтекстноеМеню" id="45"/><ExtendedTooltip name="СписокДатаОтправкиРасширеннаяПодсказка" id="46"/></InputField>
+				<InputField name="СписокПоследняяОшибка" id="47"><DataPath>Список.ПоследняяОшибка</DataPath><ReadOnly>true</ReadOnly><Wrap>false</Wrap><ContextMenu name="СписокПоследняяОшибкаКонтекстноеМеню" id="48"/><ExtendedTooltip name="СписокПоследняяОшибкаРасширеннаяПодсказка" id="49"/></InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Список" id="1">
+			<Type><v8:Type>cfg:DynamicList</v8:Type></Type>
+			<MainAttribute>true</MainAttribute>
+			<Settings xsi:type="cfg:DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ
+	Доставки.КлючДоставки КАК КлючДоставки,
+	Доставки.Сотрудник КАК Сотрудник,
+	Доставки.Канал КАК Канал,
+	Доставки.АдресПолучателя КАК АдресПолучателя,
+	Доставки.Тема КАК Тема,
+	Доставки.Состояние КАК Состояние,
+	Доставки.КоличествоПопыток КАК КоличествоПопыток,
+	Доставки.СледующаяПопытка КАК СледующаяПопытка,
+	Доставки.ДатаОтправки КАК ДатаОтправки,
+	Доставки.ПоследняяОшибка КАК ПоследняяОшибка
+ИЗ
+	РегистрСведений.ЕРП_ДоставкиУведомлений КАК Доставки</QueryText>
+				<ListSettings>
+					<dcsset:filter><dcsset:viewMode>Normal</dcsset:viewMode><dcsset:userSettingID>ad1f3c70-8b42-4a91-ae31-7d5c6f204801</dcsset:userSettingID></dcsset:filter>
+					<dcsset:order><dcsset:viewMode>Normal</dcsset:viewMode><dcsset:userSettingID>ad1f3c70-8b42-4a91-ae31-7d5c6f204802</dcsset:userSettingID></dcsset:order>
+					<dcsset:conditionalAppearance><dcsset:viewMode>Normal</dcsset:viewMode><dcsset:userSettingID>ad1f3c70-8b42-4a91-ae31-7d5c6f204803</dcsset:userSettingID></dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:item><dcsset:field>КлючДоставки</dcsset:field></dcsset:item>
+					<dcsset:item><dcsset:field>Сотрудник</dcsset:field></dcsset:item>
+					<dcsset:item><dcsset:field>Канал</dcsset:field></dcsset:item>
+					<dcsset:item><dcsset:field>АдресПолучателя</dcsset:field></dcsset:item>
+					<dcsset:item><dcsset:field>Тема</dcsset:field></dcsset:item>
+					<dcsset:item><dcsset:field>Состояние</dcsset:field></dcsset:item>
+					<dcsset:item><dcsset:field>КоличествоПопыток</dcsset:field></dcsset:item>
+					<dcsset:item><dcsset:field>СледующаяПопытка</dcsset:field></dcsset:item>
+					<dcsset:item><dcsset:field>ДатаОтправки</dcsset:field></dcsset:item>
+					<dcsset:item><dcsset:field>ПоследняяОшибка</dcsset:field></dcsset:item>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+	</Attributes>
+</Form>

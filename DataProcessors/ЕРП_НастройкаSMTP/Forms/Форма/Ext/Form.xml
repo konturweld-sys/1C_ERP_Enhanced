@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Title>
+		<v8:item><v8:lang>ru</v8:lang><v8:content>Настройка почтовой учётной записи ERP/БСП</v8:content></v8:item>
+	</Title>
+	<Width>75</Width>
+	<Height>24</Height>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="ГруппаИнформация" id="1">
+			<Title>
+				<v8:item><v8:lang>ru</v8:lang><v8:content>Настройка электронной почты</v8:content></v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<ChildItems>
+				<LabelDecoration name="Заголовок" id="2">
+					<Title>
+						<v8:item><v8:lang>ru</v8:lang><v8:content>Параметры SMTP в этой обработке не настраиваются.</v8:content></v8:item>
+					</Title>
+				</LabelDecoration>
+				<LabelDecoration name="Описание" id="3">
+					<Title>
+						<v8:item><v8:lang>ru</v8:lang><v8:content>Отправка Email выполняется через штатную подсистему «Работа с почтовыми сообщениями» ERP/БСП. Сервер, порт, учётная запись, пароль и адрес отправителя должны быть настроены в штатной учётной записи электронной почты.</v8:content></v8:item>
+					</Title>
+				</LabelDecoration>
+				<LabelDecoration name="ПорядокДействий" id="4">
+					<Title>
+						<v8:item><v8:lang>ru</v8:lang><v8:content>Для настройки откройте штатный раздел администрирования ERP и перейдите к настройкам почты / учётных записей электронной почты. Название и расположение команды зависят от используемого релиза ERP и БСП.</v8:content></v8:item>
+					</Title>
+				</LabelDecoration>
+				<LabelDecoration name="Примечание" id="5">
+					<Title>
+						<v8:item><v8:lang>ru</v8:lang><v8:content>Не вводите SMTP-пароль в этой обработке: она не хранит и не передаёт параметры почтового сервера.</v8:content></v8:item>
+					</Title>
+				</LabelDecoration>
+			</ChildItems>
+		</UsualGroup>
+		<CommandBar name="КоманднаяПанель" id="6">
+			<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+			<ChildItems>
+				<Button name="ЗакрытьФорму" id="7">
+					<Type>CommandBarButton</Type>
+					<CommandName>Form.Command.ЗакрытьФорму</CommandName>
+					<Title>
+						<v8:item><v8:lang>ru</v8:lang><v8:content>Закрыть</v8:content></v8:item>
+					</Title>
+				</Button>
+			</ChildItems>
+		</CommandBar>
+	</ChildItems>
+	<Commands>
+		<Command name="ЗакрытьФорму" id="1">
+			<Title>
+				<v8:item><v8:lang>ru</v8:lang><v8:content>Закрыть</v8:content></v8:item>
+			</Title>
+			<Action>ЗакрытьФорму</Action>
+		</Command>
+	</Commands>
+</Form>
