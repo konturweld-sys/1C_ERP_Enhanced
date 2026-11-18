@@ -69,6 +69,7 @@
 			<Role>ЕРП_УправлениеДоставками</Role>
 			<Role>ЕРП_УправлениеПривязкамиTelegram</Role>
 			<Role>ЕРП_ФоноваяОбработкаУведомлений</Role>
+			<Role>ЕРП_КадроваяОбработкаTelegram</Role>
 			<Role>Интеграция_ОсновнаяРоль</Role>
 			<CommonModule>ОбновлениеИнформационнойБазыПереопределяемый</CommonModule>
 			<CommonModule>ЕРП_ВалидацияКонтракта</CommonModule>
