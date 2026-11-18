@@ -7,4 +7,12 @@
     <setForNewObjects>false</setForNewObjects>
     <setForAttributesByDefault>false</setForAttributesByDefault>
     <independentRightsOfChildObjects>false</independentRightsOfChildObjects>
+    <object>
+        <name>CommonModule.ЕРП_ПривязкаTelegram</name>
+        <right><name>Use</name><value>true</value></right>
+    </object>
+    <object>
+        <name>CommonModule.ЕРП_ЗаписьАудитаПривязокTelegram</name>
+        <right><name>Use</name><value>true</value></right>
+    </object>
 </Rights>
