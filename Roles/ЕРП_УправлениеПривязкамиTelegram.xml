@@ -3,8 +3,8 @@
 	<Role uuid="9b7e4d21-6a83-4c5f-9d12-7f3a8b6c5e41">
 		<Properties>
 			<Name>ЕРП_УправлениеПривязкамиTelegram</Name>
-			<Synonym><v8:item><v8:lang>ru</v8:lang><v8:content>Управление привязками Telegram</v8:content></v8:item></Synonym>
-			<Comment>Просмотр запросов Telegram-привязки и выполнение операции отклонения.</Comment>
+			<Synonym><v8:item><v8:lang>ru</v8:lang><v8:content>Администратор Telegram-привязок</v8:content></v8:item></Synonym>
+			<Comment>Полное администрирование Telegram-привязок: обработка запросов, контролируемые переносы, ручная деактивация и просмотр аудита. Все операции дополнительно проверяются на сервере.</Comment>
 		</Properties>
 	</Role>
 </MetaDataObject>

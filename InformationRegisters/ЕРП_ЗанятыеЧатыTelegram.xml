@@ -34,10 +34,10 @@
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>События уведомлений</v8:content>
+					<v8:content>Зарезервированные Telegram-чаты</v8:content>
 				</v8:item>
 			</Synonym>
-			<Comment/>
+			<Comment>Постоянное резервирование пары ИдентификаторБота + ChatID. Записи не удаляются при деактивации привязки; контролируемый перенос обновляет владельца и UUID привязки в существующей записи.</Comment>
 			<UseStandardCommands>true</UseStandardCommands>
 			<EditType>InDialog</EditType>
 			<DefaultRecordForm/>
