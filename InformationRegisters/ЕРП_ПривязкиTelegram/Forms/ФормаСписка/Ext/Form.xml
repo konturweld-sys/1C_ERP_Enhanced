@@ -86,5 +86,5 @@
 			</Settings>
 		</Attribute>
 	</Attributes>
-	<Commands><Command name="ИнициироватьПеренос" id="1"><Title><v8:item><v8:lang>ru</v8:lang><v8:content>Инициировать перенос Telegram</v8:content></v8:item></Title><ToolTip><v8:item><v8:lang>ru</v8:lang><v8:content>Создать одноразовый код для нового владельца выбранной активной привязки</v8:content></v8:item></ToolTip><Picture><xr:Ref>StdPicture.Move</xr:Ref><xr:LoadTransparent>true</xr:LoadTransparent></Picture><Action>ИнициироватьПеренос</Action><Representation>TextPicture</Representation></Command></Commands>
+	<Commands><Command name="ИнициироватьПеренос" id="1"><Title><v8:item><v8:lang>ru</v8:lang><v8:content>Инициировать перенос Telegram</v8:content></v8:item></Title><ToolTip><v8:item><v8:lang>ru</v8:lang><v8:content>Создать одноразовый код для нового владельца выбранной активной привязки</v8:content></v8:item></ToolTip><Picture/><Action>ИнициироватьПеренос</Action><Representation>TextPicture</Representation></Command></Commands>
 </Form>
