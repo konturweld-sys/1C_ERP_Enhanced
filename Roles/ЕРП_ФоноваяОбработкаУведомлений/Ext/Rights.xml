@@ -16,7 +16,7 @@
   <object><name>Catalog.ЕРП_МаскиЖурналов</name><right><name>Read</name><value>true</value></right></object>
   <object><name>Catalog.Сотрудники</name><right><name>Read</name><value>true</value></right></object>
   <object><name>Catalog.Пользователи</name><right><name>Read</name><value>true</value></right></object>
-  <object><name>Catalog.ЕРП_ГруппыПолучателей</name><right><name>Read</name><value>true</value></right></object>
+  <object><name>Catalog.ЕРП_ГруппыПолучателейУведомлений</name><right><name>Read</name><value>true</value></right></object>
   <object><name>CommonModule.ЕРП_ОбработкаОчередиУведомлений</name><right><name>Use</name><value>true</value></right></object>
   <object><name>CommonModule.ЕРП_Уведомления</name><right><name>Use</name><value>true</value></right></object>
   <object><name>CommonModule.ЕРП_ЧтениеЛоговУведомлений</name><right><name>Use</name><value>true</value></right></object>
