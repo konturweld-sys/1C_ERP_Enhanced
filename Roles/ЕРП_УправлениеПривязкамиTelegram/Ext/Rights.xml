@@ -11,4 +11,4 @@
 	<object><name>Catalog.Пользователи</name><right><name>Read</name><value>true</value></right><right><name>View</name><value>true</value></right></object>
 	<object><name>InformationRegister.ЕРП_ЖурналАудитаПривязокTelegram</name><right><name>Read</name><value>true</value></right><right><name>Update</name><value>false</value></right><right><name>View</name><value>true</value></right><right><name>Edit</name><value>false</value></right></object>
 	<object><name>CommonModule.ЕРП_ЗаписьАудитаПривязокTelegram</name><right><name>Use</name><value>true</value></right></object>
-<object><name>Catalog.ФизическиеЛица</name><right><name>Read</name><value>true</value></right><right><name>View</name><value>true</value></right></object></Rights>
+<object><name>Catalog.ФизическиеЛица</name><right><name>Read</name><value>true</value></right><right><name>View</name><value>true</value></right></object><object><name>InformationRegister.ЕРП_ПривязкиTelegramСтарыйФормат</name><right><name>Read</name><value>true</value></right></object></Rights>
