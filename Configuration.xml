@@ -113,6 +113,7 @@
 			<DataProcessor>ЕРП_НастройкаSMTP</DataProcessor>
 			<DataProcessor>ЕРП_РучнаяПроверкаДоставок</DataProcessor>
 			<ScheduledJob>ЕРП_ОтправкаУведомлений</ScheduledJob>
+			<ScheduledJob>ЕРП_ОчисткаИсторииУведомлений</ScheduledJob>
 			<ScheduledJob>ЕРП_ПриемНоменклатурыИзPDM</ScheduledJob>
 			<CommonPicture>Интеграция_ОбщаяКартинка1</CommonPicture>
 			<CommonPicture>Отправить_сообщение</CommonPicture>
