@@ -66,45 +66,53 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>Администрирование</Subsystem>
-			<CommonPicture>Интеграция_ОбщаяКартинка1</CommonPicture>
-			<CommonPicture>Отправить_сообщение</CommonPicture>
-			<Role>Интеграция_ОсновнаяРоль</Role>
 			<Role>ЕРП_УправлениеДоставками</Role>
-			<CommonTemplate>PinkRabbitMQ</CommonTemplate>
-			<CommonModule>ЕРП_ПриемИнтеграции</CommonModule>
+			<Role>ЕРП_УправлениеПривязкамиTelegram</Role>
+			<Role>Интеграция_ОсновнаяРоль</Role>
 			<CommonModule>ЕРП_ВалидацияКонтракта</CommonModule>
-			<CommonModule>ЕРП_ИнтеграцияRabbitMQ</CommonModule>
-			<CommonModule>ЕРП_СопоставлениеНоменклатуры</CommonModule>
 			<CommonModule>ЕРП_ЖурналИнтеграции</CommonModule>
-			<CommonModule>ЕРП_Уведомления</CommonModule>
+			<CommonModule>ЕРП_ЖурналУведомлений</CommonModule>
+			<CommonModule>ЕРП_ИнтеграцияRabbitMQ</CommonModule>
+			<CommonModule>ЕРП_ИнтеграцияUBT</CommonModule>
 			<CommonModule>ЕРП_ОбработкаОчередиУведомлений</CommonModule>
-			<CommonModule>ЕРП_ЧтениеЛоговУведомлений</CommonModule>
-			<Catalog>ЕРП_МаскиЖурналов</Catalog>
-			<Catalog>ЕРП_ГруппыПолучателейУведомлений</Catalog>
-			<InformationRegister>ЕРП_ПозицииЧтенияЛогов</InformationRegister>
-			<InformationRegister>ЕРП_ОбработанныеЗаписиЛогов</InformationRegister>
-			<InformationRegister>ЕРП_НазначениеМасокГруппам</InformationRegister>
-			<InformationRegister>ЕРП_МаршрутыСобытийУведомлений</InformationRegister>
 			<CommonModule>ЕРП_ОтправкаПочты</CommonModule>
+			<CommonModule>ЕРП_ПривязкаTelegram</CommonModule>
+			<CommonModule>ЕРП_ПриемИнтеграции</CommonModule>
+			<CommonModule>ЕРП_СопоставлениеНоменклатуры</CommonModule>
+			<CommonModule>ЕРП_Уведомления</CommonModule>
 			<CommonModule>ЕРП_УведомленияEmail</CommonModule>
-			<CommonModule>ЕРП_ЖурналУведомлений</CommonModule><CommonModule>ЕРП_ПривязкаTelegram</CommonModule><CommonModule>ЕРП_ИнтеграцияUBT</CommonModule>
-			<ScheduledJob>ЕРП_ПриемНоменклатурыИзPDM</ScheduledJob>
-			<ScheduledJob>ЕРП_ОтправкаУведомлений</ScheduledJob>
+			<CommonModule>ЕРП_ЧтениеЛоговУведомлений</CommonModule>
+			<Catalog>ЕРП_ГруппыПолучателейУведомлений</Catalog>
+			<Catalog>ЕРП_МаскиЖурналов</Catalog>
 			<Catalog>Сотрудники</Catalog>
+			<Enum>ЕРП_ОперацииПривязкиTelegram</Enum>
+			<InformationRegister>ЕРП_БлокировкаЖурнала</InformationRegister>
+			<InformationRegister>ЕРП_БлокировкаПриемаRabbitMQ</InformationRegister>
+			<InformationRegister>ЕРП_ДоставкиУведомлений</InformationRegister>
+			<InformationRegister>ЕРП_ЗанятыеЧатыTelegram</InformationRegister>
+			<InformationRegister>ЕРП_ЗапросыПривязкиTelegram</InformationRegister>
+			<InformationRegister>ЕРП_ИсторияДоставкиУведомлений</InformationRegister>
+			<InformationRegister>ЕРП_ИсторияПривязокTelegram</InformationRegister>
+			<InformationRegister>ЕРП_МаршрутыСобытийУведомлений</InformationRegister>
+			<InformationRegister>ЕРП_НазначениеМасокГруппам</InformationRegister>
+			<InformationRegister>ЕРП_НастройкиИнтеграцииRabbitMQ</InformationRegister>
+			<InformationRegister>ЕРП_НастройкиУведомлений</InformationRegister>
+			<InformationRegister>ЕРП_НастройкиSMTP</InformationRegister>
+			<InformationRegister>ЕРП_ОбработанныеЗаписиЛогов</InformationRegister>
+			<InformationRegister>ЕРП_ПовторыСозданияНоменклатуры</InformationRegister>
+			<InformationRegister>ЕРП_ПозицииЧтенияЛогов</InformationRegister>
+			<InformationRegister>ЕРП_ПолучателиУведомлений</InformationRegister>
+			<InformationRegister>ЕРП_ПривязкиTelegram</InformationRegister>
+			<InformationRegister>ЕРП_СобытияУведомлений</InformationRegister>
+			<InformationRegister>ЕРП_СостояниеСвязиRabbitMQ</InformationRegister>
 			<DataProcessor>ЕРП_НастройкаИнтеграцииRabbitMQ</DataProcessor>
 			<DataProcessor>ЕРП_НастройкаSMTP</DataProcessor>
 			<DataProcessor>ЕРП_РучнаяПроверкаДоставок</DataProcessor>
-			<InformationRegister>ЕРП_НастройкиИнтеграцииRabbitMQ</InformationRegister>
-			<InformationRegister>ЕРП_БлокировкаПриемаRabbitMQ</InformationRegister>
-			<InformationRegister>ЕРП_НастройкиУведомлений</InformationRegister>
-			<InformationRegister>ЕРП_ПолучателиУведомлений</InformationRegister>
-			<InformationRegister>ЕРП_СобытияУведомлений</InformationRegister>
-			<InformationRegister>ЕРП_ДоставкиУведомлений</InformationRegister>
-			<InformationRegister>ЕРП_ИсторияДоставкиУведомлений</InformationRegister>
-			<InformationRegister>ЕРП_ПовторыСозданияНоменклатуры</InformationRegister>
-			<InformationRegister>ЕРП_СостояниеСвязиRabbitMQ</InformationRegister>
-			<InformationRegister>ЕРП_НастройкиSMTP</InformationRegister>
-			<InformationRegister>ЕРП_БлокировкаЖурнала</InformationRegister><InformationRegister>ЕРП_ЗапросыПривязкиTelegram</InformationRegister><InformationRegister>ЕРП_ПривязкиTelegram</InformationRegister><InformationRegister>ЕРП_ИсторияПривязокTelegram</InformationRegister><InformationRegister>ЕРП_ЗанятыеЧатыTelegram</InformationRegister><Enum>ЕРП_ОперацииПривязкиTelegram</Enum>
+			<ScheduledJob>ЕРП_ОтправкаУведомлений</ScheduledJob>
+			<ScheduledJob>ЕРП_ПриемНоменклатурыИзPDM</ScheduledJob>
+			<CommonPicture>Интеграция_ОбщаяКартинка1</CommonPicture>
+			<CommonPicture>Отправить_сообщение</CommonPicture>
+			<CommonTemplate>PinkRabbitMQ</CommonTemplate>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
