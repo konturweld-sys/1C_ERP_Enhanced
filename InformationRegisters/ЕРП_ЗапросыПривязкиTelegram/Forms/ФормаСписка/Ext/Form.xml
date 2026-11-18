@@ -77,6 +77,21 @@
 								</dcscor:item>
 							</dcsset:appearance>
 						</dcsset:item>
+						<dcsset:item>
+							<dcsset:filter>
+								<dcsset:item xsi:type="dcsset:FilterItemComparison">
+									<dcsset:left xsi:type="dcscor:Field">Состояние</dcsset:left>
+									<dcsset:comparisonType>Equal</dcsset:comparisonType>
+									<dcsset:right xsi:type="xs:string">ОжидаетРазрешения</dcsset:right>
+								</dcsset:item>
+							</dcsset:filter>
+							<dcsset:appearance>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>ЦветФона</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Color">web:LightGreen</dcscor:value>
+								</dcscor:item>
+							</dcsset:appearance>
+						</dcsset:item>
 						<dcsset:viewMode>Normal</dcsset:viewMode>
 						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
 					</dcsset:conditionalAppearance>
@@ -95,7 +110,7 @@
 	<Commands>
 		<Command name="ПодтвердитьПривязку" id="1">
 			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Подтвердить привязку или перенос</v8:content></v8:item></Title>
-			<ToolTip><v8:item><v8:lang>ru</v8:lang><v8:content>Подтвердить привязку либо контролируемый перенос Telegram для выбранного запроса в состоянии ПолученОтБота</v8:content></v8:item></ToolTip>
+			<ToolTip><v8:item><v8:lang>ru</v8:lang><v8:content>Подтвердить обычную привязку в состоянии ПолученОтБота либо завершить контролируемый перенос в состоянии ОжидаетРазрешения</v8:content></v8:item></ToolTip>
 			<Picture><xr:Ref>StdPicture.Check</xr:Ref><xr:LoadTransparent>true</xr:LoadTransparent></Picture>
 			<Action>ПодтвердитьПривязку</Action><Representation>TextPicture</Representation>
 		</Command>
