@@ -9,4 +9,4 @@
     <object><name>InformationRegister.ЕРП_ЖурналАудитаПривязокTelegram</name><right><name>Read</name><value>true</value></right><right><name>View</name><value>true</value></right></object>
     <object><name>Catalog.Сотрудники</name><right><name>Read</name><value>true</value></right><right><name>View</name><value>true</value></right></object>
     <object><name>Catalog.ФизическиеЛица</name><right><name>Read</name><value>true</value></right><right><name>View</name><value>true</value></right></object>
-</Rights>
+<object><name>InformationRegister.ЕРП_РезультатыСверкиПривязокTelegram</name><right><name>Read</name><value>true</value></right><right><name>View</name><value>true</value></right></object></Rights>
