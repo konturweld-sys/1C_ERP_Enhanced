@@ -25,4 +25,4 @@
   <object><name>CommonModule.ЕРП_ИнтеграцияUBT</name><right><name>Use</name><value>true</value></right></object>
   <object><name>CommonModule.ЕРП_ПривязкаTelegram</name><right><name>Use</name><value>true</value></right></object>
   <object><name>CommonModule.ЕРП_ЗаписьАудитаПривязокTelegram</name><right><name>Use</name><value>true</value></right></object>
-</Rights>
+<object><name>Catalog.ФизическиеЛица</name><right><name>Read</name><value>true</value></right><right><name>View</name><value>true</value></right></object></Rights>
