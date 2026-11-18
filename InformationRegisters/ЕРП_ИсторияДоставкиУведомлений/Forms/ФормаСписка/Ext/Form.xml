@@ -24,6 +24,7 @@
 			<ExtendedTooltip name="СписокРасширеннаяПодсказка" id="4"/>
 			<ChildItems>
 				<InputField name="СписокКлючДоставки" id="20"><DataPath>Список.КлючДоставки</DataPath><ReadOnly>true</ReadOnly><Wrap>false</Wrap><ContextMenu name="СписокКлючДоставкиКонтекстноеМеню" id="21"/><ExtendedTooltip name="СписокКлючДоставкиРасширеннаяПодсказка" id="22"/></InputField>
+				<InputField name="СписокИдентификаторЗаписи" id="35"><DataPath>Список.ИдентификаторЗаписи</DataPath><ReadOnly>true</ReadOnly><Wrap>false</Wrap><ContextMenu name="СписокИдентификаторЗаписиКонтекстноеМеню" id="36"/><ExtendedTooltip name="СписокИдентификаторЗаписиРасширеннаяПодсказка" id="37"/></InputField>
 				<InputField name="СписокНомерПопытки" id="23"><DataPath>Список.НомерПопытки</DataPath><ReadOnly>true</ReadOnly><Wrap>false</Wrap><ContextMenu name="СписокНомерПопыткиКонтекстноеМеню" id="24"/><ExtendedTooltip name="СписокНомерПопыткиРасширеннаяПодсказка" id="25"/></InputField>
 				<InputField name="СписокДатаПопытки" id="26"><DataPath>Список.ДатаПопытки</DataPath><ReadOnly>true</ReadOnly><Wrap>false</Wrap><ContextMenu name="СписокДатаПопыткиКонтекстноеМеню" id="27"/><ExtendedTooltip name="СписокДатаПопыткиРасширеннаяПодсказка" id="28"/></InputField>
 				<InputField name="СписокРезультат" id="29"><DataPath>Список.Результат</DataPath><ReadOnly>true</ReadOnly><Wrap>false</Wrap><ContextMenu name="СписокРезультатКонтекстноеМеню" id="30"/><ExtendedTooltip name="СписокРезультатРасширеннаяПодсказка" id="31"/></InputField>
@@ -40,6 +41,7 @@
 				<DynamicDataRead>true</DynamicDataRead>
 				<QueryText>ВЫБРАТЬ
 	История.КлючДоставки КАК КлючДоставки,
+	История.ИдентификаторЗаписи КАК ИдентификаторЗаписи,
 	История.НомерПопытки КАК НомерПопытки,
 	История.ДатаПопытки КАК ДатаПопытки,
 	История.Результат КАК Результат,
@@ -55,6 +57,7 @@
 					<dcsset:conditionalAppearance><dcsset:viewMode>Normal</dcsset:viewMode><dcsset:userSettingID>c2a7e5d1-9b43-4f68-a012-7d3e6c8b1062</dcsset:userSettingID></dcsset:conditionalAppearance>
 					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
 					<dcsset:item><dcsset:field>КлючДоставки</dcsset:field></dcsset:item>
+					<dcsset:item><dcsset:field>ИдентификаторЗаписи</dcsset:field></dcsset:item>
 					<dcsset:item><dcsset:field>НомерПопытки</dcsset:field></dcsset:item>
 					<dcsset:item><dcsset:field>ДатаПопытки</dcsset:field></dcsset:item>
 					<dcsset:item><dcsset:field>Результат</dcsset:field></dcsset:item>
