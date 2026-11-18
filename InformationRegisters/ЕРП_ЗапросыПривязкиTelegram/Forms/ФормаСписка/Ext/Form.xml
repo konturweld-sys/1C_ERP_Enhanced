@@ -35,6 +35,8 @@
 				<InputField name="СписокДатаИстечения" id="29"><DataPath>Список.ДатаИстечения</DataPath><ReadOnly>true</ReadOnly><Wrap>false</Wrap><ContextMenu name="СписокДатаИстеченияКонтекстноеМеню" id="30"/><ExtendedTooltip name="СписокДатаИстеченияРасширеннаяПодсказка" id="31"/></InputField>
 				<InputField name="СписокСостояние" id="32"><DataPath>Список.Состояние</DataPath><ReadOnly>true</ReadOnly><Wrap>false</Wrap><ContextMenu name="СписокСостояниеКонтекстноеМеню" id="33"/><ExtendedTooltip name="СписокСостояниеРасширеннаяПодсказка" id="34"/></InputField>
 				<InputField name="СписокChatID" id="35"><DataPath>Список.ChatID</DataPath><ReadOnly>true</ReadOnly><Wrap>false</Wrap><ContextMenu name="СписокChatIDКонтекстноеМеню" id="36"/><ExtendedTooltip name="СписокChatIDРасширеннаяПодсказка" id="37"/></InputField>
+				<InputField name="СписокИдентификаторОперацииПереноса" id="41"><DataPath>Список.ИдентификаторОперацииПереноса</DataPath><ReadOnly>true</ReadOnly><Wrap>false</Wrap><Title><v8:item><v8:lang>ru</v8:lang><v8:content>UUID операции переноса</v8:content></v8:item></Title><ContextMenu name="СписокИдентификаторОперацииПереносаКонтекстноеМеню" id="42"/><ExtendedTooltip name="СписокИдентификаторОперацииПереносаПодсказка" id="43"/></InputField>
+				<InputField name="СписокСтарыйИдентификаторПривязки" id="44"><DataPath>Список.СтарыйИдентификаторПривязки</DataPath><ReadOnly>true</ReadOnly><Wrap>false</Wrap><Title><v8:item><v8:lang>ru</v8:lang><v8:content>Исходная привязка UUID</v8:content></v8:item></Title><ContextMenu name="СписокСтарыйИдентификаторПривязкиКонтекстноеМеню" id="45"/><ExtendedTooltip name="СписокСтарыйИдентификаторПривязкиПодсказка" id="46"/></InputField>
 				<InputField name="СписокUpdateID" id="38"><DataPath>Список.UpdateID</DataPath><ReadOnly>true</ReadOnly><Wrap>false</Wrap><Title><v8:item><v8:lang>ru</v8:lang><v8:content>Update ID</v8:content></v8:item></Title><ContextMenu name="СписокUpdateIDКонтекстноеМеню" id="39"/><ExtendedTooltip name="СписокUpdateIDРасширеннаяПодсказка" id="40"/></InputField>
 			</ChildItems>
 		</Table>
@@ -51,7 +53,9 @@
 	Запросы.ДатаИстечения КАК ДатаИстечения,
 	Запросы.Состояние КАК Состояние,
 	Запросы.ChatID КАК ChatID,
-	Запросы.UpdateID КАК UpdateID
+	Запросы.UpdateID КАК UpdateID,
+	Запросы.ИдентификаторОперацииПереноса КАК ИдентификаторОперацииПереноса,
+	Запросы.СтарыйИдентификаторПривязки КАК СтарыйИдентификаторПривязки
 ИЗ
 	РегистрСведений.ЕРП_ЗапросыПривязкиTelegram КАК Запросы</QueryText>
 				<ListSettings>
@@ -83,15 +87,15 @@
 					<dcsset:item><dcsset:field>ДатаИстечения</dcsset:field></dcsset:item>
 					<dcsset:item><dcsset:field>Состояние</dcsset:field></dcsset:item>
 					<dcsset:item><dcsset:field>ChatID</dcsset:field></dcsset:item>
-					<dcsset:item><dcsset:field>UpdateID</dcsset:field></dcsset:item>
+					<dcsset:item><dcsset:field>UpdateID</dcsset:field></dcsset:item><dcsset:item><dcsset:field>ИдентификаторОперацииПереноса</dcsset:field></dcsset:item><dcsset:item><dcsset:field>СтарыйИдентификаторПривязки</dcsset:field></dcsset:item>
 				</ListSettings>
 			</Settings>
 		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="ПодтвердитьПривязку" id="1">
-			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Подтвердить привязку</v8:content></v8:item></Title>
-			<ToolTip><v8:item><v8:lang>ru</v8:lang><v8:content>Подтвердить привязку Telegram для выбранного запроса в состоянии ПолученОтБота</v8:content></v8:item></ToolTip>
+			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Подтвердить привязку или перенос</v8:content></v8:item></Title>
+			<ToolTip><v8:item><v8:lang>ru</v8:lang><v8:content>Подтвердить привязку либо контролируемый перенос Telegram для выбранного запроса в состоянии ПолученОтБота</v8:content></v8:item></ToolTip>
 			<Picture><xr:Ref>StdPicture.Check</xr:Ref><xr:LoadTransparent>true</xr:LoadTransparent></Picture>
 			<Action>ПодтвердитьПривязку</Action><Representation>TextPicture</Representation>
 		</Command>
