@@ -70,6 +70,7 @@
 			<Role>ЕРП_УправлениеПривязкамиTelegram</Role>
 			<Role>ЕРП_ФоноваяОбработкаУведомлений</Role>
 			<Role>Интеграция_ОсновнаяРоль</Role>
+			<CommonModule>ОбновлениеИнформационнойБазыПереопределяемый</CommonModule>
 			<CommonModule>ЕРП_ВалидацияКонтракта</CommonModule>
 			<CommonModule>ЕРП_ЖурналИнтеграции</CommonModule>
 			<CommonModule>ЕРП_ЖурналУведомлений</CommonModule>
