@@ -75,6 +75,7 @@
 			<CommonModule>ЕРП_ИнтеграцияRabbitMQ</CommonModule>
 			<CommonModule>ЕРП_ИнтеграцияUBT</CommonModule>
 			<CommonModule>ЕРП_ОбработкаОчередиУведомлений</CommonModule>
+			<CommonModule>ЕРП_ЗаписьРучныхРешенийДоставки</CommonModule>
 			<CommonModule>ЕРП_ОтправкаПочты</CommonModule>
 			<CommonModule>ЕРП_ПривязкаTelegram</CommonModule>
 			<CommonModule>ЕРП_ПриемИнтеграции</CommonModule>
