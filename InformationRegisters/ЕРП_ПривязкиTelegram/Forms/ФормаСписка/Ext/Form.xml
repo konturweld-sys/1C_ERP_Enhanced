@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Активные привязки Telegram</v8:content></v8:item></Title>
+	<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Telegram-привязки и история</v8:content></v8:item></Title>
 	<Width>125</Width>
 	<Height>45</Height>
-	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"><Autofill>true</Autofill><ChildItems><Button name="ФормаИнициироватьПеренос" id="101"><Type>CommandBarButton</Type><CommandName>Form.Command.ИнициироватьПеренос</CommandName><ExtendedTooltip name="ФормаИнициироватьПереносПодсказка" id="102"/></Button></ChildItems></AutoCommandBar>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"><Autofill>true</Autofill><ChildItems><Button name="ФормаИнициироватьПеренос" id="101"><Type>CommandBarButton</Type><CommandName>Form.Command.ИнициироватьПеренос</CommandName><ExtendedTooltip name="ФормаИнициироватьПереносПодсказка" id="102"/></Button><Button name="ФормаДеактивироватьПривязку" id="103"><Type>CommandBarButton</Type><CommandName>Form.Command.ДеактивироватьПривязку</CommandName><ExtendedTooltip name="ФормаДеактивироватьПривязкуПодсказка" id="104"/></Button></ChildItems></AutoCommandBar>
+	<Events><Event name="OnCreateAtServer">ПриСозданииНаСервере</Event></Events>
 	<ChildItems>
 		<Table name="Список" id="1">
 			<Representation>List</Representation>
@@ -54,7 +55,17 @@
 					<DataPath>Список.ДатаИзменения</DataPath><ReadOnly>true</ReadOnly><Wrap>false</Wrap>
 					<ContextMenu name="СписокДатаИзмененияКонтекстноеМеню" id="33"/><ExtendedTooltip name="СписокДатаИзмененияРасширеннаяПодсказка" id="34"/>
 				</InputField>
-				<InputField name="СписокСостояние" id="35">
+				<InputField name="СписокДатаДеактивации" id="44">
+                    <DataPath>Список.ДатаДеактивации</DataPath><ReadOnly>true</ReadOnly><Wrap>false</Wrap>
+                    <Title><v8:item><v8:lang>ru</v8:lang><v8:content>Дата деактивации</v8:content></v8:item></Title>
+                    <ContextMenu name="СписокДатаДеактивацииКонтекстноеМеню" id="45"/><ExtendedTooltip name="СписокДатаДеактивацииПодсказка" id="46"/>
+                </InputField>
+                <InputField name="СписокИдентификаторОперацииПереноса" id="47">
+                    <DataPath>Список.ИдентификаторОперацииПереноса</DataPath><ReadOnly>true</ReadOnly><Wrap>false</Wrap>
+                    <Title><v8:item><v8:lang>ru</v8:lang><v8:content>UUID операции переноса</v8:content></v8:item></Title>
+                    <ContextMenu name="СписокИдентификаторОперацииПереносаКонтекстноеМеню" id="48"/><ExtendedTooltip name="СписокИдентификаторОперацииПереносаПодсказка" id="49"/>
+                </InputField>
+                <InputField name="СписокСостояние" id="35">
 					<DataPath>Список.Состояние</DataPath><ReadOnly>true</ReadOnly><Wrap>false</Wrap>
 					<ContextMenu name="СписокСостояниеКонтекстноеМеню" id="36"/><ExtendedTooltip name="СписокСостояниеРасширеннаяПодсказка" id="37"/>
 				</InputField>
@@ -76,11 +87,11 @@
 	Привязки.ChatID КАК ChatID,
 	Привязки.ДатаПривязки КАК ДатаПривязки,
 	Привязки.ДатаИзменения КАК ДатаИзменения,
-	Привязки.Состояние КАК Состояние
+	Привязки.Состояние КАК Состояние,
+	Привязки.ДатаДеактивации КАК ДатаДеактивации,
+	Привязки.ИдентификаторОперацииПереноса КАК ИдентификаторОперацииПереноса
 ИЗ
-	РегистрСведений.ЕРП_ПривязкиTelegram КАК Привязки
-ГДЕ
-	Привязки.Состояние = "Активна"</QueryText>
+	РегистрСведений.ЕРП_ПривязкиTelegram КАК Привязки</QueryText>
 				<ListSettings>
 					<dcsset:filter><dcsset:viewMode>Normal</dcsset:viewMode><dcsset:userSettingID>6bd3f0a1-bb6e-47f3-8c12-2d7e3c4a9f51</dcsset:userSettingID></dcsset:filter>
 					<dcsset:order><dcsset:viewMode>Normal</dcsset:viewMode><dcsset:userSettingID>0d9c8b7a-6f5e-4d3c-9b2a-1f0e8d7c6b54</dcsset:userSettingID></dcsset:order>
@@ -91,10 +102,12 @@
 					<dcsset:item><dcsset:field>ChatID</dcsset:field></dcsset:item>
 					<dcsset:item><dcsset:field>ДатаПривязки</dcsset:field></dcsset:item>
 					<dcsset:item><dcsset:field>ДатаИзменения</dcsset:field></dcsset:item>
+                    <dcsset:item><dcsset:field>ДатаДеактивации</dcsset:field></dcsset:item>
+                    <dcsset:item><dcsset:field>ИдентификаторОперацииПереноса</dcsset:field></dcsset:item>
 					<dcsset:item><dcsset:field>Состояние</dcsset:field></dcsset:item>
 				</ListSettings>
 			</Settings>
 		</Attribute>
 	</Attributes>
-	<Commands><Command name="ИнициироватьПеренос" id="1"><Title><v8:item><v8:lang>ru</v8:lang><v8:content>Инициировать перенос Telegram</v8:content></v8:item></Title><ToolTip><v8:item><v8:lang>ru</v8:lang><v8:content>Создать одноразовый код для нового владельца выбранной активной привязки</v8:content></v8:item></ToolTip><Action>ИнициироватьПеренос</Action><Representation>Text</Representation></Command></Commands>
+	<Commands><Command name="ИнициироватьПеренос" id="1"><Title><v8:item><v8:lang>ru</v8:lang><v8:content>Инициировать перенос Telegram</v8:content></v8:item></Title><ToolTip><v8:item><v8:lang>ru</v8:lang><v8:content>Создать одноразовый код для нового владельца выбранной активной привязки</v8:content></v8:item></ToolTip><Action>ИнициироватьПеренос</Action><Representation>Text</Representation></Command><Command name="ДеактивироватьПривязку" id="2"><Title><v8:item><v8:lang>ru</v8:lang><v8:content>Деактивировать привязку</v8:content></v8:item></Title><ToolTip><v8:item><v8:lang>ru</v8:lang><v8:content>Деактивировать выбранную активную привязку с обязательной причиной; ChatID остаётся зарезервированным</v8:content></v8:item></ToolTip><Action>ДеактивироватьПривязку</Action><Representation>Text</Representation></Command></Commands>
 </Form>
