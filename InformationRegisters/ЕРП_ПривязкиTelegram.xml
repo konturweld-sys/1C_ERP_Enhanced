@@ -392,5 +392,41 @@
 					<FullTextSearch>Use</FullTextSearch>
 					<DataHistory>DontUse</DataHistory>
 				</Properties>
-			</Resource><Resource uuid="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2410"><Properties><Name>ИдентификаторОперацииПереноса</Name><Synonym><v8:item><v8:lang>ru</v8:lang><v8:content>ИдентификаторОперацииПереноса</v8:content></v8:item></Synonym><Comment/><Type><v8:Type>v8:uuid</v8:Type></Type><PasswordMode>false</PasswordMode><Format/><EditFormat/><ToolTip/><MarkNegatives>false</MarkNegatives><Mask/><MultiLine>false</MultiLine><ExtendedEdit>false</ExtendedEdit><MinValue xsi:nil="true"/><MaxValue xsi:nil="true"/><FillFromFillingValue>false</FillFromFillingValue><FillValue xsi:nil="true"/><FillChecking>DontCheck</FillChecking><ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems><ChoiceParameterLinks/><ChoiceParameters/><QuickChoice>Auto</QuickChoice><CreateOnInput>Auto</CreateOnInput><ChoiceForm/><LinkByType/><ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput><Indexing>DontIndex</Indexing><FullTextSearch>Use</FullTextSearch><DataHistory>DontUse</DataHistory></Properties></Resource></ChildObjects></InformationRegister>
+			</Resource><Resource uuid="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2410"><Properties><Name>ИдентификаторОперацииПереноса</Name><Synonym><v8:item><v8:lang>ru</v8:lang><v8:content>ИдентификаторОперацииПереноса</v8:content></v8:item></Synonym><Comment/><Type><v8:Type>v8:uuid</v8:Type></Type><PasswordMode>false</PasswordMode><Format/><EditFormat/><ToolTip/><MarkNegatives>false</MarkNegatives><Mask/><MultiLine>false</MultiLine><ExtendedEdit>false</ExtendedEdit><MinValue xsi:nil="true"/><MaxValue xsi:nil="true"/><FillFromFillingValue>false</FillFromFillingValue><FillValue xsi:nil="true"/><FillChecking>DontCheck</FillChecking><ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems><ChoiceParameterLinks/><ChoiceParameters/><QuickChoice>Auto</QuickChoice><CreateOnInput>Auto</CreateOnInput><ChoiceForm/><LinkByType/><ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput><Indexing>DontIndex</Indexing><FullTextSearch>Use</FullTextSearch><DataHistory>DontUse</DataHistory></Properties></Resource><Resource uuid="9c7e1b42-2f35-4b96-8e19-7a0f3c5d8b21">
+                <Properties>
+                    <Name>ДатаДеактивации</Name>
+                    <Synonym>
+                        <v8:item>
+                            <v8:lang>ru</v8:lang>
+                            <v8:content>Дата деактивации</v8:content>
+                        </v8:item>
+                    </Synonym>
+                    <Comment>Дата, с которой привязка перестаёт быть действующей. Для увольнения — начало даты кадрового события.</Comment>
+                    <Type><v8:Type>xs:dateTime</v8:Type><v8:DateQualifiers><v8:DateFractions>DateTime</v8:DateFractions></v8:DateQualifiers></Type>
+                    <PasswordMode>false</PasswordMode>
+                    <Format/>
+                    <EditFormat/>
+                    <ToolTip/>
+                    <MarkNegatives>false</MarkNegatives>
+                    <Mask/>
+                    <MultiLine>false</MultiLine>
+                    <ExtendedEdit>false</ExtendedEdit>
+                    <MinValue xsi:nil="true"/>
+                    <MaxValue xsi:nil="true"/>
+                    <FillFromFillingValue>false</FillFromFillingValue>
+                    <FillValue xsi:nil="true"/>
+                    <FillChecking>DontCheck</FillChecking>
+                    <ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+                    <ChoiceParameterLinks/>
+                    <ChoiceParameters/>
+                    <QuickChoice>Auto</QuickChoice>
+                    <CreateOnInput>Auto</CreateOnInput>
+                    <ChoiceForm/>
+                    <LinkByType/>
+                    <ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+                    <Indexing>DontIndex</Indexing>
+                    <FullTextSearch>Use</FullTextSearch>
+                    <DataHistory>DontUse</DataHistory>
+                </Properties>
+            </Resource></ChildObjects></InformationRegister>
 </MetaDataObject>
