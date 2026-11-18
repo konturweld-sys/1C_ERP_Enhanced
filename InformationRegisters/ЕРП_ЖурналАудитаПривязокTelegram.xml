@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
 	<InformationRegister uuid="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2001"><InternalInfo>
-			<xr:GeneratedType name="InformationRegisterRecord.ЕРП_ИсторияПривязокTelegram" category="Record">
-				<xr:TypeId>c7000000-0000-4000-8000-000000000057</xr:TypeId>
-				<xr:ValueId>c7000000-0000-4000-8000-000000000064</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterRecord.ЕРП_ЖурналАудитаПривязокTelegram" category="Record">
+				<xr:TypeId>e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2112</xr:TypeId>
+				<xr:ValueId>e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2119</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterManager.ЕРП_ИсторияПривязокTelegram" category="Manager">
-				<xr:TypeId>c7000000-0000-4000-8000-000000000058</xr:TypeId>
-				<xr:ValueId>c7000000-0000-4000-8000-000000000065</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterManager.ЕРП_ЖурналАудитаПривязокTelegram" category="Manager">
+				<xr:TypeId>e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2113</xr:TypeId>
+				<xr:ValueId>e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2120</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterSelection.ЕРП_ИсторияПривязокTelegram" category="Selection">
-				<xr:TypeId>c7000000-0000-4000-8000-000000000059</xr:TypeId>
-				<xr:ValueId>c7000000-0000-4000-8000-000000000066</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterSelection.ЕРП_ЖурналАудитаПривязокTelegram" category="Selection">
+				<xr:TypeId>e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2114</xr:TypeId>
+				<xr:ValueId>e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2121</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterList.ЕРП_ИсторияПривязокTelegram" category="List">
-				<xr:TypeId>c7000000-0000-4000-8000-000000000060</xr:TypeId>
-				<xr:ValueId>c7000000-0000-4000-8000-000000000067</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterList.ЕРП_ЖурналАудитаПривязокTelegram" category="List">
+				<xr:TypeId>e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2115</xr:TypeId>
+				<xr:ValueId>e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2122</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordSet.ЕРП_ИсторияПривязокTelegram" category="RecordSet">
-				<xr:TypeId>c7000000-0000-4000-8000-000000000061</xr:TypeId>
-				<xr:ValueId>c7000000-0000-4000-8000-000000000068</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ЕРП_ЖурналАудитаПривязокTelegram" category="RecordSet">
+				<xr:TypeId>e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2116</xr:TypeId>
+				<xr:ValueId>e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2123</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordKey.ЕРП_ИсторияПривязокTelegram" category="RecordKey">
-				<xr:TypeId>c7000000-0000-4000-8000-000000000062</xr:TypeId>
-				<xr:ValueId>c7000000-0000-4000-8000-000000000069</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ЕРП_ЖурналАудитаПривязокTelegram" category="RecordKey">
+				<xr:TypeId>e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2117</xr:TypeId>
+				<xr:ValueId>e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2124</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordManager.ЕРП_ИсторияПривязокTelegram" category="RecordManager">
-				<xr:TypeId>c7000000-0000-4000-8000-000000000063</xr:TypeId>
-				<xr:ValueId>c7000000-0000-4000-8000-000000000070</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ЕРП_ЖурналАудитаПривязокTelegram" category="RecordManager">
+				<xr:TypeId>e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2118</xr:TypeId>
+				<xr:ValueId>e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2125</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo><Properties>
 			<Name>ЕРП_ЖурналАудитаПривязокTelegram</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>События уведомлений</v8:content>
+					<v8:content>Журнал аудита привязок Telegram</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -60,13 +60,13 @@
 			<DataHistory>DontUse</DataHistory>
 			<UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
-		</Properties><ChildObjects><Dimension uuid="c7000000-0000-4000-8000-000000000048">
+		</Properties><ChildObjects><Dimension uuid="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2100">
 				<Properties>
 					<Name>ИдентификаторСобытия</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>ИдентификаторЗаписи</v8:content>
+							<v8:content>Идентификатор события аудита</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -100,7 +100,7 @@
 					<DataHistory>DontUse</DataHistory>
 					<TypeReductionMode>TransformValues</TypeReductionMode>
 				</Properties>
-			</Dimension><Resource uuid="c7000000-0000-4000-8000-000000000049">
+			</Dimension><Resource uuid="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2101">
 				<Properties>
 					<Name>Сотрудник</Name>
 					<Synonym>
@@ -136,7 +136,7 @@
 					<FullTextSearch>Use</FullTextSearch>
 					<DataHistory>DontUse</DataHistory>
 				</Properties>
-			</Resource><Resource uuid="c7000000-0000-4000-8000-000000000050">
+			</Resource><Resource uuid="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2102">
 				<Properties>
 					<Name>ИдентификаторБота</Name>
 					<Synonym>
@@ -172,7 +172,7 @@
 					<FullTextSearch>Use</FullTextSearch>
 					<DataHistory>DontUse</DataHistory>
 				</Properties>
-			</Resource><Resource uuid="c7000000-0000-4000-8000-000000000051">
+			</Resource><Resource uuid="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2103">
 				<Properties>
 					<Name>ChatID</Name>
 					<Synonym>
@@ -208,7 +208,7 @@
 					<FullTextSearch>Use</FullTextSearch>
 					<DataHistory>DontUse</DataHistory>
 				</Properties>
-			</Resource><Resource uuid="c7000000-0000-4000-8000-000000000052">
+			</Resource><Resource uuid="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2104">
 				<Properties>
 					<Name>ДатаСобытия</Name>
 					<Synonym>
@@ -244,7 +244,7 @@
 					<FullTextSearch>Use</FullTextSearch>
 					<DataHistory>DontUse</DataHistory>
 				</Properties>
-			</Resource><Resource uuid="c7000000-0000-4000-8000-000000000053">
+			</Resource><Resource uuid="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2105">
 				<Properties>
 					<Name>Операция</Name>
 					<Synonym>
@@ -280,7 +280,7 @@
 					<FullTextSearch>Use</FullTextSearch>
 					<DataHistory>DontUse</DataHistory>
 				</Properties>
-			</Resource><Resource uuid="c7000000-0000-4000-8000-000000000054">
+			</Resource><Resource uuid="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2106">
 				<Properties>
 					<Name>Причина</Name>
 					<Synonym>
@@ -316,7 +316,7 @@
 					<FullTextSearch>Use</FullTextSearch>
 					<DataHistory>DontUse</DataHistory>
 				</Properties>
-			</Resource><Resource uuid="c7000000-0000-4000-8000-000000000055">
+			</Resource><Resource uuid="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2107">
 				<Properties>
 					<Name>Инициатор</Name>
 					<Synonym>
@@ -352,7 +352,7 @@
 					<FullTextSearch>Use</FullTextSearch>
 					<DataHistory>DontUse</DataHistory>
 				</Properties>
-			</Resource><Resource uuid="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2002">
+			</Resource><Resource uuid="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2108">
 				<Properties>
 					<Name>ФизическоеЛицо</Name>
 					<Synonym>
@@ -388,7 +388,7 @@
 					<FullTextSearch>Use</FullTextSearch>
 					<DataHistory>DontUse</DataHistory>
 				</Properties>
-			</Resource><Resource uuid="e4a7c91d-6f2b-4d36-9f25-6d8b0e4a7103">
+			</Resource><Resource uuid="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2109">
 				<Properties>
 					<Name>ИдентификаторОперацииПереноса</Name>
 					<Synonym>
@@ -424,7 +424,7 @@
 					<FullTextSearch>Use</FullTextSearch>
 					<DataHistory>DontUse</DataHistory>
 				</Properties>
-			</Resource><Resource uuid="e4a7c91d-6f2b-4d36-9f25-6d8b0e4a7104">
+			</Resource><Resource uuid="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2110">
 				<Properties>
 					<Name>СтарыйИдентификаторПривязки</Name>
 					<Synonym>
@@ -460,7 +460,7 @@
 					<FullTextSearch>Use</FullTextSearch>
 					<DataHistory>DontUse</DataHistory>
 				</Properties>
-			</Resource><Resource uuid="e4a7c91d-6f2b-4d36-9f25-6d8b0e4a7105">
+			</Resource><Resource uuid="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2111">
 				<Properties>
 					<Name>НовыйИдентификаторПривязки</Name>
 					<Synonym>
