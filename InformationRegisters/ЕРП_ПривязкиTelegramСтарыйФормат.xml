@@ -34,10 +34,10 @@
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Привязки Telegram</v8:content>
+					<v8:content>Архив старых привязок Telegram</v8:content>
 				</v8:item>
 			</Synonym>
-			<Comment/>
+			<Comment>Архив исходных записей до перехода на модель ФизическоеЛицо + ИдентификаторБота + ИдентификаторПривязки. Не использовать для новых операций.</Comment>
 			<UseStandardCommands>true</UseStandardCommands>
 			<EditType>InDialog</EditType>
 			<DefaultRecordForm/>
