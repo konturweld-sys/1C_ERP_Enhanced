@@ -3,7 +3,7 @@
 	<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Активные привязки Telegram</v8:content></v8:item></Title>
 	<Width>125</Width>
 	<Height>45</Height>
-	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"><Autofill>true</Autofill></AutoCommandBar>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"><Autofill>true</Autofill><ChildItems><Button name="ФормаИнициироватьПеренос" id="101"><Type>CommandBarButton</Type><CommandName>Form.Command.ИнициироватьПеренос</CommandName><ExtendedTooltip name="ФормаИнициироватьПереносПодсказка" id="102"/></Button></ChildItems></AutoCommandBar>
 	<ChildItems>
 		<Table name="Список" id="1">
 			<Representation>List</Representation>
@@ -59,7 +59,9 @@
 				<ManualQuery>true</ManualQuery>
 				<DynamicDataRead>true</DynamicDataRead>
 				<QueryText>ВЫБРАТЬ
+	Привязки.ФизическоеЛицо КАК ФизическоеЛицо,
 	Привязки.Сотрудник КАК Сотрудник,
+	Привязки.ИдентификаторПривязки КАК ИдентификаторПривязки,
 	Привязки.ИдентификаторБота КАК ИдентификаторБота,
 	Привязки.ChatID КАК ChatID,
 	Привязки.ДатаПривязки КАК ДатаПривязки,
@@ -74,7 +76,7 @@
 					<dcsset:order><dcsset:viewMode>Normal</dcsset:viewMode><dcsset:userSettingID>0d9c8b7a-6f5e-4d3c-9b2a-1f0e8d7c6b54</dcsset:userSettingID></dcsset:order>
 					<dcsset:conditionalAppearance><dcsset:viewMode>Normal</dcsset:viewMode><dcsset:userSettingID>e1f2a3b4-c5d6-47e8-9f01-23456789abcd</dcsset:userSettingID></dcsset:conditionalAppearance>
 					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
-					<dcsset:item><dcsset:field>Сотрудник</dcsset:field></dcsset:item>
+					<dcsset:item><dcsset:field>ФизическоеЛицо</dcsset:field></dcsset:item><dcsset:item><dcsset:field>Сотрудник</dcsset:field></dcsset:item><dcsset:item><dcsset:field>ИдентификаторПривязки</dcsset:field></dcsset:item>
 					<dcsset:item><dcsset:field>ИдентификаторБота</dcsset:field></dcsset:item>
 					<dcsset:item><dcsset:field>ChatID</dcsset:field></dcsset:item>
 					<dcsset:item><dcsset:field>ДатаПривязки</dcsset:field></dcsset:item>
@@ -84,4 +86,5 @@
 			</Settings>
 		</Attribute>
 	</Attributes>
+	<Commands><Command name="ИнициироватьПеренос" id="1"><Title><v8:item><v8:lang>ru</v8:lang><v8:content>Инициировать перенос Telegram</v8:content></v8:item></Title><ToolTip><v8:item><v8:lang>ru</v8:lang><v8:content>Создать одноразовый код для нового владельца выбранной активной привязки</v8:content></v8:item></ToolTip><Picture><xr:Ref>StdPicture.Move</xr:Ref><xr:LoadTransparent>true</xr:LoadTransparent></Picture><Action>ИнициироватьПеренос</Action><Representation>TextPicture</Representation></Command></Commands>
 </Form>
