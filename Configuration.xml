@@ -116,6 +116,7 @@
 			<DataProcessor>ЕРП_РучнаяПроверкаДоставок</DataProcessor>
 			<ScheduledJob>ЕРП_ОтправкаУведомлений</ScheduledJob>
 			<ScheduledJob>ЕРП_СверкаПривязокTelegram</ScheduledJob>
+			<EventSubscription>ЕРП_ОбработкаКадровойИсторииTelegram</EventSubscription>
 			<ScheduledJob>ЕРП_ОчисткаИсторииУведомлений</ScheduledJob>
 			<ScheduledJob>ЕРП_ПриемНоменклатурыИзPDM</ScheduledJob>
 			<CommonPicture>Интеграция_ОбщаяКартинка1</CommonPicture>
