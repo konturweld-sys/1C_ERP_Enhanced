@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<InformationRegister uuid="c7000000-0000-4000-8000-000000000047"><InternalInfo>
+	<InformationRegister uuid="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2400"><InternalInfo>
 			<xr:GeneratedType name="InformationRegisterRecord.ЕРП_ПривязкиTelegram" category="Record">
-				<xr:TypeId>c7000000-0000-4000-8000-000000000033</xr:TypeId>
-				<xr:ValueId>c7000000-0000-4000-8000-000000000040</xr:ValueId>
+				<xr:TypeId>e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2411</xr:TypeId>
+				<xr:ValueId>e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2418</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterManager.ЕРП_ПривязкиTelegram" category="Manager">
-				<xr:TypeId>c7000000-0000-4000-8000-000000000034</xr:TypeId>
-				<xr:ValueId>c7000000-0000-4000-8000-000000000041</xr:ValueId>
+				<xr:TypeId>e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2412</xr:TypeId>
+				<xr:ValueId>e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2419</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterSelection.ЕРП_ПривязкиTelegram" category="Selection">
-				<xr:TypeId>c7000000-0000-4000-8000-000000000035</xr:TypeId>
-				<xr:ValueId>c7000000-0000-4000-8000-000000000042</xr:ValueId>
+				<xr:TypeId>e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2413</xr:TypeId>
+				<xr:ValueId>e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2420</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterList.ЕРП_ПривязкиTelegram" category="List">
-				<xr:TypeId>c7000000-0000-4000-8000-000000000036</xr:TypeId>
-				<xr:ValueId>c7000000-0000-4000-8000-000000000043</xr:ValueId>
+				<xr:TypeId>e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2414</xr:TypeId>
+				<xr:ValueId>e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2421</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterRecordSet.ЕРП_ПривязкиTelegram" category="RecordSet">
-				<xr:TypeId>c7000000-0000-4000-8000-000000000037</xr:TypeId>
-				<xr:ValueId>c7000000-0000-4000-8000-000000000044</xr:ValueId>
+				<xr:TypeId>e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2415</xr:TypeId>
+				<xr:ValueId>e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2422</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterRecordKey.ЕРП_ПривязкиTelegram" category="RecordKey">
-				<xr:TypeId>c7000000-0000-4000-8000-000000000038</xr:TypeId>
-				<xr:ValueId>c7000000-0000-4000-8000-000000000045</xr:ValueId>
+				<xr:TypeId>e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2416</xr:TypeId>
+				<xr:ValueId>e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2423</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterRecordManager.ЕРП_ПривязкиTelegram" category="RecordManager">
-				<xr:TypeId>c7000000-0000-4000-8000-000000000039</xr:TypeId>
-				<xr:ValueId>c7000000-0000-4000-8000-000000000046</xr:ValueId>
+				<xr:TypeId>e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2417</xr:TypeId>
+				<xr:ValueId>e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2424</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo><Properties>
 			<Name>ЕРП_ПривязкиTelegram</Name>
@@ -60,7 +60,7 @@
 			<DataHistory>DontUse</DataHistory>
 			<UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
-		</Properties><ChildObjects><Dimension uuid="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2300">
+		</Properties><ChildObjects><Dimension uuid="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2401">
 				<Properties>
 					<Name>ФизическоеЛицо</Name>
 					<Synonym>
@@ -100,7 +100,7 @@
 					<DataHistory>DontUse</DataHistory>
 					<TypeReductionMode>TransformValues</TypeReductionMode>
 				</Properties>
-			</Dimension><Dimension uuid="c7000000-0000-4000-8000-000000000026">
+			</Dimension><Dimension uuid="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2402">
 				<Properties>
 					<Name>ИдентификаторБота</Name>
 					<Synonym>
@@ -136,7 +136,7 @@
 					<FullTextSearch>Use</FullTextSearch>
 					<DataHistory>DontUse</DataHistory>
 				</Properties>
-			</Dimension><Dimension uuid="c7000000-0000-4000-8000-000000000032">
+			</Dimension><Dimension uuid="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2403">
 				<Properties>
 					<Name>ИдентификаторПривязки</Name>
 					<Synonym>
@@ -172,7 +172,7 @@
 					<FullTextSearch>Use</FullTextSearch>
 					<DataHistory>DontUse</DataHistory>
 				</Properties>
-			</Dimension><Resource uuid="c7000000-0000-4000-8000-000000000025">
+			</Dimension><Resource uuid="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2404">
 				<Properties>
 					<Name>Сотрудник</Name>
 					<Synonym>
@@ -212,7 +212,7 @@
 					<DataHistory>DontUse</DataHistory>
 					<TypeReductionMode>TransformValues</TypeReductionMode>
 				</Properties>
-			</Resource><Resource uuid="c7000000-0000-4000-8000-000000000027">
+			</Resource><Resource uuid="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2405">
 				<Properties>
 					<Name>ChatID</Name>
 					<Synonym>
@@ -248,7 +248,7 @@
 					<FullTextSearch>Use</FullTextSearch>
 					<DataHistory>DontUse</DataHistory>
 				</Properties>
-			</Resource><Resource uuid="c7000000-0000-4000-8000-000000000028">
+			</Resource><Resource uuid="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2406">
 				<Properties>
 					<Name>ДатаПривязки</Name>
 					<Synonym>
@@ -284,7 +284,7 @@
 					<FullTextSearch>Use</FullTextSearch>
 					<DataHistory>DontUse</DataHistory>
 				</Properties>
-			</Resource><Resource uuid="c7000000-0000-4000-8000-000000000029">
+			</Resource><Resource uuid="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2407">
 				<Properties>
 					<Name>Состояние</Name>
 					<Synonym>
@@ -320,7 +320,7 @@
 					<FullTextSearch>Use</FullTextSearch>
 					<DataHistory>DontUse</DataHistory>
 				</Properties>
-			</Resource><Resource uuid="c7000000-0000-4000-8000-000000000030">
+			</Resource><Resource uuid="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2408">
 				<Properties>
 					<Name>ДатаИзменения</Name>
 					<Synonym>
@@ -356,7 +356,7 @@
 					<FullTextSearch>Use</FullTextSearch>
 					<DataHistory>DontUse</DataHistory>
 				</Properties>
-			</Resource><Resource uuid="c7000000-0000-4000-8000-000000000031">
+			</Resource><Resource uuid="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2409">
 				<Properties>
 					<Name>ОснованиеЗапроса</Name>
 					<Synonym>
@@ -392,5 +392,5 @@
 					<FullTextSearch>Use</FullTextSearch>
 					<DataHistory>DontUse</DataHistory>
 				</Properties>
-			</Resource><Resource uuid="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2301"><Properties><Name>ИдентификаторОперацииПереноса</Name><Synonym><v8:item><v8:lang>ru</v8:lang><v8:content>ИдентификаторОперацииПереноса</v8:content></v8:item></Synonym><Comment/><Type><v8:Type>v8:uuid</v8:Type></Type><PasswordMode>false</PasswordMode><Format/><EditFormat/><ToolTip/><MarkNegatives>false</MarkNegatives><Mask/><MultiLine>false</MultiLine><ExtendedEdit>false</ExtendedEdit><MinValue xsi:nil="true"/><MaxValue xsi:nil="true"/><FillFromFillingValue>false</FillFromFillingValue><FillValue xsi:nil="true"/><FillChecking>DontCheck</FillChecking><ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems><ChoiceParameterLinks/><ChoiceParameters/><QuickChoice>Auto</QuickChoice><CreateOnInput>Auto</CreateOnInput><ChoiceForm/><LinkByType/><ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput><Indexing>DontIndex</Indexing><FullTextSearch>Use</FullTextSearch><DataHistory>DontUse</DataHistory></Properties></Resource></ChildObjects></InformationRegister>
+			</Resource><Resource uuid="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2410"><Properties><Name>ИдентификаторОперацииПереноса</Name><Synonym><v8:item><v8:lang>ru</v8:lang><v8:content>ИдентификаторОперацииПереноса</v8:content></v8:item></Synonym><Comment/><Type><v8:Type>v8:uuid</v8:Type></Type><PasswordMode>false</PasswordMode><Format/><EditFormat/><ToolTip/><MarkNegatives>false</MarkNegatives><Mask/><MultiLine>false</MultiLine><ExtendedEdit>false</ExtendedEdit><MinValue xsi:nil="true"/><MaxValue xsi:nil="true"/><FillFromFillingValue>false</FillFromFillingValue><FillValue xsi:nil="true"/><FillChecking>DontCheck</FillChecking><ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems><ChoiceParameterLinks/><ChoiceParameters/><QuickChoice>Auto</QuickChoice><CreateOnInput>Auto</CreateOnInput><ChoiceForm/><LinkByType/><ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput><Indexing>DontIndex</Indexing><FullTextSearch>Use</FullTextSearch><DataHistory>DontUse</DataHistory></Properties></Resource></ChildObjects></InformationRegister>
 </MetaDataObject>
