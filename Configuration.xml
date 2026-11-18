@@ -78,6 +78,7 @@
 			<CommonModule>ЕРП_ЗаписьРучныхРешенийДоставки</CommonModule>
 			<CommonModule>ЕРП_ОтправкаПочты</CommonModule>
 			<CommonModule>ЕРП_ПривязкаTelegram</CommonModule>
+			<CommonModule>ЕРП_ЗаписьАудитаПривязокTelegram</CommonModule>
 			<CommonModule>ЕРП_ПриемИнтеграции</CommonModule>
 			<CommonModule>ЕРП_СопоставлениеНоменклатуры</CommonModule>
 			<CommonModule>ЕРП_Уведомления</CommonModule>
@@ -94,6 +95,7 @@
 			<InformationRegister>ЕРП_ЗапросыПривязкиTelegram</InformationRegister>
 			<InformationRegister>ЕРП_ИсторияДоставкиУведомлений</InformationRegister>
 			<InformationRegister>ЕРП_ИсторияПривязокTelegram</InformationRegister>
+			<InformationRegister>ЕРП_ЖурналАудитаПривязокTelegram</InformationRegister>
 			<InformationRegister>ЕРП_МаршрутыСобытийУведомлений</InformationRegister>
 			<InformationRegister>ЕРП_НазначениеМасокГруппам</InformationRegister>
 			<InformationRegister>ЕРП_НастройкиИнтеграцииRabbitMQ</InformationRegister>
