@@ -27,7 +27,17 @@
 					<DataPath>Список.Сотрудник</DataPath><ReadOnly>true</ReadOnly><DefaultItem>true</DefaultItem><Wrap>false</Wrap>
 					<ContextMenu name="СписокСотрудникКонтекстноеМеню" id="21"/><ExtendedTooltip name="СписокСотрудникРасширеннаяПодсказка" id="22"/>
 				</InputField>
-				<InputField name="СписокИдентификаторБота" id="23">
+				<InputField name="СписокФизическоеЛицо" id="38">
+                    <DataPath>Список.ФизическоеЛицо</DataPath><ReadOnly>true</ReadOnly><Wrap>false</Wrap>
+                    <Title><v8:item><v8:lang>ru</v8:lang><v8:content>Физическое лицо</v8:content></v8:item></Title>
+                    <ContextMenu name="СписокФизическоеЛицоКонтекстноеМеню" id="39"/><ExtendedTooltip name="СписокФизическоеЛицоПодсказка" id="40"/>
+                </InputField>
+                <InputField name="СписокИдентификаторПривязки" id="41">
+                    <DataPath>Список.ИдентификаторПривязки</DataPath><ReadOnly>true</ReadOnly><Wrap>false</Wrap>
+                    <Title><v8:item><v8:lang>ru</v8:lang><v8:content>UUID привязки</v8:content></v8:item></Title>
+                    <ContextMenu name="СписокИдентификаторПривязкиКонтекстноеМеню" id="42"/><ExtendedTooltip name="СписокИдентификаторПривязкиПодсказка" id="43"/>
+                </InputField>
+                <InputField name="СписокИдентификаторБота" id="23">
 					<DataPath>Список.ИдентификаторБота</DataPath><ReadOnly>true</ReadOnly><Wrap>false</Wrap>
 					<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Идентификатор бота</v8:content></v8:item></Title>
 					<ContextMenu name="СписокИдентификаторБотаКонтекстноеМеню" id="24"/><ExtendedTooltip name="СписокИдентификаторБотаРасширеннаяПодсказка" id="25"/>
