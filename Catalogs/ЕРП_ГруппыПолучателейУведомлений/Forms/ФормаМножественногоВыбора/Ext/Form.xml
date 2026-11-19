@@ -29,6 +29,12 @@
 				<InputField name="СписокАктивна" id="32"><DataPath>Список.Активна</DataPath><ReadOnly>true</ReadOnly><Wrap>false</Wrap><ContextMenu name="СписокАктивнаКонтекстноеМеню" id="33"/><ExtendedTooltip name="СписокАктивнаРасширеннаяПодсказка" id="34"/></InputField>
 			</ChildItems>
 		</Table>
+		<CommandBar name="ПанельВыбора" id="40">
+			<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+			<ChildItems>
+				<Button name="ВыбратьГруппы" id="41"><Type>CommandBarButton</Type><CommandName>Form.Command.ВыбратьГруппы</CommandName><Title><v8:item><v8:lang>ru</v8:lang><v8:content>Выбрать</v8:content></v8:item></Title></Button>
+			</ChildItems>
+		</CommandBar>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Список" id="1">
@@ -36,6 +42,7 @@
 			<MainAttribute>true</MainAttribute>
 			<Settings xsi:type="cfg:DynamicList">
 				<ManualQuery>true</ManualQuery>
+				<MainTable>Catalog.ЕРП_ГруппыПолучателейУведомлений</MainTable>
 				<DynamicDataRead>true</DynamicDataRead>
 				<QueryText>ВЫБРАТЬ
 	Группы.Ссылка КАК Ссылка,
@@ -60,4 +67,10 @@
 			</Settings>
 		</Attribute>
 	</Attributes>
+	<Commands>
+		<Command name="ВыбратьГруппы" id="1">
+			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Выбрать</v8:content></v8:item></Title>
+			<Action>ВыбратьГруппы</Action>
+		</Command>
+	</Commands>
 </Form>
