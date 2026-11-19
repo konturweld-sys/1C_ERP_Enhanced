@@ -60,7 +60,7 @@
 			<DataHistory>DontUse</DataHistory>
 			<UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
-		</Properties><ChildObjects><Dimension uuid="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2401">
+		</Properties><ChildObjects><Form>ФормаСписка</Form><Dimension uuid="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2401">
 				<Properties>
 					<Name>ФизическоеЛицо</Name>
 					<Synonym>
