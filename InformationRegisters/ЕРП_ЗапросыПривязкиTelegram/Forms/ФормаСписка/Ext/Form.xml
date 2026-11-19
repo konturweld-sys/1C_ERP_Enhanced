@@ -44,7 +44,7 @@
 	<Attributes>
 		<Attribute name="Список" id="1">
 			<Type><v8:Type>cfg:DynamicList</v8:Type></Type><MainAttribute>true</MainAttribute>
-			<Settings xsi:type="cfg:DynamicList">
+			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery><DynamicDataRead>true</DynamicDataRead>
 				<QueryText>ВЫБРАТЬ
 	Запросы.Сотрудник КАК Сотрудник,
@@ -95,14 +95,14 @@
 						<dcsset:viewMode>Normal</dcsset:viewMode>
 						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
 					</dcsset:conditionalAppearance>
-					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
-					<dcsset:item><dcsset:field>Сотрудник</dcsset:field></dcsset:item>
-					<dcsset:item><dcsset:field>ИдентификаторБота</dcsset:field></dcsset:item>
-					<dcsset:item><dcsset:field>ДатаСоздания</dcsset:field></dcsset:item>
-					<dcsset:item><dcsset:field>ДатаИстечения</dcsset:field></dcsset:item>
-					<dcsset:item><dcsset:field>Состояние</dcsset:field></dcsset:item>
-					<dcsset:item><dcsset:field>ChatID</dcsset:field></dcsset:item>
-					<dcsset:item><dcsset:field>UpdateID</dcsset:field></dcsset:item><dcsset:item><dcsset:field>ИдентификаторОперацииПереноса</dcsset:field></dcsset:item><dcsset:item><dcsset:field>СтарыйИдентификаторПривязки</dcsset:field></dcsset:item>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode><dcsset:item xsi:type="dcsset:StructureItemGroup"><dcsset:selection><dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>Сотрудник</dcsset:field></dcsset:item><dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>ИдентификаторБота</dcsset:field></dcsset:item><dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>ДатаСоздания</dcsset:field></dcsset:item><dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>ДатаИстечения</dcsset:field></dcsset:item><dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>Состояние</dcsset:field></dcsset:item><dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>ChatID</dcsset:field></dcsset:item><dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>UpdateID</dcsset:field></dcsset:item><dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>ИдентификаторОперацииПереноса</dcsset:field></dcsset:item><dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>СтарыйИдентификаторПривязки</dcsset:field></dcsset:item></dcsset:selection></dcsset:item>
+					
+					
+					
+					
+					
+					
+					
 				</ListSettings>
 			</Settings>
 		</Attribute>
