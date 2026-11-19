@@ -1,9 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
 	<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Группа получателей уведомлений</v8:content></v8:item></Title>
 	<Width>100</Width>
-	<Height>30</Height>
+	<Height>38</Height>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"><Autofill>true</Autofill></AutoCommandBar>
-	<ChildItems/>
-	<Attributes/>
+	<ChildItems>
+		<UsualGroup name="ГруппаОсновныеДанные" id="10">
+			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Основные данные группы</v8:content></v8:item></Title>
+			<Group>Vertical</Group>
+			<ChildItems>
+				<InputField name="ОбъектКод" id="11"><DataPath>Объект.Code</DataPath><Title><v8:item><v8:lang>ru</v8:lang><v8:content>Код</v8:content></v8:item></Title><ContextMenu name="ОбъектКодКонтекстноеМеню" id="12"/><ExtendedTooltip name="ОбъектКодРасширеннаяПодсказка" id="13"/></InputField>
+				<InputField name="ОбъектНаименование" id="14"><DataPath>Объект.Description</DataPath><Title><v8:item><v8:lang>ru</v8:lang><v8:content>Наименование</v8:content></v8:item></Title><ContextMenu name="ОбъектНаименованиеКонтекстноеМеню" id="15"/><ExtendedTooltip name="ОбъектНаименованиеРасширеннаяПодсказка" id="16"/></InputField>
+				<InputField name="ОбъектВладелец" id="17"><DataPath>Объект.Owner</DataPath><Title><v8:item><v8:lang>ru</v8:lang><v8:content>Подразделение</v8:content></v8:item></Title><ContextMenu name="ОбъектВладелецКонтекстноеМеню" id="18"/><ExtendedTooltip name="ОбъектВладелецРасширеннаяПодсказка" id="19"/></InputField>
+				<InputField name="ОбъектРодитель" id="20"><DataPath>Объект.Parent</DataPath><Title><v8:item><v8:lang>ru</v8:lang><v8:content>Группа бригад</v8:content></v8:item></Title><ContextMenu name="ОбъектРодительКонтекстноеМеню" id="21"/><ExtendedTooltip name="ОбъектРодительРасширеннаяПодсказка" id="22"/></InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаНастройкиКаналов" id="30">
+			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Настройки уведомлений</v8:content></v8:item></Title>
+			<Group>Vertical</Group>
+			<ChildItems>
+				<CheckBoxField name="ОбъектАктивна" id="31"><DataPath>Объект.Активна</DataPath><Title><v8:item><v8:lang>ru</v8:lang><v8:content>Группа активна</v8:content></v8:item></Title><CheckBoxType>Auto</CheckBoxType><ContextMenu name="ОбъектАктивнаКонтекстноеМеню" id="32"/><ExtendedTooltip name="ОбъектАктивнаРасширеннаяПодсказка" id="33"/></CheckBoxField>
+				<CheckBoxField name="ОбъектОтправлятьEmail" id="34"><DataPath>Объект.ОтправлятьEmail</DataPath><Title><v8:item><v8:lang>ru</v8:lang><v8:content>Отправлять Email</v8:content></v8:item></Title><CheckBoxType>Auto</CheckBoxType><ContextMenu name="ОбъектОтправлятьEmailКонтекстноеМеню" id="35"/><ExtendedTooltip name="ОбъектОтправлятьEmailРасширеннаяПодсказка" id="36"/></CheckBoxField>
+				<CheckBoxField name="ОбъектОтправлятьTelegram" id="37"><DataPath>Объект.ОтправлятьTelegram</DataPath><Title><v8:item><v8:lang>ru</v8:lang><v8:content>Отправлять Telegram</v8:content></v8:item></Title><CheckBoxType>Auto</CheckBoxType><ContextMenu name="ОбъектОтправлятьTelegramКонтекстноеМеню" id="38"/><ExtendedTooltip name="ОбъектОтправлятьTelegramРасширеннаяПодсказка" id="39"/></CheckBoxField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаПолучатели" id="40">
+			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Получатели группы</v8:content></v8:item></Title>
+			<Group>Vertical</Group>
+			<ChildItems>
+				<Table name="ОбъектПолучатели" id="41">
+					<Representation>List</Representation>
+					<CommandBarLocation>Top</CommandBarLocation>
+					<DataPath>Объект.Получатели</DataPath>
+					<AutoCommandBar name="ОбъектПолучателиКоманднаяПанель" id="42"><Autofill>true</Autofill></AutoCommandBar>
+					<ContextMenu name="ОбъектПолучателиКонтекстноеМеню" id="43"/>
+					<ExtendedTooltip name="ОбъектПолучателиРасширеннаяПодсказка" id="44"/>
+					<ChildItems>
+						<InputField name="ОбъектПолучателиСотрудник" id="45"><DataPath>Объект.Получатели.Сотрудник</DataPath><Title><v8:item><v8:lang>ru</v8:lang><v8:content>Сотрудник</v8:content></v8:item></Title><ContextMenu name="ОбъектПолучателиСотрудникКонтекстноеМеню" id="46"/><ExtendedTooltip name="ОбъектПолучателиСотрудникРасширеннаяПодсказка" id="47"/></InputField>
+					</ChildItems>
+				</Table>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1"><Type><v8:Type>cfg:CatalogObject.ЕРП_ГруппыПолучателейУведомлений</v8:Type></Type><MainAttribute>true</MainAttribute></Attribute>
+	</Attributes>
 </Form>
