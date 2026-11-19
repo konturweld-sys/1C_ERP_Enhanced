@@ -66,6 +66,7 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>Администрирование</Subsystem>
+			<Subsystem>ЕРП_Уведомления</Subsystem>
 			<Role>ЕРП_УправлениеДоставками</Role>
 			<Role>ЕРП_УправлениеПривязкамиTelegram</Role>
 			<Role>ЕРП_ОператорУведомлений</Role>
