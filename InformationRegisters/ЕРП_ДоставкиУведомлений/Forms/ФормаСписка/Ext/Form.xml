@@ -40,7 +40,7 @@
 		<Attribute name="Список" id="1">
 			<Type><v8:Type>cfg:DynamicList</v8:Type></Type>
 			<MainAttribute>true</MainAttribute>
-			<Settings xsi:type="cfg:DynamicList">
+			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
 				<DynamicDataRead>true</DynamicDataRead>
 				<QueryText>ВЫБРАТЬ
@@ -61,16 +61,126 @@
 					<dcsset:order><dcsset:viewMode>Normal</dcsset:viewMode><dcsset:userSettingID>ad1f3c70-8b42-4a91-ae31-7d5c6f204802</dcsset:userSettingID></dcsset:order>
 					<dcsset:conditionalAppearance><dcsset:viewMode>Normal</dcsset:viewMode><dcsset:userSettingID>ad1f3c70-8b42-4a91-ae31-7d5c6f204803</dcsset:userSettingID></dcsset:conditionalAppearance>
 					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
-					<dcsset:item><dcsset:field>КлючДоставки</dcsset:field></dcsset:item>
-					<dcsset:item><dcsset:field>Сотрудник</dcsset:field></dcsset:item>
-					<dcsset:item><dcsset:field>Канал</dcsset:field></dcsset:item>
-					<dcsset:item><dcsset:field>АдресПолучателя</dcsset:field></dcsset:item>
-					<dcsset:item><dcsset:field>Тема</dcsset:field></dcsset:item>
-					<dcsset:item><dcsset:field>Состояние</dcsset:field></dcsset:item>
-					<dcsset:item><dcsset:field>КоличествоПопыток</dcsset:field></dcsset:item>
-					<dcsset:item><dcsset:field>СледующаяПопытка</dcsset:field></dcsset:item>
-					<dcsset:item><dcsset:field>ДатаОтправки</dcsset:field></dcsset:item>
-					<dcsset:item><dcsset:field>ПоследняяОшибка</dcsset:field></dcsset:item>
+					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>КлючДоставки</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>Сотрудник</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>Канал</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>АдресПолучателя</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>Тема</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>Состояние</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>КоличествоПопыток</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>СледующаяПопытка</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>ДатаОтправки</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>ПоследняяОшибка</dcsset:field></dcsset:item>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>КлючДоставки</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>Сотрудник</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>Канал</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>АдресПолучателя</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>Тема</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>Состояние</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>КоличествоПопыток</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>СледующаяПопытка</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>ДатаОтправки</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>ПоследняяОшибка</dcsset:field></dcsset:item>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>КлючДоставки</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>Сотрудник</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>Канал</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>АдресПолучателя</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>Тема</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>Состояние</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>КоличествоПопыток</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>СледующаяПопытка</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>ДатаОтправки</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>ПоследняяОшибка</dcsset:field></dcsset:item>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>КлючДоставки</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>Сотрудник</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>Канал</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>АдресПолучателя</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>Тема</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>Состояние</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>КоличествоПопыток</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>СледующаяПопытка</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>ДатаОтправки</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>ПоследняяОшибка</dcsset:field></dcsset:item>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>КлючДоставки</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>Сотрудник</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>Канал</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>АдресПолучателя</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>Тема</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>Состояние</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>КоличествоПопыток</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>СледующаяПопытка</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>ДатаОтправки</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>ПоследняяОшибка</dcsset:field></dcsset:item>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>КлючДоставки</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>Сотрудник</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>Канал</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>АдресПолучателя</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>Тема</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>Состояние</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>КоличествоПопыток</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>СледующаяПопытка</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>ДатаОтправки</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>ПоследняяОшибка</dcsset:field></dcsset:item>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>КлючДоставки</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>Сотрудник</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>Канал</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>АдресПолучателя</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>Тема</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>Состояние</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>КоличествоПопыток</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>СледующаяПопытка</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>ДатаОтправки</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>ПоследняяОшибка</dcsset:field></dcsset:item>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>КлючДоставки</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>Сотрудник</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>Канал</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>АдресПолучателя</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>Тема</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>Состояние</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>КоличествоПопыток</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>СледующаяПопытка</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>ДатаОтправки</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>ПоследняяОшибка</dcsset:field></dcsset:item>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>КлючДоставки</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>Сотрудник</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>Канал</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>АдресПолучателя</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>Тема</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>Состояние</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>КоличествоПопыток</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>СледующаяПопытка</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>ДатаОтправки</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>ПоследняяОшибка</dcsset:field></dcsset:item>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>КлючДоставки</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>Сотрудник</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>Канал</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>АдресПолучателя</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>Тема</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>Состояние</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>КоличествоПопыток</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>СледующаяПопытка</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>ДатаОтправки</dcsset:field></dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>ПоследняяОшибка</dcsset:field></dcsset:item>
+					</dcsset:item>
 				</ListSettings>
 			</Settings>
 		</Attribute>
