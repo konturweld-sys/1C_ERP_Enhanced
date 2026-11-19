@@ -112,6 +112,7 @@
 			<InformationRegister>ЕРП_ПолучателиУведомлений</InformationRegister>
 			<InformationRegister>ЕРП_ПривязкиTelegram</InformationRegister>
 			<InformationRegister>ЕРП_ПривязкиTelegramСтарыйФормат</InformationRegister>
+			<InformationRegister>ЕРП_РезультатыСверкиПривязокTelegram</InformationRegister>
 			<InformationRegister>ЕРП_СобытияУведомлений</InformationRegister>
 			<InformationRegister>ЕРП_СостояниеСвязиRabbitMQ</InformationRegister>
 			<DataProcessor>ЕРП_НастройкаИнтеграцииRabbitMQ</DataProcessor>
