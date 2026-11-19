@@ -1,9 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
 	<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Выбор группы получателей</v8:content></v8:item></Title>
-	<Width>100</Width>
-	<Height>30</Height>
+	<Width>115</Width>
+	<Height>34</Height>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"><Autofill>true</Autofill></AutoCommandBar>
-	<ChildItems/>
-	<Attributes/>
+	<ChildItems>
+		<Table name="Список" id="10">
+			<Representation>List</Representation>
+			<CommandBarLocation>None</CommandBarLocation>
+			<DefaultItem>true</DefaultItem>
+			<ChoiceMode>true</ChoiceMode>
+			<UseAlternationRowColor>true</UseAlternationRowColor>
+			<InitialTreeView>ExpandTopLevel</InitialTreeView>
+			<EnableStartDrag>false</EnableStartDrag>
+			<DataPath>Список</DataPath>
+			<RestoreCurrentRow>false</RestoreCurrentRow>
+			<ShowRoot>true</ShowRoot>
+			<AllowRootChoice>false</AllowRootChoice>
+			<UpdateOnDataChange>Auto</UpdateOnDataChange>
+			<ContextMenu name="СписокКонтекстноеМеню" id="11"/>
+			<AutoCommandBar name="СписокКоманднаяПанель" id="12"><Autofill>true</Autofill></AutoCommandBar>
+			<ExtendedTooltip name="СписокРасширеннаяПодсказка" id="13"/>
+			<ChildItems>
+				<InputField name="СписокКод" id="20"><DataPath>Список.Код</DataPath><ReadOnly>true</ReadOnly><Wrap>false</Wrap><ContextMenu name="СписокКодКонтекстноеМеню" id="21"/><ExtendedTooltip name="СписокКодРасширеннаяПодсказка" id="22"/></InputField>
+				<InputField name="СписокНаименование" id="23"><DataPath>Список.Наименование</DataPath><ReadOnly>true</ReadOnly><Wrap>false</Wrap><ContextMenu name="СписокНаименованиеКонтекстноеМеню" id="24"/><ExtendedTooltip name="СписокНаименованиеРасширеннаяПодсказка" id="25"/></InputField>
+				<InputField name="СписокВладелец" id="26"><DataPath>Список.Владелец</DataPath><ReadOnly>true</ReadOnly><Wrap>false</Wrap><ContextMenu name="СписокВладелецКонтекстноеМеню" id="27"/><ExtendedTooltip name="СписокВладелецРасширеннаяПодсказка" id="28"/></InputField>
+				<InputField name="СписокРодитель" id="29"><DataPath>Список.Родитель</DataPath><ReadOnly>true</ReadOnly><Wrap>false</Wrap><ContextMenu name="СписокРодительКонтекстноеМеню" id="30"/><ExtendedTooltip name="СписокРодительРасширеннаяПодсказка" id="31"/></InputField>
+				<InputField name="СписокАктивна" id="32"><DataPath>Список.Активна</DataPath><ReadOnly>true</ReadOnly><Wrap>false</Wrap><ContextMenu name="СписокАктивнаКонтекстноеМеню" id="33"/><ExtendedTooltip name="СписокАктивнаРасширеннаяПодсказка" id="34"/></InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Список" id="1">
+			<Type><v8:Type>cfg:DynamicList</v8:Type></Type>
+			<MainAttribute>true</MainAttribute>
+			<Settings xsi:type="cfg:DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ
+	Группы.Ссылка КАК Ссылка,
+	Группы.Код КАК Код,
+	Группы.Наименование КАК Наименование,
+	Группы.Владелец КАК Владелец,
+	Группы.Родитель КАК Родитель,
+	Группы.Активна КАК Активна
+ИЗ
+	Справочник.ЕРП_ГруппыПолучателейУведомлений КАК Группы</QueryText>
+				<ListSettings>
+					<dcsset:filter><dcsset:viewMode>Normal</dcsset:viewMode><dcsset:userSettingID>c4200000-0000-4000-8000-000000000201</dcsset:userSettingID></dcsset:filter>
+					<dcsset:order><dcsset:viewMode>Normal</dcsset:viewMode><dcsset:userSettingID>c4200000-0000-4000-8000-000000000202</dcsset:userSettingID></dcsset:order>
+					<dcsset:conditionalAppearance><dcsset:viewMode>Normal</dcsset:viewMode><dcsset:userSettingID>c4200000-0000-4000-8000-000000000203</dcsset:userSettingID></dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:item><dcsset:field>Код</dcsset:field></dcsset:item>
+					<dcsset:item><dcsset:field>Наименование</dcsset:field></dcsset:item>
+					<dcsset:item><dcsset:field>Владелец</dcsset:field></dcsset:item>
+					<dcsset:item><dcsset:field>Родитель</dcsset:field></dcsset:item>
+					<dcsset:item><dcsset:field>Активна</dcsset:field></dcsset:item>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+	</Attributes>
 </Form>
