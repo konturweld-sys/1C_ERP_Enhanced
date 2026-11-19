@@ -35,17 +35,9 @@
 			<Type><v8:Type>cfg:DynamicList</v8:Type></Type>
 			<MainAttribute>true</MainAttribute>
 			<Settings xsi:type="cfg:DynamicList">
-				<ManualQuery>true</ManualQuery>
+				<ManualQuery>false</ManualQuery>
+				<MainTable>Catalog.ЕРП_ГруппыПолучателейУведомлений</MainTable>
 				<DynamicDataRead>true</DynamicDataRead>
-				<QueryText>ВЫБРАТЬ
-	Группы.Ссылка КАК Ссылка,
-	Группы.Код КАК Код,
-	Группы.Наименование КАК Наименование,
-	Группы.Владелец КАК Владелец,
-	Группы.Родитель КАК Родитель,
-	Группы.Активна КАК Активна
-ИЗ
-	Справочник.ЕРП_ГруппыПолучателейУведомлений КАК Группы</QueryText>
 				<ListSettings>
 					<dcsset:filter><dcsset:viewMode>Normal</dcsset:viewMode><dcsset:userSettingID>c4200000-0000-4000-8000-000000000201</dcsset:userSettingID></dcsset:filter>
 					<dcsset:order><dcsset:viewMode>Normal</dcsset:viewMode><dcsset:userSettingID>c4200000-0000-4000-8000-000000000202</dcsset:userSettingID></dcsset:order>
