@@ -25,7 +25,7 @@
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Список" id="1"><Type><v8:Type>cfg:DynamicList</v8:Type></Type><MainAttribute>true</MainAttribute>
-			<Settings xsi:type="cfg:DynamicList"><ManualQuery>true</ManualQuery><DynamicDataRead>true</DynamicDataRead>
+			<Settings xsi:type="DynamicList"><ManualQuery>true</ManualQuery><DynamicDataRead>true</DynamicDataRead>
 				<QueryText>ВЫБРАТЬ
 	Получатели.Сотрудник КАК Сотрудник,
 	Получатели.Включен КАК Включен,
@@ -41,10 +41,17 @@
 					<dcsset:order><dcsset:viewMode>Normal</dcsset:viewMode><dcsset:userSettingID>c4d91f30-8b62-4f17-a521-6e0d3c7b9144</dcsset:userSettingID></dcsset:order>
 					<dcsset:conditionalAppearance><dcsset:viewMode>Normal</dcsset:viewMode><dcsset:userSettingID>c4d91f30-8b62-4f17-a521-6e0d3c7b9145</dcsset:userSettingID></dcsset:conditionalAppearance>
 					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
-					<dcsset:item><dcsset:field>Сотрудник</dcsset:field></dcsset:item><dcsset:item><dcsset:field>Включен</dcsset:field></dcsset:item>
-					<dcsset:item><dcsset:field>EmailВключен</dcsset:field></dcsset:item><dcsset:item><dcsset:field>TelegramВключен</dcsset:field></dcsset:item>
-					<dcsset:item><dcsset:field>УведомлятьОбУспехе</dcsset:field></dcsset:item><dcsset:item><dcsset:field>УведомлятьОбОшибке</dcsset:field></dcsset:item>
-					<dcsset:item><dcsset:field>УведомлятьОСвязи</dcsset:field></dcsset:item>
+					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>Сотрудник</dcsset:field></dcsset:item>
+							<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>Включен</dcsset:field></dcsset:item>
+							<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>EmailВключен</dcsset:field></dcsset:item>
+							<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>TelegramВключен</dcsset:field></dcsset:item>
+							<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>УведомлятьОбУспехе</dcsset:field></dcsset:item>
+							<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>УведомлятьОбОшибке</dcsset:field></dcsset:item>
+							<dcsset:item xsi:type="dcsset:SelectedItemField"><dcsset:field>УведомлятьОСвязи</dcsset:field></dcsset:item>
+						</dcsset:selection>
+					</dcsset:item>
 				</ListSettings>
 			</Settings>
 		</Attribute>
