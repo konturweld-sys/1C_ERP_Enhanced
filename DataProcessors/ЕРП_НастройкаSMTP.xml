@@ -24,7 +24,7 @@
 			<DefaultForm>DataProcessor.ЕРП_НастройкаSMTP.Form.Форма</DefaultForm>
 			<AuxiliaryForm/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
-			<ExtendedPresentation/>
+			<ExtendedObjectPresentation/>
 			<Explanation/>
 		</Properties>
 		<ChildObjects>
