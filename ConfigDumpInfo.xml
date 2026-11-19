@@ -34,7 +34,7 @@
 		<Metadata name="DataProcessor.ЕРП_НастройкаИнтеграцииRabbitMQ.Form.Форма" id="12c629bf-618a-4b25-b8c2-257f5372503b" configVersion="663e0ba2004d0dfb23c66b241fc605a8e169f9f3"/>
 		<Metadata name="DataProcessor.ЕРП_НастройкаИнтеграцииRabbitMQ.Form.Форма.Form" id="12c629bf-618a-4b25-b8c2-257f5372503b.0" configVersion="2be91a1342a090add4c4122fbc2da7eb18b9a5f1"/>
 		<Metadata name="DataProcessor.ЕРП_НастройкаИнтеграцииRabbitMQ.ObjectModule" id="2d71b4cf-39d6-45d9-8f3a-62655bd10dfc.0" configVersion="a85d0309f9f7c6416554b8bb771c44555cd9ea6e"/>
-		<Metadata name="Enum.ЕРП_ОперацииПривязкиTelegram" id="c7000000-0000-4000-8000-000000000092">
+		<Metadata name="Enum.ЕРП_ОперацииПривязкиTelegram" id="c7000000-0000-4000-8000-000000000092" configVersion="0000000000000000000000000000000000000000">
 			<Metadata name="Enum.ЕРП_ОперацииПривязкиTelegram.EnumValue.Создание" id="c7000000-0000-4000-8000-000000000099"/>
 			<Metadata name="Enum.ЕРП_ОперацииПривязкиTelegram.EnumValue.Замена" id="c7000000-0000-4000-8000-000000000100"/>
 			<Metadata name="Enum.ЕРП_ОперацииПривязкиTelegram.EnumValue.Отключение" id="c7000000-0000-4000-8000-000000000101"/>
