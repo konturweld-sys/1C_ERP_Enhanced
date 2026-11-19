@@ -325,7 +325,7 @@
 			<Metadata name="InformationRegister.ЕРП_ОбработанныеЗаписиЛогов.Resource.КлючСобытия" id="c4200000-0000-4000-8000-000000000043"/>
 			<Metadata name="InformationRegister.ЕРП_ОбработанныеЗаписиЛогов.Dimension.ХешСобытия" id="c4200000-0000-4000-8000-000000000040"/>
 		</Metadata>
-			<Metadata name="InformationRegister.ЕРП_ПозицииЧтенияЛогов" id="f8d4a1e2-7b63-4c90-9a25-1d6e8f304201" configVersion="0000000000000000000000000000000000000000">
+			<Metadata name="InformationRegister.ЕРП_ПозицииЧтенияЛогов" id="c4200000-0000-4000-8000-000000000025" configVersion="0000000000000000000000000000000000000000">
 			<Metadata name="InformationRegister.ЕРП_ПозицииЧтенияЛогов.Resource.ПоследняяПозицияБайт" id="c4200000-0000-4000-8000-000000000020"/>
 			<Metadata name="InformationRegister.ЕРП_ПозицииЧтенияЛогов.Resource.РазмерФайла" id="c4200000-0000-4000-8000-000000000021"/>
 			<Metadata name="InformationRegister.ЕРП_ПозицииЧтенияЛогов.Resource.СигнатураНачалаФайла" id="c4200000-0000-4000-8000-000000000022"/>
