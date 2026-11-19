@@ -128,6 +128,38 @@
 			<Metadata name="InformationRegister.ЕРП_СобытияУведомлений.Resource.ДатаСоздания" id="b1000000-0000-4000-8000-000000000047"/>
 			<Metadata name="InformationRegister.ЕРП_СобытияУведомлений.Resource.Состояние" id="b1000000-0000-4000-8000-000000000048"/>
 		</Metadata>
+		<Metadata name="InformationRegister.ЕРП_РезультатыСверкиПривязокTelegram" id="f4a7c91d-6f2b-4d80-9a35-1c7e5b8d2500" configVersion="0000000000000000000000000000000000000000">
+			<Metadata name="InformationRegister.ЕРП_РезультатыСверкиПривязокTelegram.Dimension.ИдентификаторЗаписи" id="f4a7c91d-6f2b-4d80-9a35-1c7e5b8d2501"/>
+			<Metadata name="InformationRegister.ЕРП_РезультатыСверкиПривязокTelegram.Resource.ИдентификаторСверки" id="f4a7c91d-6f2b-4d80-9a35-1c7e5b8d2502"/>
+			<Metadata name="InformationRegister.ЕРП_РезультатыСверкиПривязокTelegram.Resource.ДатаСверки" id="f4a7c91d-6f2b-4d80-9a35-1c7e5b8d2503"/>
+			<Metadata name="InformationRegister.ЕРП_РезультатыСверкиПривязокTelegram.Resource.ТипЗаписи" id="f4a7c91d-6f2b-4d80-9a35-1c7e5b8d2504"/>
+			<Metadata name="InformationRegister.ЕРП_РезультатыСверкиПривязокTelegram.Resource.Категория" id="f4a7c91d-6f2b-4d80-9a35-1c7e5b8d2505"/>
+			<Metadata name="InformationRegister.ЕРП_РезультатыСверкиПривязокTelegram.Resource.Уровень" id="f4a7c91d-6f2b-4d80-9a35-1c7e5b8d2506"/>
+			<Metadata name="InformationRegister.ЕРП_РезультатыСверкиПривязокTelegram.Resource.Описание" id="f4a7c91d-6f2b-4d80-9a35-1c7e5b8d2507"/>
+			<Metadata name="InformationRegister.ЕРП_РезультатыСверкиПривязокTelegram.Resource.Количество" id="f4a7c91d-6f2b-4d80-9a35-1c7e5b8d2508"/>
+			<Metadata name="InformationRegister.ЕРП_РезультатыСверкиПривязокTelegram.Resource.ИдентификаторПривязки" id="f4a7c91d-6f2b-4d80-9a35-1c7e5b8d2509"/>
+			<Metadata name="InformationRegister.ЕРП_РезультатыСверкиПривязокTelegram.Resource.ИдентификаторОперацииПереноса" id="f4a7c91d-6f2b-4d80-9a35-1c7e5b8d2510"/>
+			<Metadata name="InformationRegister.ЕРП_РезультатыСверкиПривязокTelegram.Resource.ИдентификаторЗапроса" id="f4a7c91d-6f2b-4d80-9a35-1c7e5b8d2511"/>
+			<Metadata name="InformationRegister.ЕРП_РезультатыСверкиПривязокTelegram.Resource.ФизическоеЛицо" id="f4a7c91d-6f2b-4d80-9a35-1c7e5b8d2512"/>
+			<Metadata name="InformationRegister.ЕРП_РезультатыСверкиПривязокTelegram.Resource.ИдентификаторБота" id="f4a7c91d-6f2b-4d80-9a35-1c7e5b8d2513"/>
+			<Metadata name="InformationRegister.ЕРП_РезультатыСверкиПривязокTelegram.Resource.ChatID" id="f4a7c91d-6f2b-4d80-9a35-1c7e5b8d2514"/>
+			<Metadata name="InformationRegister.ЕРП_РезультатыСверкиПривязокTelegram.Resource.Сотрудник" id="f4a7c91d-6f2b-4d80-9a35-1c7e5b8d2515"/>
+			<Metadata name="InformationRegister.ЕРП_РезультатыСверкиПривязокTelegram.Resource.КоличествоПроверенныхПривязок" id="f4a7c91d-6f2b-4d80-9a35-1c7e5b8d2516"/>
+			<Metadata name="InformationRegister.ЕРП_РезультатыСверкиПривязокTelegram.Resource.КоличествоПроверенныхРезервирований" id="f4a7c91d-6f2b-4d80-9a35-1c7e5b8d2517"/>
+			<Metadata name="InformationRegister.ЕРП_РезультатыСверкиПривязокTelegram.Resource.КоличествоПроверенныхЗапросов" id="f4a7c91d-6f2b-4d80-9a35-1c7e5b8d2518"/>
+			<Metadata name="InformationRegister.ЕРП_РезультатыСверкиПривязокTelegram.Resource.КоличествоПроверенныхСобытийАудита" id="f4a7c91d-6f2b-4d80-9a35-1c7e5b8d2519"/>
+			<Metadata name="InformationRegister.ЕРП_РезультатыСверкиПривязокTelegram.Resource.КоличествоПроверенныхЗаписейИстории" id="f4a7c91d-6f2b-4d80-9a35-1c7e5b8d2520"/>
+			<Metadata name="InformationRegister.ЕРП_РезультатыСверкиПривязокTelegram.Resource.КоличествоКритических" id="f4a7c91d-6f2b-4d80-9a35-1c7e5b8d2521"/>
+			<Metadata name="InformationRegister.ЕРП_РезультатыСверкиПривязокTelegram.Resource.КоличествоПредупреждений" id="f4a7c91d-6f2b-4d80-9a35-1c7e5b8d2522"/>
+			<Metadata name="InformationRegister.ЕРП_РезультатыСверкиПривязокTelegram.Resource.ИдентификаторПроблемы" id="f4a7c91d-6f2b-4d80-9a35-1c7e5b8d2538"/>
+			<Metadata name="InformationRegister.ЕРП_РезультатыСверкиПривязокTelegram.Resource.Решение" id="f4a7c91d-6f2b-4d80-9a35-1c7e5b8d2539"/>
+			<Metadata name="InformationRegister.ЕРП_РезультатыСверкиПривязокTelegram.Resource.ПричинаРешения" id="f4a7c91d-6f2b-4d80-9a35-1c7e5b8d2540"/>
+			<Metadata name="InformationRegister.ЕРП_РезультатыСверкиПривязокTelegram.Resource.ДатаРешения" id="f4a7c91d-6f2b-4d80-9a35-1c7e5b8d2541"/>
+			<Metadata name="InformationRegister.ЕРП_РезультатыСверкиПривязокTelegram.Resource.ИнициаторРешения" id="f4a7c91d-6f2b-4d80-9a35-1c7e5b8d2542"/>
+			<Metadata name="InformationRegister.ЕРП_РезультатыСверкиПривязокTelegram.Resource.СостояниеДоРешения" id="f4a7c91d-6f2b-4d80-9a35-1c7e5b8d2543"/>
+			<Metadata name="InformationRegister.ЕРП_РезультатыСверкиПривязокTelegram.Resource.СостояниеПослеРешения" id="f4a7c91d-6f2b-4d80-9a35-1c7e5b8d2544"/>
+			<Metadata name="InformationRegister.ЕРП_РезультатыСверкиПривязокTelegram.Form.ФормаСписка" id="f4a7c91d-6f2b-4d80-9a35-1c7e5b8d2545" configVersion="0000000000000000000000000000000000000000"><Metadata name="InformationRegister.ЕРП_РезультатыСверкиПривязокTelegram.Form.ФормаСписка.Form" id="f4a7c91d-6f2b-4d80-9a35-1c7e5b8d2545.0" configVersion="0000000000000000000000000000000000000000"/></Metadata>
+		</Metadata>
 		<Metadata name="InformationRegister.ЕРП_СостояниеСвязиRabbitMQ" id="b1000000-0000-4000-8000-00000000008d" configVersion="84d41a0e34b938c0b808b236e1e2df5e4c2e2705">
 			<Metadata name="InformationRegister.ЕРП_СостояниеСвязиRabbitMQ.Dimension.Канал" id="b1000000-0000-4000-8000-00000000009c"/>
 			<Metadata name="InformationRegister.ЕРП_СостояниеСвязиRabbitMQ.Resource.КоличествоОшибокПодряд" id="b1000000-0000-4000-8000-00000000009d"/>
