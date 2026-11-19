@@ -64,14 +64,20 @@
 			<Metadata name="InformationRegister.ЕРП_ДоставкиУведомлений.Resource.СледующаяПопытка" id="b1000000-0000-4000-8000-000000000061"/>
 			<Metadata name="InformationRegister.ЕРП_ДоставкиУведомлений.Resource.ДатаОтправки" id="b1000000-0000-4000-8000-000000000062"/>
 			<Metadata name="InformationRegister.ЕРП_ДоставкиУведомлений.Resource.ПоследняяОшибка" id="b1000000-0000-4000-8000-000000000063"/>
-		</Metadata>
+					<Metadata name="InformationRegister.ЕРП_ДоставкиУведомлений.Form.ФормаСписка" id="b9d1a4c7-3e62-4f80-9a15-6c2d8e7f1048">
+				<Metadata name="InformationRegister.ЕРП_ДоставкиУведомлений.Form.ФормаСписка.Form" id="b9d1a4c7-3e62-4f80-9a15-6c2d8e7f1048.0"/>
+			</Metadata>
+</Metadata>
 		<Metadata name="InformationRegister.ЕРП_ИсторияДоставкиУведомлений" id="b1000000-0000-4000-8000-000000000064" configVersion="1ac46df5642654d451fc388738d5e7911f030256">
 			<Metadata name="InformationRegister.ЕРП_ИсторияДоставкиУведомлений.Dimension.КлючДоставки" id="b1000000-0000-4000-8000-000000000073"/>
 			<Metadata name="InformationRegister.ЕРП_ИсторияДоставкиУведомлений.Dimension.НомерПопытки" id="b1000000-0000-4000-8000-000000000074"/>
 			<Metadata name="InformationRegister.ЕРП_ИсторияДоставкиУведомлений.Resource.ДатаПопытки" id="b1000000-0000-4000-8000-000000000075"/>
 			<Metadata name="InformationRegister.ЕРП_ИсторияДоставкиУведомлений.Resource.Результат" id="b1000000-0000-4000-8000-000000000076"/>
 			<Metadata name="InformationRegister.ЕРП_ИсторияДоставкиУведомлений.Resource.Ошибка" id="b1000000-0000-4000-8000-000000000077"/>
-		</Metadata>
+					<Metadata name="InformationRegister.ЕРП_ИсторияДоставкиУведомлений.Form.ФормаСписка" id="c2a7e5d1-9b43-4f68-a012-7d3e6c8b1059">
+				<Metadata name="InformationRegister.ЕРП_ИсторияДоставкиУведомлений.Form.ФормаСписка.Form" id="c2a7e5d1-9b43-4f68-a012-7d3e6c8b1059.0"/>
+			</Metadata>
+</Metadata>
 		<Metadata name="InformationRegister.ЕРП_НастройкиSMTP" id="9db347ce-5d48-425a-b89c-dde9e22bfa87" configVersion="a8331d622a8128cbeb8609e4d6bd507c2129f034">
 			<Metadata name="InformationRegister.ЕРП_НастройкиSMTP.Resource.SMTPЛогин" id="103c5991-d430-4589-8fd7-5e183b9fe58e"/>
 			<Metadata name="InformationRegister.ЕРП_НастройкиSMTP.Resource.SMTPПорт" id="30e4f9b5-26b7-400c-b179-a1a52692d311"/>
@@ -100,7 +106,10 @@
 			<Metadata name="InformationRegister.ЕРП_НастройкиУведомлений.Resource.SMTPОтправитель" id="b1000000-0000-4000-8000-000000000018"/>
 			<Metadata name="InformationRegister.ЕРП_НастройкиУведомлений.Resource.SMTPИспользоватьSSL" id="b1000000-0000-4000-8000-000000000019"/>
 			<Metadata name="InformationRegister.ЕРП_НастройкиУведомлений.Resource.SMTPТаймаут" id="b1000000-0000-4000-8000-00000000001a"/>
-		</Metadata>
+					<Metadata name="InformationRegister.ЕРП_НастройкиУведомлений.Form.ФормаЗаписи" id="b1000000-0000-4000-8000-000000000020">
+				<Metadata name="InformationRegister.ЕРП_НастройкиУведомлений.Form.ФормаЗаписи.Form" id="b1000000-0000-4000-8000-000000000020.0"/>
+			</Metadata>
+</Metadata>
 		<Metadata name="InformationRegister.ЕРП_ПовторыСозданияНоменклатуры" id="b1000000-0000-4000-8000-000000000078" configVersion="3be8341d9229935eaadb188b44dd8653ef3d809b">
 			<Metadata name="InformationRegister.ЕРП_ПовторыСозданияНоменклатуры.Dimension.UUIDНоменклатуры" id="b1000000-0000-4000-8000-000000000087"/>
 			<Metadata name="InformationRegister.ЕРП_ПовторыСозданияНоменклатуры.Resource.КоличествоОшибок" id="b1000000-0000-4000-8000-000000000088"/>
@@ -118,7 +127,13 @@
 			<Metadata name="InformationRegister.ЕРП_ПолучателиУведомлений.Resource.УведомлятьОбУспехе" id="b1000000-0000-4000-8000-000000000030"/>
 			<Metadata name="InformationRegister.ЕРП_ПолучателиУведомлений.Resource.УведомлятьОбОшибке" id="b1000000-0000-4000-8000-000000000031"/>
 			<Metadata name="InformationRegister.ЕРП_ПолучателиУведомлений.Resource.УведомлятьОСвязи" id="b1000000-0000-4000-8000-000000000032"/>
-		</Metadata>
+					<Metadata name="InformationRegister.ЕРП_ПолучателиУведомлений.Form.ФормаЗаписи" id="c4d91f30-8b62-4f17-a521-6e0d3c7b9146">
+				<Metadata name="InformationRegister.ЕРП_ПолучателиУведомлений.Form.ФормаЗаписи.Form" id="c4d91f30-8b62-4f17-a521-6e0d3c7b9146.0"/>
+			</Metadata>
+			<Metadata name="InformationRegister.ЕРП_ПолучателиУведомлений.Form.ФормаСписка" id="c4d91f30-8b62-4f17-a521-6e0d3c7b9142">
+				<Metadata name="InformationRegister.ЕРП_ПолучателиУведомлений.Form.ФормаСписка.Form" id="c4d91f30-8b62-4f17-a521-6e0d3c7b9142.0"/>
+			</Metadata>
+</Metadata>
 		<Metadata name="InformationRegister.ЕРП_СобытияУведомлений" id="b1000000-0000-4000-8000-000000000033" configVersion="e99c8d1ad6df5a0e7b535415b1c478730a0f6be2">
 			<Metadata name="InformationRegister.ЕРП_СобытияУведомлений.Dimension.КлючСобытия" id="b1000000-0000-4000-8000-000000000042"/>
 			<Metadata name="InformationRegister.ЕРП_СобытияУведомлений.Resource.ТипСобытия" id="b1000000-0000-4000-8000-000000000043"/>
@@ -193,5 +208,163 @@
 				<Metadata name="Catalog.ЕРП_ГруппыПолучателейУведомлений.TabularSection.Получатели.Attribute.Сотрудник" id="c4100000-0000-4000-8000-000000000027"/>
 			</Metadata>
 		</Metadata>
+			<Metadata name="Role.ЕРП_УправлениеПривязкамиTelegram" id="9b7e4d21-6a83-4c5f-9d12-7f3a8b6c5e41" configVersion="0000000000000000000000000000000000000000">
+			<Metadata name="Role.ЕРП_УправлениеПривязкамиTelegram.Rights" id="9b7e4d21-6a83-4c5f-9d12-7f3a8b6c5e41.1"/>
+		</Metadata>
+			<Metadata name="Role.ЕРП_ОператорУведомлений" id="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2999" configVersion="0000000000000000000000000000000000000000">
+			<Metadata name="Role.ЕРП_ОператорУведомлений.Rights" id="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2999.1"/>
+		</Metadata>
+			<Metadata name="Role.ЕРП_ФоноваяОбработкаУведомлений" id="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2010" configVersion="0000000000000000000000000000000000000000">
+			<Metadata name="Role.ЕРП_ФоноваяОбработкаУведомлений.Rights" id="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2010.1"/>
+		</Metadata>
+			<Metadata name="Role.ЕРП_КадроваяОбработкаTelegram" id="c7000000-0000-4000-8000-000000000132" configVersion="0000000000000000000000000000000000000000">
+			<Metadata name="Role.ЕРП_КадроваяОбработкаTelegram.Rights" id="c7000000-0000-4000-8000-000000000132.1"/>
+		</Metadata>
+			<Metadata name="CommonModule.ОбновлениеИнформационнойБазыПереопределяемый" id="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2430" configVersion="0000000000000000000000000000000000000000"/>
+			<Metadata name="CommonModule.ОбновлениеИнформационнойБазыПереопределяемый.Module" id="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2430.0"/>
+			<Metadata name="CommonModule.ЕРП_ИнтеграцияUBT" id="c7000000-0000-4000-8000-000000000103" configVersion="0000000000000000000000000000000000000000"/>
+			<Metadata name="CommonModule.ЕРП_ИнтеграцияUBT.Module" id="c7000000-0000-4000-8000-000000000103.0"/>
+			<Metadata name="CommonModule.ЕРП_ЗаписьРучныхРешенийДоставки" id="d7c89a21-41b7-4d36-9f25-6d8b0e4a7102" configVersion="0000000000000000000000000000000000000000"/>
+			<Metadata name="CommonModule.ЕРП_ЗаписьРучныхРешенийДоставки.Module" id="d7c89a21-41b7-4d36-9f25-6d8b0e4a7102.0"/>
+			<Metadata name="CommonModule.ЕРП_ПривязкаTelegram" id="c7000000-0000-4000-8000-000000000102" configVersion="0000000000000000000000000000000000000000"/>
+			<Metadata name="CommonModule.ЕРП_ПривязкаTelegram.Module" id="c7000000-0000-4000-8000-000000000102.0"/>
+			<Metadata name="CommonModule.ЕРП_ЗаписьАудитаПривязокTelegram" id="e4a7c91d-6f2b-4d36-9f25-6d8b0e4a7106" configVersion="0000000000000000000000000000000000000000"/>
+			<Metadata name="CommonModule.ЕРП_ЗаписьАудитаПривязокTelegram.Module" id="e4a7c91d-6f2b-4d36-9f25-6d8b0e4a7106.0"/>
+			<Metadata name="CommonModule.ЕРП_УведомленияEmail" id="9cc13c7c-b5bb-4e5b-b042-bd5a71b611b0" configVersion="0000000000000000000000000000000000000000"/>
+			<Metadata name="CommonModule.ЕРП_УведомленияEmail.Module" id="9cc13c7c-b5bb-4e5b-b042-bd5a71b611b0.0"/>
+			<Metadata name="CommonModule.ЕРП_ЧтениеЛоговУведомлений" id="b2000000-0000-4000-8000-000000000031" configVersion="0000000000000000000000000000000000000000"/>
+			<Metadata name="CommonModule.ЕРП_ЧтениеЛоговУведомлений.Module" id="b2000000-0000-4000-8000-000000000031.0"/>
+			<Metadata name="Catalog.ЕРП_МаскиЖурналов" id="c2000000-0000-4000-8000-000000000001" configVersion="0000000000000000000000000000000000000000">
+			<Metadata name="Catalog.ЕРП_МаскиЖурналов.Attribute.Активна" id="c2000000-0000-4000-8000-0000000000016"/>
+			<Metadata name="Catalog.ЕРП_МаскиЖурналов.Attribute.МаскаФайлов" id="c2000000-0000-4000-8000-0000000000017"/>
+			<Metadata name="Catalog.ЕРП_МаскиЖурналов.Attribute.ТипПоиска" id="c2000000-0000-4000-8000-0000000000018"/>
+			<Metadata name="Catalog.ЕРП_МаскиЖурналов.Attribute.ШаблонПоиска" id="c2000000-0000-4000-8000-0000000000019"/>
+			<Metadata name="Catalog.ЕРП_МаскиЖурналов.Attribute.ИсключающиеСлова" id="c2000000-0000-4000-8000-0000000000020"/>
+			<Metadata name="Catalog.ЕРП_МаскиЖурналов.Attribute.УчитыватьРегистр" id="c2000000-0000-4000-8000-0000000000021"/>
+			<Metadata name="Catalog.ЕРП_МаскиЖурналов.Attribute.ШаблонТемы" id="c2000000-0000-4000-8000-0000000000022"/>
+			<Metadata name="Catalog.ЕРП_МаскиЖурналов.Attribute.ШаблонСообщения" id="c2000000-0000-4000-8000-0000000000023"/>
+			<Metadata name="Catalog.ЕРП_МаскиЖурналов.Attribute.РегулярноеВыражениеВремени" id="c2000000-0000-4000-8000-0000000000024"/>
+		</Metadata>
+			<Metadata name="InformationRegister.ЕРП_ЗанятыеЧатыTelegram" id="c7000000-0000-4000-8000-000000000091" configVersion="0000000000000000000000000000000000000000">
+			<Metadata name="InformationRegister.ЕРП_ЗанятыеЧатыTelegram.Dimension.ИдентификаторБота" id="c7000000-0000-4000-8000-000000000072"/>
+			<Metadata name="InformationRegister.ЕРП_ЗанятыеЧатыTelegram.Dimension.ChatID" id="c7000000-0000-4000-8000-000000000073"/>
+			<Metadata name="InformationRegister.ЕРП_ЗанятыеЧатыTelegram.Resource.Сотрудник" id="c7000000-0000-4000-8000-000000000074"/>
+			<Metadata name="InformationRegister.ЕРП_ЗанятыеЧатыTelegram.Resource.ДатаЗакрепления" id="c7000000-0000-4000-8000-000000000075"/>
+			<Metadata name="InformationRegister.ЕРП_ЗанятыеЧатыTelegram.Resource.ИдентификаторПривязки" id="c7000000-0000-4000-8000-000000000076"/>
+		</Metadata>
+			<Metadata name="InformationRegister.ЕРП_ЗапросыПривязкиTelegram" id="c7000000-0000-4000-8000-000000000024" configVersion="0000000000000000000000000000000000000000">
+			<Metadata name="InformationRegister.ЕРП_ЗапросыПривязкиTelegram.Dimension.ХешКода" id="f8d4a1e2-7b63-4c90-9a25-1d6e8f304105"/>
+			<Metadata name="InformationRegister.ЕРП_ЗапросыПривязкиTelegram.Resource.Сотрудник" id="f8d4a1e2-7b63-4c90-9a25-1d6e8f304106"/>
+			<Metadata name="InformationRegister.ЕРП_ЗапросыПривязкиTelegram.Resource.ИдентификаторБота" id="c7000000-0000-4000-8000-000000000104"/>
+			<Metadata name="InformationRegister.ЕРП_ЗапросыПривязкиTelegram.Resource.ДатаСоздания" id="c7000000-0000-4000-8000-000000000105"/>
+			<Metadata name="InformationRegister.ЕРП_ЗапросыПривязкиTelegram.Resource.ДатаИстечения" id="c7000000-0000-4000-8000-000000000106"/>
+			<Metadata name="InformationRegister.ЕРП_ЗапросыПривязкиTelegram.Resource.Состояние" id="c7000000-0000-4000-8000-000000000107"/>
+			<Metadata name="InformationRegister.ЕРП_ЗапросыПривязкиTelegram.Resource.ChatID" id="c7000000-0000-4000-8000-000000000108"/>
+			<Metadata name="InformationRegister.ЕРП_ЗапросыПривязкиTelegram.Resource.UpdateID" id="c8000000-0000-4000-8000-000000000001"/>
+			<Metadata name="InformationRegister.ЕРП_ЗапросыПривязкиTelegram.Resource.ДатаПодтверждения" id="c7000000-0000-4000-8000-000000000009"/>
+			<Metadata name="InformationRegister.ЕРП_ЗапросыПривязкиTelegram.Resource.ИдентификаторОперацииПереноса" id="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2302"/>
+			<Metadata name="InformationRegister.ЕРП_ЗапросыПривязкиTelegram.Resource.СтарыйИдентификаторПривязки" id="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2303"/>
+			<Metadata name="InformationRegister.ЕРП_ЗапросыПривязкиTelegram.Resource.ИдентификаторЗапроса" id="f8d4a1e2-7b63-4c90-9a25-1d6e8f304107"/>
+			<Metadata name="InformationRegister.ЕРП_ЗапросыПривязкиTelegram.Resource.КоличествоПопыток" id="f8d4a1e2-7b63-4c90-9a25-1d6e8f304108"/>
+			<Metadata name="InformationRegister.ЕРП_ЗапросыПривязкиTelegram.Resource.ДатаПоследнейПопытки" id="f8d4a1e2-7b63-4c90-9a25-1d6e8f304109"/>
+			<Metadata name="InformationRegister.ЕРП_ЗапросыПривязкиTelegram.Resource.ДатаСледующейПопытки" id="f8d4a1e2-7b63-4c90-9a25-1d6e8f304110"/>
+			<Metadata name="InformationRegister.ЕРП_ЗапросыПривязкиTelegram.Resource.ПоследняяОшибка" id="f8d4a1e2-7b63-4c90-9a25-1d6e8f304111"/>
+			<Metadata name="InformationRegister.ЕРП_ЗапросыПривязкиTelegram.Form.ФормаСписка" id="ddba9991-9b9e-4f29-af8f-d8eba5bb8da8">
+				<Metadata name="InformationRegister.ЕРП_ЗапросыПривязкиTelegram.Form.ФормаСписка.Form" id="ddba9991-9b9e-4f29-af8f-d8eba5bb8da8.0"/>
+			</Metadata>
+		</Metadata>
+			<Metadata name="InformationRegister.ЕРП_ИсторияПривязокTelegram" id="c7000000-0000-4000-8000-000000000071" configVersion="0000000000000000000000000000000000000000">
+			<Metadata name="InformationRegister.ЕРП_ИсторияПривязокTelegram.Dimension.ИдентификаторЗаписи" id="c7000000-0000-4000-8000-000000000048"/>
+			<Metadata name="InformationRegister.ЕРП_ИсторияПривязокTelegram.Resource.Сотрудник" id="c7000000-0000-4000-8000-000000000049"/>
+			<Metadata name="InformationRegister.ЕРП_ИсторияПривязокTelegram.Resource.ИдентификаторБота" id="c7000000-0000-4000-8000-000000000050"/>
+			<Metadata name="InformationRegister.ЕРП_ИсторияПривязокTelegram.Resource.ChatID" id="c7000000-0000-4000-8000-000000000051"/>
+			<Metadata name="InformationRegister.ЕРП_ИсторияПривязокTelegram.Resource.ДатаСобытия" id="c7000000-0000-4000-8000-000000000052"/>
+			<Metadata name="InformationRegister.ЕРП_ИсторияПривязокTelegram.Resource.Операция" id="c7000000-0000-4000-8000-000000000053"/>
+			<Metadata name="InformationRegister.ЕРП_ИсторияПривязокTelegram.Resource.Причина" id="c7000000-0000-4000-8000-000000000054"/>
+			<Metadata name="InformationRegister.ЕРП_ИсторияПривязокTelegram.Resource.Инициатор" id="c7000000-0000-4000-8000-000000000055"/>
+			<Metadata name="InformationRegister.ЕРП_ИсторияПривязокTelegram.Resource.ХешЗапроса" id="c7000000-0000-4000-8000-000000000056"/>
+		</Metadata>
+			<Metadata name="InformationRegister.ЕРП_ЖурналАудитаПривязокTelegram" id="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2001" configVersion="0000000000000000000000000000000000000000">
+			<Metadata name="InformationRegister.ЕРП_ЖурналАудитаПривязокTelegram.Dimension.ИдентификаторСобытия" id="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2100"/>
+			<Metadata name="InformationRegister.ЕРП_ЖурналАудитаПривязокTelegram.Resource.Сотрудник" id="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2101"/>
+			<Metadata name="InformationRegister.ЕРП_ЖурналАудитаПривязокTelegram.Resource.ИдентификаторБота" id="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2102"/>
+			<Metadata name="InformationRegister.ЕРП_ЖурналАудитаПривязокTelegram.Resource.ChatID" id="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2103"/>
+			<Metadata name="InformationRegister.ЕРП_ЖурналАудитаПривязокTelegram.Resource.ДатаСобытия" id="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2104"/>
+			<Metadata name="InformationRegister.ЕРП_ЖурналАудитаПривязокTelegram.Resource.Операция" id="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2105"/>
+			<Metadata name="InformationRegister.ЕРП_ЖурналАудитаПривязокTelegram.Resource.Причина" id="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2106"/>
+			<Metadata name="InformationRegister.ЕРП_ЖурналАудитаПривязокTelegram.Resource.Инициатор" id="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2107"/>
+			<Metadata name="InformationRegister.ЕРП_ЖурналАудитаПривязокTelegram.Resource.ФизическоеЛицо" id="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2108"/>
+			<Metadata name="InformationRegister.ЕРП_ЖурналАудитаПривязокTelegram.Resource.ИдентификаторОперацииПереноса" id="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2109"/>
+			<Metadata name="InformationRegister.ЕРП_ЖурналАудитаПривязокTelegram.Resource.СтарыйИдентификаторПривязки" id="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2110"/>
+			<Metadata name="InformationRegister.ЕРП_ЖурналАудитаПривязокTelegram.Resource.НовыйИдентификаторПривязки" id="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2111"/>
+			<Metadata name="InformationRegister.ЕРП_ЖурналАудитаПривязокTelegram.Resource.СтарыйСотрудник" id="f8d4a1e2-7b63-4c90-9a25-1d6e8f304112"/>
+			<Metadata name="InformationRegister.ЕРП_ЖурналАудитаПривязокTelegram.Resource.НовыйСотрудник" id="f8d4a1e2-7b63-4c90-9a25-1d6e8f304113"/>
+			<Metadata name="InformationRegister.ЕРП_ЖурналАудитаПривязокTelegram.Resource.Результат" id="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2126"/>
+			<Metadata name="InformationRegister.ЕРП_ЖурналАудитаПривязокTelegram.Resource.СостояниеДо" id="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2127"/>
+			<Metadata name="InformationRegister.ЕРП_ЖурналАудитаПривязокTelegram.Resource.СостояниеПосле" id="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2128"/>
+			<Metadata name="InformationRegister.ЕРП_ЖурналАудитаПривязокTelegram.Resource.СтарыйChatID" id="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2129"/>
+			<Metadata name="InformationRegister.ЕРП_ЖурналАудитаПривязокTelegram.Resource.НовыйChatID" id="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2130"/>
+			<Metadata name="InformationRegister.ЕРП_ЖурналАудитаПривязокTelegram.Resource.ТекстОшибки" id="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2131"/>
+		</Metadata>
+			<Metadata name="InformationRegister.ЕРП_МаршрутыСобытийУведомлений" id="d1000000-0000-4000-8000-000000000001" configVersion="0000000000000000000000000000000000000000">
+			<Metadata name="InformationRegister.ЕРП_МаршрутыСобытийУведомлений.Dimension.КлючСобытия" id="d1000000-0000-4000-8000-000000000010"/>
+			<Metadata name="InformationRegister.ЕРП_МаршрутыСобытийУведомлений.Dimension.Сотрудник" id="d1000000-0000-4000-8000-000000000011"/>
+			<Metadata name="InformationRegister.ЕРП_МаршрутыСобытийУведомлений.Dimension.Канал" id="d1000000-0000-4000-8000-000000000012"/>
+			<Metadata name="InformationRegister.ЕРП_МаршрутыСобытийУведомлений.Resource.АдресПолучателя" id="d1000000-0000-4000-8000-000000000013"/>
+			<Metadata name="InformationRegister.ЕРП_МаршрутыСобытийУведомлений.Resource.ДатаФиксации" id="d1000000-0000-4000-8000-000000000014"/>
+			<Metadata name="InformationRegister.ЕРП_МаршрутыСобытийУведомлений.Resource.ИдентификаторБота" id="d1000000-0000-4000-8000-000000000015"/>
+		</Metadata>
+			<Metadata name="InformationRegister.ЕРП_НазначениеМасокГруппам" id="f8d4a1e2-7b63-4c90-9a25-1d6e8f304101" configVersion="0000000000000000000000000000000000000000">
+			<Metadata name="InformationRegister.ЕРП_НазначениеМасокГруппам.Resource.Активно" id="f8d4a1e2-7b63-4c90-9a25-1d6e8f304104"/>
+			<Metadata name="InformationRegister.ЕРП_НазначениеМасокГруппам.Dimension.МаскаЖурнала" id="f8d4a1e2-7b63-4c90-9a25-1d6e8f304102"/>
+			<Metadata name="InformationRegister.ЕРП_НазначениеМасокГруппам.Dimension.ГруппаПолучателей" id="f8d4a1e2-7b63-4c90-9a25-1d6e8f304103"/>
+		</Metadata>
+			<Metadata name="InformationRegister.ЕРП_ОбработанныеЗаписиЛогов" id="c4200000-0000-4000-8000-000000000044" configVersion="0000000000000000000000000000000000000000">
+			<Metadata name="InformationRegister.ЕРП_ОбработанныеЗаписиЛогов.Resource.МаскаЖурнала" id="c4200000-0000-4000-8000-000000000041"/>
+			<Metadata name="InformationRegister.ЕРП_ОбработанныеЗаписиЛогов.Resource.ДатаРегистрации" id="c4200000-0000-4000-8000-000000000042"/>
+			<Metadata name="InformationRegister.ЕРП_ОбработанныеЗаписиЛогов.Resource.КлючСобытия" id="c4200000-0000-4000-8000-000000000043"/>
+			<Metadata name="InformationRegister.ЕРП_ОбработанныеЗаписиЛогов.Dimension.ХешСобытия" id="c4200000-0000-4000-8000-000000000040"/>
+		</Metadata>
+			<Metadata name="InformationRegister.ЕРП_ПозицииЧтенияЛогов" id="f8d4a1e2-7b63-4c90-9a25-1d6e8f304201" configVersion="0000000000000000000000000000000000000000">
+			<Metadata name="InformationRegister.ЕРП_ПозицииЧтенияЛогов.Resource.ПоследняяПозицияБайт" id="c4200000-0000-4000-8000-000000000020"/>
+			<Metadata name="InformationRegister.ЕРП_ПозицииЧтенияЛогов.Resource.РазмерФайла" id="c4200000-0000-4000-8000-000000000021"/>
+			<Metadata name="InformationRegister.ЕРП_ПозицииЧтенияЛогов.Resource.СигнатураНачалаФайла" id="c4200000-0000-4000-8000-000000000022"/>
+			<Metadata name="InformationRegister.ЕРП_ПозицииЧтенияЛогов.Resource.ДатаПоследнегоЧтения" id="c4200000-0000-4000-8000-000000000023"/>
+			<Metadata name="InformationRegister.ЕРП_ПозицииЧтенияЛогов.Resource.НезавершеннаяСтрока" id="c4200000-0000-4000-8000-000000000024"/>
+			<Metadata name="InformationRegister.ЕРП_ПозицииЧтенияЛогов.Dimension.ПутьКФайлу" id="c4200000-0000-4000-8000-000000000019"/>
+			<Metadata name="InformationRegister.ЕРП_ПозицииЧтенияЛогов.Resource.ДатаМодификацииФайла" id="c4200000-0000-4000-8000-000000000027"/>
+			<Metadata name="InformationRegister.ЕРП_ПозицииЧтенияЛогов.Resource.ХвостНезавершеннойСтрокиBase64" id="c4200000-0000-4000-8000-000000000026"/>
+		</Metadata>
+			<Metadata name="InformationRegister.ЕРП_ПривязкиTelegram" id="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2400" configVersion="0000000000000000000000000000000000000000">
+			<Metadata name="InformationRegister.ЕРП_ПривязкиTelegram.Dimension.ФизическоеЛицо" id="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2401"/>
+			<Metadata name="InformationRegister.ЕРП_ПривязкиTelegram.Dimension.ИдентификаторБота" id="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2402"/>
+			<Metadata name="InformationRegister.ЕРП_ПривязкиTelegram.Dimension.ИдентификаторПривязки" id="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2403"/>
+			<Metadata name="InformationRegister.ЕРП_ПривязкиTelegram.Resource.Сотрудник" id="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2404"/>
+			<Metadata name="InformationRegister.ЕРП_ПривязкиTelegram.Resource.ChatID" id="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2405"/>
+			<Metadata name="InformationRegister.ЕРП_ПривязкиTelegram.Resource.ДатаПривязки" id="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2406"/>
+			<Metadata name="InformationRegister.ЕРП_ПривязкиTelegram.Resource.Состояние" id="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2407"/>
+			<Metadata name="InformationRegister.ЕРП_ПривязкиTelegram.Resource.ДатаИзменения" id="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2408"/>
+			<Metadata name="InformationRegister.ЕРП_ПривязкиTelegram.Resource.ОснованиеЗапроса" id="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2409"/>
+			<Metadata name="InformationRegister.ЕРП_ПривязкиTelegram.Resource.ИдентификаторОперацииПереноса" id="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2410"/>
+			<Metadata name="InformationRegister.ЕРП_ПривязкиTelegram.Resource.ДатаДеактивации" id="9c7e1b42-2f35-4b96-8e19-7a0f3c5d8b21"/>
+			<Metadata name="InformationRegister.ЕРП_ПривязкиTelegram.Form.ФормаСписка" id="a7b3c9d1-6e42-4f85-9a13-2d7c8e5b1046">
+				<Metadata name="InformationRegister.ЕРП_ПривязкиTelegram.Form.ФормаСписка.Form" id="a7b3c9d1-6e42-4f85-9a13-2d7c8e5b1046.0"/>
+			</Metadata>
+		</Metadata>
+			<Metadata name="InformationRegister.ЕРП_ПривязкиTelegramСтарыйФормат" id="c7000000-0000-4000-8000-000000000047" configVersion="0000000000000000000000000000000000000000">
+			<Metadata name="InformationRegister.ЕРП_ПривязкиTelegramСтарыйФормат.Dimension.Сотрудник" id="c7000000-0000-4000-8000-000000000025"/>
+			<Metadata name="InformationRegister.ЕРП_ПривязкиTelegramСтарыйФормат.Resource.ИдентификаторБота" id="c7000000-0000-4000-8000-000000000026"/>
+			<Metadata name="InformationRegister.ЕРП_ПривязкиTelegramСтарыйФормат.Resource.ChatID" id="c7000000-0000-4000-8000-000000000027"/>
+			<Metadata name="InformationRegister.ЕРП_ПривязкиTelegramСтарыйФормат.Resource.ДатаПривязки" id="c7000000-0000-4000-8000-000000000028"/>
+			<Metadata name="InformationRegister.ЕРП_ПривязкиTelegramСтарыйФормат.Resource.Состояние" id="c7000000-0000-4000-8000-000000000029"/>
+			<Metadata name="InformationRegister.ЕРП_ПривязкиTelegramСтарыйФормат.Resource.ДатаИзменения" id="c7000000-0000-4000-8000-000000000030"/>
+			<Metadata name="InformationRegister.ЕРП_ПривязкиTelegramСтарыйФормат.Resource.ОснованиеЗапроса" id="c7000000-0000-4000-8000-000000000031"/>
+			<Metadata name="InformationRegister.ЕРП_ПривязкиTelegramСтарыйФормат.Resource.ИдентификаторПривязки" id="c7000000-0000-4000-8000-000000000032"/>
+		</Metadata>
+			<Metadata name="ScheduledJob.ЕРП_СверкаПривязокTelegram" id="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2440" configVersion="0000000000000000000000000000000000000000"/>
+			<Metadata name="ScheduledJob.ЕРП_СверкаПривязокTelegram.Schedule" id="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2440.0"/>
+			<Metadata name="ScheduledJob.ЕРП_ОчисткаИсторииУведомлений" id="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2220" configVersion="0000000000000000000000000000000000000000"/>
+			<Metadata name="ScheduledJob.ЕРП_ОчисткаИсторииУведомлений.Schedule" id="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2220.0"/>
+			<Metadata name="EventSubscription.ЕРП_ОбработкаКадровойИсторииTelegram" id="c7000000-0000-4000-8000-000000000131" configVersion="0000000000000000000000000000000000000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
