@@ -6,7 +6,7 @@
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"><Autofill>true</Autofill></AutoCommandBar>
 	<ChildItems>
 		<Table name="Список" id="10">
-			<Representation>List</Representation>
+			<Representation>HierarchicalList</Representation>
 			<CommandBarLocation>None</CommandBarLocation>
 			<DefaultItem>true</DefaultItem>
 			<SelectionMode>MultiRow</SelectionMode>
