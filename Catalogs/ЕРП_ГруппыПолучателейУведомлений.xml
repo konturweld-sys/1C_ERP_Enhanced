@@ -578,7 +578,6 @@
 			</TabularSection>
 			<Form>ФормаЭлемента</Form>
 			<Form>ФормаВыбора</Form>
-			<Form>РазблокированиеРеквизитов</Form>
 			<Form>ФормаМножественногоВыбора</Form>
 			<Form>ФормаСписка</Form>
 		</ChildObjects>
