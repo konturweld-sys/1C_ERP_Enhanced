@@ -143,6 +143,7 @@
 		<Metadata name="ScheduledJob.ЕРП_ПриемНоменклатурыИзPDM" id="bb787412-25e6-42ba-9c53-4e1cdafd1934" configVersion="a4f6c5362cfb3f098ad5d89303e4c0e349196a0c"/>
 		<Metadata name="ScheduledJob.ЕРП_ПриемНоменклатурыИзPDM.Schedule" id="bb787412-25e6-42ba-9c53-4e1cdafd1934.0" configVersion="7045b80d8e898fa9d556608d57fe51e83eb47082"/>
 		<Metadata name="Subsystem.Администрирование" id="f838cd70-67e3-4fcf-952e-da7212db1c9c" configVersion="d8b9c2cf6faa36887d9bd13ff4c59e68e6893dce"/>
+		<Metadata name="Subsystem.ЕРП_Уведомления" id="c8100000-0000-4000-8000-000000000001" configVersion="0000000000000000000000000000000000000000"/>
 		<Metadata name="HTTPService.ЕРП_TelegramWebhook" id="c7000000-0000-4000-8000-000000000301" configVersion="0000000000000000000000000000000000000000">
 			<Metadata name="HTTPService.ЕРП_TelegramWebhook.URLTemplate.Webhook" id="c7000000-0000-4000-8000-000000000302" configVersion="0000000000000000000000000000000000000000">
 				<Metadata name="HTTPService.ЕРП_TelegramWebhook.URLTemplate.Webhook.Method.POST" id="c7000000-0000-4000-8000-000000000303" configVersion="0000000000000000000000000000000000000000"/>
