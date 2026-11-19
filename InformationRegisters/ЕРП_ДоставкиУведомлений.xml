@@ -532,7 +532,7 @@
 					<DataHistory>DontUse</DataHistory>
 				</Properties>
 			</Resource>
-			<Resource uuid="b1000000-0000-4000-8000-000000000078">
+			<Resource uuid="f8d4a1e2-7b63-4c90-9a25-1d6e8f304114">
 				<Properties>
 					<Name>ИдентификаторРезервации</Name>
 					<Synonym><v8:item><v8:lang>ru</v8:lang><v8:content>Идентификатор резервации</v8:content></v8:item></Synonym>

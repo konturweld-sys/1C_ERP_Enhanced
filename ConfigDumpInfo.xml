@@ -47,7 +47,12 @@
 			<Metadata name="Enum.ЕРП_ОперацииПривязкиTelegram.EnumValue.ИстечениеПереноса" id="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2133"/>
 			<Metadata name="Enum.ЕРП_ОперацииПривязкиTelegram.EnumValue.АдминистративноеРешениеПоСверке" id="f4a7c91d-6f2b-4d80-9a35-1c7e5b8d2546"/>
 		</Metadata>
-		<Metadata name="InformationRegister.ЕРП_БлокировкаЖурнала" id="1e2434ac-f69c-4a7f-a411-05e6ac88c2b3" configVersion="e54a92bd25f237c50cec8f5c3cf8935de5d43577"/>
+		<Metadata name="InformationRegister.ЕРП_БлокировкаЖурнала" id="1e2434ac-f69c-4a7f-a411-05e6ac88c2b3" configVersion="e54a92bd25f237c50cec8f5c3cf8935de5d43577">
+			<Metadata name="InformationRegister.ЕРП_БлокировкаЖурнала.Dimension.ПутьКФайлу" id="c4300000-0000-4000-8000-000000000001"/>
+			<Metadata name="InformationRegister.ЕРП_БлокировкаЖурнала.Resource.ИдентификаторРезервации" id="c4300000-0000-4000-8000-000000000002"/>
+			<Metadata name="InformationRegister.ЕРП_БлокировкаЖурнала.Resource.ДатаРезервации" id="c4300000-0000-4000-8000-000000000003"/>
+			<Metadata name="InformationRegister.ЕРП_БлокировкаЖурнала.Resource.СрокРезервации" id="c4300000-0000-4000-8000-000000000004"/>
+		</Metadata>
 		<Metadata name="InformationRegister.ЕРП_БлокировкаПриемаRabbitMQ" id="c4f966e8-8ebc-4e20-af95-bdfd5d4704ab" configVersion="22644d35ab9853a3e2b04bdc85c5b3b493227342">
 			<Metadata name="InformationRegister.ЕРП_БлокировкаПриемаRabbitMQ.Dimension.Ключ" id="869cfd1b-1acf-4180-838e-2251d1bd17d0"/>
 		</Metadata>
@@ -67,6 +72,10 @@
 					<Metadata name="InformationRegister.ЕРП_ДоставкиУведомлений.Form.ФормаСписка" id="b9d1a4c7-3e62-4f80-9a15-6c2d8e7f1048">
 				<Metadata name="InformationRegister.ЕРП_ДоставкиУведомлений.Form.ФормаСписка.Form" id="b9d1a4c7-3e62-4f80-9a15-6c2d8e7f1048.0"/>
 			</Metadata>
+			<Metadata name="InformationRegister.ЕРП_ДоставкиУведомлений.Resource.ИдентификаторРезервации" id="f8d4a1e2-7b63-4c90-9a25-1d6e8f304114"/>
+			<Metadata name="InformationRegister.ЕРП_ДоставкиУведомлений.Resource.ДатаРезервации" id="b1000000-0000-4000-8000-000000000079"/>
+			<Metadata name="InformationRegister.ЕРП_ДоставкиУведомлений.Resource.СрокРезервации" id="b1000000-0000-4000-8000-00000000007a"/>
+			<Metadata name="InformationRegister.ЕРП_ДоставкиУведомлений.Resource.ИдентификаторБота" id="b1000000-0000-4000-8000-00000000007b"/>
 </Metadata>
 		<Metadata name="InformationRegister.ЕРП_ИсторияДоставкиУведомлений" id="b1000000-0000-4000-8000-000000000064" configVersion="1ac46df5642654d451fc388738d5e7911f030256">
 			<Metadata name="InformationRegister.ЕРП_ИсторияДоставкиУведомлений.Dimension.КлючДоставки" id="b1000000-0000-4000-8000-000000000073"/>
@@ -142,7 +151,12 @@
 			<Metadata name="InformationRegister.ЕРП_СобытияУведомлений.Resource.ТекстСообщения" id="b1000000-0000-4000-8000-000000000046"/>
 			<Metadata name="InformationRegister.ЕРП_СобытияУведомлений.Resource.ДатаСоздания" id="b1000000-0000-4000-8000-000000000047"/>
 			<Metadata name="InformationRegister.ЕРП_СобытияУведомлений.Resource.Состояние" id="b1000000-0000-4000-8000-000000000048"/>
-		</Metadata>
+					<Metadata name="InformationRegister.ЕРП_СобытияУведомлений.Resource.МаскаЖурнала" id="c3000000-0000-4000-8000-000000000001"/>
+			<Metadata name="InformationRegister.ЕРП_СобытияУведомлений.Resource.ПутьКФайлу" id="c3000000-0000-4000-8000-000000000002"/>
+			<Metadata name="InformationRegister.ЕРП_СобытияУведомлений.Resource.ИмяФайла" id="c3000000-0000-4000-8000-000000000003"/>
+			<Metadata name="InformationRegister.ЕРП_СобытияУведомлений.Resource.ДатаСобытия" id="c3000000-0000-4000-8000-000000000004"/>
+			<Metadata name="InformationRegister.ЕРП_СобытияУведомлений.Resource.ХешСобытия" id="c3000000-0000-4000-8000-000000000005"/>
+</Metadata>
 		<Metadata name="InformationRegister.ЕРП_РезультатыСверкиПривязокTelegram" id="f4a7c91d-6f2b-4d80-9a35-1c7e5b8d2500" configVersion="0000000000000000000000000000000000000000">
 			<Metadata name="InformationRegister.ЕРП_РезультатыСверкиПривязокTelegram.Dimension.ИдентификаторЗаписи" id="f4a7c91d-6f2b-4d80-9a35-1c7e5b8d2501"/>
 			<Metadata name="InformationRegister.ЕРП_РезультатыСверкиПривязокTelegram.Resource.ИдентификаторСверки" id="f4a7c91d-6f2b-4d80-9a35-1c7e5b8d2502"/>
