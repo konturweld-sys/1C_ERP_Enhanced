@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<Role uuid="a1f0e7b2-6b55-4b0e-9d1c-6e2a8f4c71d3"><Properties><Name>ЕРП_УправлениеДоставками</Name><Synonym><v8:item><v8:lang>ru</v8:lang><v8:content>Управление ручной проверкой доставок уведомлений</v8:content></v8:item></Synonym><Comment>Просмотр неопределённых доставок и принятие ручного решения об их завершении или одной повторной отправке.</Comment></Properties></Role>
-</MetaDataObject>
