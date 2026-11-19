@@ -4,7 +4,7 @@
         <Properties>
             <Name>ЕРП_TelegramWebhook</Name>
             <Synonym><v8:item><v8:lang>ru</v8:lang><v8:content>Вебхук Telegram для привязок ERP</v8:content></v8:item></Synonym>
-            <Comment>Принимает Telegram updates, передаёт команды /start в механизм привязок ERP и затем вызывает штатную обработку УБТ.</Comment>
+            <Comment>Единый шлюз входящих Telegram updates: обрабатывает /start в ERP, остальные сообщения передает штатному обработчику УБТ. URL шлюза задается в поле АдресВебхука карточки бота УБТ.</Comment>
             <RootURL>erp-tg</RootURL>
             <ReuseSessions>DontUse</ReuseSessions>
             <SessionMaxAge>20</SessionMaxAge>
