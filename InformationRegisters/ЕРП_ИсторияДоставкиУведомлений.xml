@@ -63,7 +63,7 @@
 			<UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
-		<ChildObjects>
+		<ChildObjects><Form>ФормаСписка</Form>
 			<Resource uuid="b1000000-0000-4000-8000-000000000075">
 				<Properties>
 					<Name>ДатаПопытки</Name>
