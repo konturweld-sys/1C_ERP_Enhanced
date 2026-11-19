@@ -21,7 +21,7 @@
             </Source>
             <Event>OnWrite</Event>
             <Handler>CommonModule.ЕРП_ПривязкаTelegram.ЕРП_ОбработатьЗаписьКадровойИсторииTelegram</Handler>
-            <Use>true</Use>
+            
         </Properties>
     </EventSubscription>
 </MetaDataObject>
