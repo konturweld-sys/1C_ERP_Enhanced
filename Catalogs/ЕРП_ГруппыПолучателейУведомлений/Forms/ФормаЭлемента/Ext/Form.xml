@@ -9,10 +9,10 @@
 			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Основные данные группы</v8:content></v8:item></Title>
 			<Group>Vertical</Group>
 			<ChildItems>
-				<InputField name="ОбъектКод" id="11"><DataPath>Объект.Code</DataPath><Title><v8:item><v8:lang>ru</v8:lang><v8:content>Код</v8:content></v8:item></Title><ContextMenu name="ОбъектКодКонтекстноеМеню" id="12"/><ExtendedTooltip name="ОбъектКодРасширеннаяПодсказка" id="13"/></InputField>
-				<InputField name="ОбъектНаименование" id="14"><DataPath>Объект.Description</DataPath><Title><v8:item><v8:lang>ru</v8:lang><v8:content>Наименование</v8:content></v8:item></Title><ContextMenu name="ОбъектНаименованиеКонтекстноеМеню" id="15"/><ExtendedTooltip name="ОбъектНаименованиеРасширеннаяПодсказка" id="16"/></InputField>
-				<InputField name="ОбъектВладелец" id="17"><DataPath>Объект.Owner</DataPath><Title><v8:item><v8:lang>ru</v8:lang><v8:content>Подразделение</v8:content></v8:item></Title><ContextMenu name="ОбъектВладелецКонтекстноеМеню" id="18"/><ExtendedTooltip name="ОбъектВладелецРасширеннаяПодсказка" id="19"/></InputField>
-				<InputField name="ОбъектРодитель" id="20"><DataPath>Объект.Parent</DataPath><Title><v8:item><v8:lang>ru</v8:lang><v8:content>Группа бригад</v8:content></v8:item></Title><ContextMenu name="ОбъектРодительКонтекстноеМеню" id="21"/><ExtendedTooltip name="ОбъектРодительРасширеннаяПодсказка" id="22"/></InputField>
+				<InputField name="ОбъектКод" id="11"><DataPath>Объект.Код</DataPath><Title><v8:item><v8:lang>ru</v8:lang><v8:content>Код</v8:content></v8:item></Title><ContextMenu name="ОбъектКодКонтекстноеМеню" id="12"/><ExtendedTooltip name="ОбъектКодРасширеннаяПодсказка" id="13"/></InputField>
+				<InputField name="ОбъектНаименование" id="14"><DataPath>Объект.Наименование</DataPath><Title><v8:item><v8:lang>ru</v8:lang><v8:content>Наименование</v8:content></v8:item></Title><ContextMenu name="ОбъектНаименованиеКонтекстноеМеню" id="15"/><ExtendedTooltip name="ОбъектНаименованиеРасширеннаяПодсказка" id="16"/></InputField>
+				<InputField name="ОбъектВладелец" id="17"><DataPath>Объект.Владелец</DataPath><Title><v8:item><v8:lang>ru</v8:lang><v8:content>Подразделение</v8:content></v8:item></Title><ContextMenu name="ОбъектВладелецКонтекстноеМеню" id="18"/><ExtendedTooltip name="ОбъектВладелецРасширеннаяПодсказка" id="19"/></InputField>
+				<InputField name="ОбъектРодитель" id="20"><DataPath>Объект.Родитель</DataPath><Title><v8:item><v8:lang>ru</v8:lang><v8:content>Группа бригад</v8:content></v8:item></Title><ContextMenu name="ОбъектРодительКонтекстноеМеню" id="21"/><ExtendedTooltip name="ОбъектРодительРасширеннаяПодсказка" id="22"/></InputField>
 			</ChildItems>
 		</UsualGroup>
 		<UsualGroup name="ГруппаНастройкиКаналов" id="30">
