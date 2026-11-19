@@ -40,7 +40,7 @@
 		<Attribute name="Список" id="1">
 			<Type><v8:Type>cfg:DynamicList</v8:Type></Type>
 			<MainAttribute>true</MainAttribute>
-			<Settings xsi:type="cfg:DynamicList">
+			<Settings xsi:type="DynamicList">
 				<ManualQuery>false</ManualQuery>
 				<MainTable>Catalog.ЕРП_ГруппыПолучателейУведомлений</MainTable>
 				<DynamicDataRead>true</DynamicDataRead>
@@ -49,11 +49,6 @@
 					<dcsset:order><dcsset:viewMode>Normal</dcsset:viewMode><dcsset:userSettingID>c4200000-0000-4000-8000-000000000302</dcsset:userSettingID></dcsset:order>
 					<dcsset:conditionalAppearance><dcsset:viewMode>Normal</dcsset:viewMode><dcsset:userSettingID>c4200000-0000-4000-8000-000000000303</dcsset:userSettingID></dcsset:conditionalAppearance>
 					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
-					<dcsset:item><dcsset:field>Код</dcsset:field></dcsset:item>
-					<dcsset:item><dcsset:field>Наименование</dcsset:field></dcsset:item>
-					<dcsset:item><dcsset:field>Владелец</dcsset:field></dcsset:item>
-					<dcsset:item><dcsset:field>Родитель</dcsset:field></dcsset:item>
-					<dcsset:item><dcsset:field>Активна</dcsset:field></dcsset:item>
 				</ListSettings>
 			</Settings>
 		</Attribute>
