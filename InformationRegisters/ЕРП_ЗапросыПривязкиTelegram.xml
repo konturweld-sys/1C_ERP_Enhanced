@@ -60,7 +60,7 @@
 			<DataHistory>DontUse</DataHistory>
 			<UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
-		</Properties><ChildObjects><Dimension uuid="f8d4a1e2-7b63-4c90-9a25-1d6e8f304105">
+		</Properties><ChildObjects><Form>ФормаСписка</Form><Dimension uuid="f8d4a1e2-7b63-4c90-9a25-1d6e8f304105">
 				<Properties>
 					<Name>ХешКода</Name>
 					<Synonym>
