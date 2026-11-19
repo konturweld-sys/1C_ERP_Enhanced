@@ -111,13 +111,11 @@
 		<Command name="ПодтвердитьПривязку" id="1">
 			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Подтвердить привязку или перенос</v8:content></v8:item></Title>
 			<ToolTip><v8:item><v8:lang>ru</v8:lang><v8:content>Подтвердить обычную привязку в состоянии ПолученОтБота либо завершить контролируемый перенос в состоянии ОжидаетРазрешения</v8:content></v8:item></ToolTip>
-			<Picture><xr:Ref>StdPicture.Check</xr:Ref><xr:LoadTransparent>true</xr:LoadTransparent></Picture>
 			<Action>ПодтвердитьПривязку</Action><Representation>TextPicture</Representation>
 		</Command>
 		<Command name="ОтменитьЗапрос" id="2">
 			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Отменить запрос</v8:content></v8:item></Title>
 			<ToolTip><v8:item><v8:lang>ru</v8:lang><v8:content>Отменить выбранный запрос, который ещё не подтверждён</v8:content></v8:item></ToolTip>
-			<Picture><xr:Ref>StdPicture.Delete</xr:Ref><xr:LoadTransparent>true</xr:LoadTransparent></Picture>
 			<Action>ОтменитьЗапрос</Action><Representation>TextPicture</Representation>
 		</Command>
 	</Commands>
