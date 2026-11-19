@@ -204,13 +204,13 @@
 					<ChoiceForm/>
 					<LinkByType/>
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Master>false</Master>
-					<MainFilter>false</MainFilter>
-					<DenyIncompleteValues>false</DenyIncompleteValues>
+					
+					
+					
 					<Indexing>DontIndex</Indexing>
 					<FullTextSearch>Use</FullTextSearch>
 					<DataHistory>DontUse</DataHistory>
-					<TypeReductionMode>TransformValues</TypeReductionMode>
+					
 				</Properties>
 			</Resource><Resource uuid="e4a7c91d-6f2b-4d80-9a35-1c7e5b8d2405">
 				<Properties>
