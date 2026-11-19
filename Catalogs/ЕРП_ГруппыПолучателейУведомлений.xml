@@ -576,7 +576,6 @@
 				</Properties>
 			</Attribute></ChildObjects>
 			</TabularSection></ChildObjects>
-			</TabularSection>
 			<Form>ФормаЭлемента</Form>
 			<Form>ФормаВыбора</Form>
 			<Form>РазблокированиеРеквизитов</Form>
