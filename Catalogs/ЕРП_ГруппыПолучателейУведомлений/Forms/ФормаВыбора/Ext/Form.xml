@@ -9,7 +9,7 @@
 			<Representation>List</Representation>
 			<CommandBarLocation>None</CommandBarLocation>
 			<DefaultItem>true</DefaultItem>
-			<ChoiceMode>true</ChoiceMode>
+			<SelectionMode>SingleRow</SelectionMode>
 			<UseAlternationRowColor>true</UseAlternationRowColor>
 			<InitialTreeView>ExpandTopLevel</InitialTreeView>
 			<EnableStartDrag>false</EnableStartDrag>
