@@ -79,7 +79,6 @@
 			<DataProcessor>ЕРП_НастройкаИнтеграцииRabbitMQ</DataProcessor>
 			<InformationRegister>ЕРП_НастройкиИнтеграцииRabbitMQ</InformationRegister>
 			<InformationRegister>ЕРП_БлокировкаПриемаRabbitMQ</InformationRegister>
-			<InformationRegister>ЕРП_ПовторыСозданияНоменклатуры</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
