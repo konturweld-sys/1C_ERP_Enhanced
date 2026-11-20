@@ -36,13 +36,6 @@
 			<Metadata name="InformationRegister.ЕРП_ПовторыСозданияНоменклатуры.Resource.ПоследняяОшибка" id="b1000000-0000-4000-8000-000000000089"/>
 			<Metadata name="InformationRegister.ЕРП_ПовторыСозданияНоменклатуры.Resource.ДатаПоследнейПопытки" id="b1000000-0000-4000-8000-00000000008a"/>
 		</Metadata>
-		<Metadata name="InformationRegister.ЕРП_СостояниеСвязиRabbitMQ" id="b1000000-0000-4000-8000-00000000008d" configVersion="84d41a0e34b938c0b808b236e1e2df5e4c2e2705">
-			<Metadata name="InformationRegister.ЕРП_СостояниеСвязиRabbitMQ.Dimension.Канал" id="b1000000-0000-4000-8000-00000000009c"/>
-			<Metadata name="InformationRegister.ЕРП_СостояниеСвязиRabbitMQ.Resource.КоличествоОшибокПодряд" id="b1000000-0000-4000-8000-00000000009d"/>
-			<Metadata name="InformationRegister.ЕРП_СостояниеСвязиRabbitMQ.Resource.НомерИнцидента" id="b1000000-0000-4000-8000-00000000009e"/>
-			<Metadata name="InformationRegister.ЕРП_СостояниеСвязиRabbitMQ.Resource.Недоступен" id="b1000000-0000-4000-8000-00000000009f"/>
-			<Metadata name="InformationRegister.ЕРП_СостояниеСвязиRabbitMQ.Resource.ДатаПоследнейОшибки" id="b1000000-0000-4000-8000-0000000000a0"/>
-			<Metadata name="InformationRegister.ЕРП_СостояниеСвязиRabbitMQ.Resource.ТекстПоследнейОшибки" id="b1000000-0000-4000-8000-0000000000a1"/>
 		</Metadata>
 		<Metadata name="Language.Русский" id="3da1c7c4-c1d6-4219-b3b9-35ec1e844d8d" configVersion="bf8f02321fa5eaa873f0426f9e0c7a7d838c3b8d"/>
 		<Metadata name="Role.Интеграция_ОсновнаяРоль" id="8b2cdae3-a921-4d0f-a8b7-1363efda21ec" configVersion="ff2150c3c3f5632458b46a9f6a2c5f108d088084"/>
