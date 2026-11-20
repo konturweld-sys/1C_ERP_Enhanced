@@ -80,7 +80,6 @@
 			<InformationRegister>ЕРП_НастройкиИнтеграцииRabbitMQ</InformationRegister>
 			<InformationRegister>ЕРП_БлокировкаПриемаRabbitMQ</InformationRegister>
 			<InformationRegister>ЕРП_ПовторыСозданияНоменклатуры</InformationRegister>
-			<InformationRegister>ЕРП_СостояниеСвязиRabbitMQ</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
