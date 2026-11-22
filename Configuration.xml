@@ -78,6 +78,7 @@
 			<CommonModule>ЕРП_ЖурналИнтеграции</CommonModule>
 			<CommonModule>ЕРП_ЖурналУведомлений</CommonModule>
 			<CommonModule>ЕРП_ИнтеграцияRabbitMQ</CommonModule>
+			<CommonModule>ЕРП_МониторингИнтеграцииPDM</CommonModule>
 			<CommonModule>ЕРП_ИнтеграцияUBT</CommonModule>
 			<CommonModule>ЕРП_ОбработкаОчередиУведомлений</CommonModule>
 			<CommonModule>ЕРП_ЗаписьРучныхРешенийДоставки</CommonModule>
