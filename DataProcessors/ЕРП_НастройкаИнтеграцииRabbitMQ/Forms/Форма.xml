@@ -15,6 +15,8 @@
 			<UsePurposes>
 				<v8:Value xsi:type="app:ApplicationUsePurpose">PlatformApplication</v8:Value>
 				<v8:Value xsi:type="app:ApplicationUsePurpose">MobilePlatformApplication</v8:Value>
-			</UsePurposes></Properties>
+			</UsePurposes>
+			<ExtendedPresentation/>
+		</Properties>
 	</Form>
 </MetaDataObject>

@@ -23,7 +23,9 @@
 			<UseStandardCommands>true</UseStandardCommands>
 			<DefaultForm>DataProcessor.ЕРП_НастройкаИнтеграцииRabbitMQ.Form.Форма</DefaultForm>
 			<AuxiliaryForm/>
-			<IncludeHelpInContents>false</IncludeHelpInContents><Explanation/>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<ExtendedPresentation/>
+			<Explanation/>
 		</Properties>
 		<ChildObjects>
 			<Form>Форма</Form>
